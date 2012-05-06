@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XMBML version="1.0">
+
+	<!-- Main (HDD) -->
+	<View id="seg_xmb_hdd0_app">
+		<Attributes>
+			<Table key="xmb_app">
+				<!-- <Pair key="icon"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/ICONS/tex_xmb_manager_icon.png</String></Pair> -->
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/xmbmp.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_MAIN</String></Pair>
+				<Pair key="info"><String>LANG_INFO_MAIN</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+				<Pair key="ingame"><String>disable</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="xmb_app" attr="xmb_app" src="#seg_xmb_app_hdd0_items"/>
+		</Items>
+	</View>
+	<View id="seg_xmb_app_hdd0_items">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="file01" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Personal_Area.xml#seg_personalarea"/>
+			<Query class="type:x-xmb/folder-pixmap" key="file00" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Package_Manager.xml#seg_packagemanager"/>
+			<Query class="type:x-xmb/folder-pixmap" key="file10" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/File_Manager.xml#seg_filemanager"/>
+			<Query class="type:x-xmb/folder-pixmap" key="file20" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Multimedia_Manager.xml#seg_multimediamanager"/> 
+			<Query class="type:x-xmb/folder-pixmap" key="file30" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Game_Manager.xml#seg_gamemanager"/>
+			<Query class="type:x-xmb/folder-pixmap" key="file40" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Game_Data_Manager.xml#seg_gamedatamanager"/>
+			<Query class="type:x-xmb/folder-pixmap" key="file50" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Links.xml#seg_links"/>
+			<Query class="type:x-xmb/folder-pixmap" key="file60" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/game_settings.xml#seg_settings"/>
+		</Items>
+	</View>
+
+</XMBML>

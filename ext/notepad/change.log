@@ -1,0 +1,13 @@
+Notepad++ v6.1.2 fixed bugs:
+
+1.  Fix Notepad++ hanging bug due to the opened file containing a half of UTF-8 double byte sequence at the end of the file.
+
+
+Included plugins:
+
+1.  Spell Checker v1.3.3
+2.  NppFTP 0.24.1
+3.  NppExport v0.2.8
+4.  Plugin Manager 1.0.8
+5.  Converter 3.0
+

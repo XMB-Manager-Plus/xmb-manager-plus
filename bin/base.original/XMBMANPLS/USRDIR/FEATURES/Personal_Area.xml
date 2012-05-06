@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XMBML version="1.0">
+
+	<!-- Main > Personal Area -->
+	<View id="seg_personalarea">
+		<Attributes>
+			<Table key="personalarea">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/network.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_PERSONALAREA-MAIN</String></Pair>
+				<Pair key="info"><String>LANG_INFO_PERSONALAREA-MAIN</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="personalarea" attr="personalarea" src="#seg_personalarea_items"/>
+		</Items>
+	</View>
+
+	<!-- Main  > Personal Area > Submenu -->
+	<View id="seg_personalarea_items">
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="personalarea_subitems" attr="personalarea_subitems" src="#seg_personalarea_subitems"/>
+		</Items>
+	</View>
+	<View id="seg_personalarea_subitems">
+		<Attributes>
+			<Table key="packages">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/pkgmanager.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_PERSONALAREA-PACKAGES</String></Pair>
+				<Pair key="info"><String>LANG_INFO_PERSONALAREA-PACKAGES</String></Pair>
+			</Table>
+			<Table key="folders">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/filemanager.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_PERSONALAREA-FOLDERS</String></Pair>
+				<Pair key="info"><String>LANG_INFO_PERSONALAREA-FOLDERS</String></Pair>
+			</Table>
+			<Table key="links">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/network.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_PERSONALAREA-LINKS</String></Pair>
+				<Pair key="info"><String>LANG_INFO_PERSONALAREA-LINKS</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="packages" attr="packages" src="#seg_personalarea_packages"/>
+			<Query class="type:x-xmb/folder-pixmap" key="folders" attr="folders" src="#seg_personalarea_folders"/>
+			<Query class="type:x-xmb/folder-pixmap" key="links" attr="links" src="#seg_personalarea_links"/>
+		</Items>
+	</View>
+
+	<!-- Main > Personal Area > Packages -->
+	<View id="seg_personalarea_packages">
+		<Attributes>
+			<!-- Packages attributes -->
+			<!-- Example: <Table key="p%ID%"><Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/pkgmanager.png</String></Pair><Pair key="title"><String>%TITLE%</String></Pair><Pair key="info"><String>%INFO%</String></Pair><Pair key="str_noitem"><String>msg_tool_no_package</String></Pair><Pair key="child"><String>segment</String></Pair></Table> -->
+		</Attributes>
+		<Items>
+			<!-- Packages items -->
+			<!-- Example: <Query class="type:x-xmb/xmlpackagefolder" key="p%ID%" attr="p%ID%" src="#seg_personalarea_packages_p%ID%"/> -->
+		</Items>
+	</View>
+
+	<!-- Packages subitems -->
+	<!-- Example: <View id="seg_personalarea_packages_p%ID%"><Items><Query class="type:x-xmb/xmlpackagefolder" key="sp%ID%" src="host://localhost/q?path=%FOLDER_PATH%&suffix=.pkg&subclass=x-host/package"/></Items></View> -->
+
+	<!-- Main > Personal Area > Folders -->
+	<View id="seg_personalarea_folders">
+		<Attributes>
+			<!-- Folders attributes -->
+			<!-- Example: <Table key="f%ID%"><Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/filemanager.png</String></Pair><Pair key="title"><String>%TITLE%</String></Pair><Pair key="info"><String>%INFO%</String></Pair><Pair key="str_noitem"><String>msg_no_data</String></Pair><Pair key="child"><String>segment</String></Pair></Table> -->
+		</Attributes>
+		<Items>
+			<!-- Folders items -->
+			<!-- Example: <Query class="type:x-xmb/folder-pixmap" key="f%ID%" attr="f%ID%" src="#seg_personalarea_folders_f%ID%"/> -->
+		</Items>
+	</View>
+
+	<!-- Folders subitems -->
+	<!-- Example: <View id="seg_personalarea_folders_f%ID%"><Items><Query class="type:x-xmb/folder-pixmap" key="sf%ID%" src="host://localhost%FOLDER_PATH%"/></Items></View> -->
+
+	<!-- Main > Personal Area > Links -->
+	<View id="seg_personalarea_links">
+		<Attributes>
+			<!-- Links attributes -->
+			<!-- Example: <Table key="l%ID%"><Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/network.png</String></Pair><Pair key="title"><String>%TITLE%</String></Pair><Pair key="info"><String>%INFO%</String></Pair><Pair key="module_name"><String>webbrowser_plugin</String></Pair><Pair key="module_action"><String>%LINK%</String></Pair></Table> -->
+		</Attributes>
+		<Items>
+			<!-- Links items -->
+			<!-- Example: <Item class="type:x-xmb/module-action" key="l%ID%" attr="l%ID%"/> -->
+		</Items>
+	</View>
+
+</XMBML>
