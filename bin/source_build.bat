@@ -25,7 +25,18 @@ if exist "%pkgsource%\languagepacks\%%X\XMBMANPLS\*.pkg" del /Q /S "%pkgsource%\
 if exist "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\IMAGES" rmdir /Q /S "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\IMAGES" >NUL
 if exist "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\THEMES" rmdir /Q /S "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\THEMES" >NUL
 for /f "tokens=1,2 delims==" %%G IN (%languageinisdir%\%%X.ini) DO (
-%bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR" --include "*.xml" --alter --search "%%G" --replace "%%H"
+FOR /F "tokens=1,2 delims=-" %%E IN ('echo %%G') DO (
+FOR /F "tokens=1,2,3 delims=_" %%O IN ('echo %%E') DO (
+IF [%%Q]==[MAIN] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR" --include "game_main.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[SETTINGS] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR" --include "game_settings.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[FILEMANAGER] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "File_Manager.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[GAMEDATAMANAGER] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Game_Data_Manager.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[GAMEMANAGER] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Game_Manager.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[WEBLINKS] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Links.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[MULTIMEDIAMANAGER] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Multimedia_Manager.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[PACKAGEMANAGER] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Package_Manager.xml" --alter --search "%%G" --replace "%%H"
+)
+)
 )
 %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR" --include "game_settings.xml" --alter --search "URL-XMBMP-VERSION" --replace "%working_version%"
 )
