@@ -72,7 +72,7 @@
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-SHOWTIME</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-SHOWTIME</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/HOMEBREW/Latest_Showtime.pkg</String></Pair>
+				<Pair key="module_action"><String>https://www.lonelycoder.com/doozer/buildmaster/download/313</String></Pair>
  			</Table>
 			<Table key="homebrew02">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
