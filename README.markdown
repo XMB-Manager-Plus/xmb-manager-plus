@@ -7,10 +7,6 @@ This will replace the "Install Package Files" option or for REBUG CFW the "Packa
 
 It officially supports six languages, three themes and boasts compatibility with most CFW and 4.00 HFW.
 
-Development page: http://www.ps3crunch.net/forum/threads/2431
-Git: https://github.com/andreus-sebes/xmb-manager-plus
-
-
 ## Main Features
 
 ### Package Manager Plus
@@ -45,7 +41,7 @@ Gives information about the XMBM+, allows users to download language packs, them
 
 ### 0.30
 
-Under development
+[Under development]
 
 ### 0.20
 
@@ -72,7 +68,7 @@ Release page: http://www.ps3crunch.net/forum/threads/3167
 -  New integrated update system for XMBM+ updates
 -  Links to some popular websites added to a new category.
 
-Release page: http://www.ps3crunch.net/forum/threads/2708-XMB-Manager-Plus-(XMBM-)-v0-10-is-now-ready!!
+Release page: http://www.ps3crunch.net/forum/threads/2708
 
 ### 0.02 to 0.09
 
@@ -165,6 +161,15 @@ NOTE: due to the constant requirements to call to the USB for resources, removin
 -  Plugin the USB drive in /dev_usb000/(closest to the disc drive) before you turn the PS3 on
 -  Turn PS3 on to see the new theme pack
 
+## Uninstall Instructions
+
+-  Download Rebug Package Manager pkg
+-  Install Rebug Package Manager pkg file
+-  Run the Rebug Package Manager installer (you can delete it afterwards)
+-  Delete XMB Manager Plus in the XMB "Game Data" category
+
+NOTE: Follow the correct order or your "Install Package Files" (or "Package Manager") option will not appear and you'll have to reinstall Firmware
+
 ## Downloads
 
 ### Core Package
@@ -194,4 +199,32 @@ NOTE: due to the constant requirements to call to the USB for resources, removin
 -  Colour http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2Bv0.20-COLOUR-THEME.pkg
 -  Black http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2Bv0.20-BLACK-THEME.pkg
 
+### XMBM+ Builder Toolkit
 
+- XMBM+ Builder Toolkit [link here]
+
+## Team XMBM+
+
+-  andreus (coding, translator)
+-  bitsbubba(coding, themes)
+-  DeViL303(coding, POC/WIP)
+-  ps3Hen (coding, 4.00 port, translator, batch toolkit)
+-  Aldostools (coding)
+-  CloneD (themes, tester, videos)
+-  Berion(official logos)
+-  XiorgON (tester, translator, coding, GUI tooklit)
+-  wawryn(translator)
+
+## Source/Development
+
+As a team we believe in open collaboration which means sharing everything so everyone can understand if they want to.
+
+The Development Page, this is where we discuss/plan for the XMBM+. If you have any ideas/suggestions send them there.
+
+The entire source in available for download in the git
+
+-  Development page: http://www.ps3crunch.net/forum/threads/2431
+-  Git: https://github.com/andreus-sebes/xmb-manager-plus
+
+All packages are compiled with the XMBM+ Builder Toolkit
+With the XMBM+ Builder Toolkit you can create your own XMBM+ themes and language packs.
