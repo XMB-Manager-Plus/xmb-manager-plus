@@ -8,7 +8,8 @@ ssr --nobackup --recurse --encoding ansi --dir "%bindir%" --include "settings.in
 start encoding_prep.bat
 
 :first
-if not exist %dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION goto :error_dropbox
+if not exist %dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES goto :error_dropbox
+if not exist %dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION mkdir %dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION
 if not exist %dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\exist.ini echo dropboxver=0.00 > %dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\exist.ini
 for /f "tokens=1,2 delims==" %%G in (%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\exist.ini) do set %%G=%%H
 cls
@@ -51,10 +52,10 @@ if [%sincronize%]==[2] goto :download
 
 :upload
 call "%bindir%\global_messages.bat" "DISTRIBUTION-BASE-UPLOAD"
-rmdir /s /q "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\BASE"
-xcopy "%pkgbase%" "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\BASE\" /s
-rd /s/q "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\LANGUAGE_INI"
-xcopy "%languageinisdir%" "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\LANGUAGE_INI\" /s
+rmdir /s /q "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\base"
+xcopy "%pkgbase%" "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\base\" /s
+rd /s/q "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\languages"
+xcopy "%languageinisdir%" "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\languages\" /s
 ssr --nobackup --recurse --encoding ansi --dir "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION" --include "exist.ini" --alter --search "dropboxver=%dropboxver%" --replace "dropboxver=%working_version%"
 goto :done
 
@@ -62,10 +63,10 @@ goto :done
 call "%bindir%\global_messages.bat" "DISTRIBUTION-BASE-DOWNLOAD"
 rmdir /s /q "%pkgbase%"
 rmdir /s /q "%bindir%\base.original"
-xcopy "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\BASE" "%pkgbase%\" /s
-xcopy "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\BASE" "%bindir%\base.original\" /s
+xcopy "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\base" "%pkgbase%\" /s
+xcopy "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\base" "%bindir%\base.original\" /s
 rmdir /s /q "%languageinisdir%"
-xcopy "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\LANGUAGE_INI" "%languageinisdir%\" /s
+xcopy "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\languages" "%languageinisdir%\" /s
 ssr --nobackup --recurse --encoding ansi --dir "%bindir%" --include "settings.ini" --alter --search "working_version=%working_version%" --replace "working_version=%dropboxver%"
 goto :done
 
