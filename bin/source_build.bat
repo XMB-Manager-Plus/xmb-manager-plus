@@ -35,6 +35,7 @@ IF [%%Q]==[GAMEMANAGER] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir 
 IF [%%Q]==[WEBLINKS] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Links.xml" --alter --search "%%G" --replace "%%H"
 IF [%%Q]==[MULTIMEDIAMANAGER] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Multimedia_Manager.xml" --alter --search "%%G" --replace "%%H"
 IF [%%Q]==[PACKAGEMANAGER] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Package_Manager.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[PERSONALAREA] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Personal_Area.xml" --alter --search "%%G" --replace "%%H"
 )
 )
 )
