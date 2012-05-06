@@ -4,7 +4,7 @@ for /f "tokens=1,2 delims==" %%G in (settings.ini) do set %%G=%%H
 if %encoding_prep%==yes goto :first
 if %encoding_prep%==no goto :encodingprep
 :encodingprep
-ssr --nobackup --recurse --encoding ansi --dir "%bindir%" --include "settings.ini" --alter --search "encoding_prep=no" --replace "encoding_prep=yes"
+%external%\ssr\ssr --nobackup --recurse --encoding ansi --dir "%bindir%" --include "settings.ini" --alter --search "encoding_prep=no" --replace "encoding_prep=yes"
 start encoding_prep.bat
 
 :first
@@ -48,7 +48,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_settings-dropbox-changed
@@ -64,7 +64,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_settings-version-changed
@@ -80,7 +80,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_source-building-ok
@@ -95,7 +95,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_source-restoring
@@ -107,7 +107,7 @@ echo        л     Restore base will start please be patient      л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_source-restoring-ok
@@ -122,7 +122,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_source-language-exists
@@ -153,7 +153,7 @@ echo  лК  Exemple: en-US, fr-FR, es-ES, de-DE, pl-PL, pt-PT, etc....           К
 echo  лМ                                                                       Шл
 echo  лмммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_source-theme-exists
@@ -175,7 +175,7 @@ echo        л             Theme created successfully             л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_building
@@ -187,7 +187,7 @@ echo        л        Build will start please be patient          л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_build-ok
@@ -202,7 +202,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_distribution
@@ -214,7 +214,7 @@ echo        л    Distribution will start please be patient       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_distribution-ok
@@ -229,7 +229,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_distribution-base-upload
@@ -241,7 +241,7 @@ echo        л            Uploading Source in Progress            л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_distribution-base-download
@@ -253,7 +253,7 @@ echo        л           Downloading Source in Progress           л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_distribution-base-ok
@@ -268,7 +268,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 
@@ -284,7 +284,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_error-distribution-generic
@@ -299,7 +299,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_error-distribution-no-source
@@ -314,7 +314,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_error-distribution-no-packages
@@ -329,7 +329,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_error-distribution-no-dropbox
@@ -344,7 +344,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_error-distribution-base-no-dropbox
@@ -359,7 +359,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_custom
@@ -375,7 +375,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :msg_end
@@ -387,7 +387,7 @@ echo        л        Will now return to XMBM+ Builder Menu       л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
-wait 2
+%external%\wait 2
 goto :end
 
 :end

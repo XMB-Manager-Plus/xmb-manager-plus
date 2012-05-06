@@ -4,7 +4,7 @@ for /f "tokens=1,2 delims==" %%G in (settings.ini) do set %%G=%%H
 if %encoding_prep%==yes goto :first
 if %encoding_prep%==no goto :encodingprep
 :encodingprep
-ssr --nobackup --recurse --encoding ansi --dir "%bindir%" --include "settings.ini" --alter --search "encoding_prep=no" --replace "encoding_prep=yes"
+%external%\ssr\ssr --nobackup --recurse --encoding ansi --dir "%bindir%" --include "settings.ini" --alter --search "encoding_prep=no" --replace "encoding_prep=yes"
 start encoding_prep.bat
 
 :first
@@ -27,19 +27,19 @@ if exist "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\THEMES" rmdir /Q /S "%p
 for /f "tokens=1,2 delims==" %%G IN (%languageinisdir%\%%X.ini) DO (
 FOR /F "tokens=1,2 delims=-" %%E IN ('echo %%G') DO (
 FOR /F "tokens=1,2,3 delims=_" %%O IN ('echo %%E') DO (
-IF [%%Q]==[MAIN] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR" --include "game_main.xml" --alter --search "%%G" --replace "%%H"
-IF [%%Q]==[SETTINGS] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR" --include "game_settings.xml" --alter --search "%%G" --replace "%%H"
-IF [%%Q]==[FILEMANAGER] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "File_Manager.xml" --alter --search "%%G" --replace "%%H"
-IF [%%Q]==[GAMEDATAMANAGER] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Game_Data_Manager.xml" --alter --search "%%G" --replace "%%H"
-IF [%%Q]==[GAMEMANAGER] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Game_Manager.xml" --alter --search "%%G" --replace "%%H"
-IF [%%Q]==[WEBLINKS] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Links.xml" --alter --search "%%G" --replace "%%H"
-IF [%%Q]==[MULTIMEDIAMANAGER] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Multimedia_Manager.xml" --alter --search "%%G" --replace "%%H"
-IF [%%Q]==[PACKAGEMANAGER] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Package_Manager.xml" --alter --search "%%G" --replace "%%H"
-IF [%%Q]==[PERSONALAREA] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Personal_Area.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[MAIN] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR" --include "game_main.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[SETTINGS] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR" --include "game_settings.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[FILEMANAGER] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "File_Manager.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[GAMEDATAMANAGER] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Game_Data_Manager.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[GAMEMANAGER] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Game_Manager.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[WEBLINKS] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Links.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[MULTIMEDIAMANAGER] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Multimedia_Manager.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[PACKAGEMANAGER] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Package_Manager.xml" --alter --search "%%G" --replace "%%H"
+IF [%%Q]==[PERSONALAREA] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Personal_Area.xml" --alter --search "%%G" --replace "%%H"
 )
 )
 )
-%bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR" --include "game_settings.xml" --alter --search "URL-XMBMP-VERSION" --replace "%working_version%"
+%external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR" --include "game_settings.xml" --alter --search "URL-XMBMP-VERSION" --replace "%working_version%"
 )
 echo.
 echo CREATING theme packs source files ...
@@ -59,8 +59,8 @@ rename %pkgsource%\themepacks\%%Y\XMBMANPLS\USRDIR\%%Y IMAGES
 copy "%pkgbase%\XMBMANPLS\USRDIR\IMAGES\%%Y\themeinfo.xml" "%pkgsource%\themepacks\%%Y\XMBMANPLS\USRDIR\IMAGES\themeinfo.xml"
 for /f "tokens=1,2 delims=." %%S IN ('dir /b %languageinisdir%\*.ini') DO (
 for /f "tokens=1,2 delims==" %%G in (%languageinisdir%\%%S.ini) DO (
-IF [%%G]==[LANG_TITL_SETTINGS-THEMES-PACKS-%%Y] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\themepacks\%%Y\XMBMANPLS\USRDIR\IMAGES" --include "themeinfo.xml" --alter --search "[%%S]_TITL_SETTINGS-THEMES-PACKS" --replace "%%H"
-IF [%%G]==[LANG_INFO_SETTINGS-THEMES-PACKS-%%Y] %bindir%\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\themepacks\%%Y\XMBMANPLS\USRDIR\IMAGES" --include "themeinfo.xml" --alter --search "[%%S]_INFO_SETTINGS-THEMES-PACKS" --replace "%%H"
+IF [%%G]==[LANG_TITL_SETTINGS-THEMES-PACKS-%%Y] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\themepacks\%%Y\XMBMANPLS\USRDIR\IMAGES" --include "themeinfo.xml" --alter --search "[%%S]_TITL_SETTINGS-THEMES-PACKS" --replace "%%H"
+IF [%%G]==[LANG_INFO_SETTINGS-THEMES-PACKS-%%Y] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\themepacks\%%Y\XMBMANPLS\USRDIR\IMAGES" --include "themeinfo.xml" --alter --search "[%%S]_INFO_SETTINGS-THEMES-PACKS" --replace "%%H"
 )
 )
 )
@@ -79,7 +79,7 @@ if exist "%pkgsource%\core-%%A\XMBMANPLS\USRDIR\IMAGES" rmdir /Q /S "%pkgsource%
 xcopy /E "%pkgsource%\languagepacks\en-US\XMBMANPLS\USRDIR\*.*" "%pkgsource%\core-%%A\XMBMANPLS\USRDIR" >NUL
 if not exist "%pkgsource%\core-%%A\XMBMANPLS\USRDIR\IMAGES" mkdir "%pkgsource%\core-%%A\XMBMANPLS\USRDIR\IMAGES" >NUL
 xcopy /E "%pkgsource%\themepacks\ORIGINAL\XMBMANPLS\USRDIR\IMAGES" "%pkgsource%\core-%%A\XMBMANPLS\USRDIR\IMAGES\" >NUL
-if not %%A==hdd0 %bindir%\ssr  --nobackup --recurse --encoding auto --dir "%pkgsource%\core-%%A\XMBMANPLS\USRDIR" --include "*.xml" --alter --search "/dev_hdd0/game/XMBMANPLS/USRDIR/" --replace "/dev_%%A/PS3/XMB/"
+if not %%A==hdd0 %external%\ssr\ssr  --nobackup --recurse --encoding auto --dir "%pkgsource%\core-%%A\XMBMANPLS\USRDIR" --include "*.xml" --alter --search "/dev_hdd0/game/XMBMANPLS/USRDIR/" --replace "/dev_%%A/PS3/XMB/"
 if not %%A==hdd0 del "%pkgsource%\core-%%A\XMBMANPLS\PARAM.SFO"
 if not %%A==hdd0 del "%pkgsource%\core-%%A\XMBMANPLS\ICON0.PNG"
 if not %%A==hdd0 del "%pkgsource%\core-%%A\XMBMANPLS\PS3LOGO.DAT"
@@ -102,10 +102,10 @@ if exist "%pkgsource%\core-HFW\XMBMANPLS\USRDIR\IMAGES" rmdir /Q /S "%pkgsource%
 xcopy /E "%pkgsource%\languagepacks\en-US\XMBMANPLS\USRDIR\*.*" "%pkgsource%\core-HFW\XMBMANPLS\USRDIR" >NUL
 if not exist "%pkgsource%\core-%%A\XMBMANPLS\USRDIR\IMAGES" mkdir "%pkgsource%\core-HFW\XMBMANPLS\USRDIR\IMAGES" >NUL
 xcopy /E "%pkgsource%\themepacks\ORIGINAL\XMBMANPLS\USRDIR\IMAGES" "%pkgsource%\core-HFW\XMBMANPLS\USRDIR\IMAGES\" >NUL
-%bindir%\ssr  --nobackup --recurse --encoding auto --dir "%pkgsource%\core-HFW\XMBMANPLS\USRDIR" --include "*.xml" --alter --search "/dev_hdd0/game/XMBMANPLS/USRDIR/" --replace "/dev_usb000/XMB/"
-%bindir%\ssr  --nobackup --recurse --encoding auto --dir "%pkgsource%\core-HFW\XMBMANPLS\USRDIR" --include "game_main.xml" --alter --search "seg_xmb_hdd0_app" --replace "seg_gamexmb"
-%bindir%\ssr  --nobackup --recurse --encoding auto --dir "%pkgsource%\core-HFW\XMBMANPLS\USRDIR" --include "game_settings.xml" --alter --search ".pkg" --replace ".rar"
-%bindir%\ssr  --nobackup --recurse --encoding auto --dir "%pkgsource%\core-HFW\XMBMANPLS\USRDIR" --include "game_settings.xml" --alter --search "/CFW/Latest_version_CFW.html" --replace "/4.00_HFW/Latest_version_400.html"
+%external%\ssr\ssr  --nobackup --recurse --encoding auto --dir "%pkgsource%\core-HFW\XMBMANPLS\USRDIR" --include "*.xml" --alter --search "/dev_hdd0/game/XMBMANPLS/USRDIR/" --replace "/dev_usb000/XMB/"
+%external%\ssr\ssr  --nobackup --recurse --encoding auto --dir "%pkgsource%\core-HFW\XMBMANPLS\USRDIR" --include "game_main.xml" --alter --search "seg_xmb_hdd0_app" --replace "seg_gamexmb"
+%external%\ssr\ssr  --nobackup --recurse --encoding auto --dir "%pkgsource%\core-HFW\XMBMANPLS\USRDIR" --include "game_settings.xml" --alter --search ".pkg" --replace ".rar"
+%external%\ssr\ssr  --nobackup --recurse --encoding auto --dir "%pkgsource%\core-HFW\XMBMANPLS\USRDIR" --include "game_settings.xml" --alter --search "/CFW/Latest_version_CFW.html" --replace "/4.00_HFW/Latest_version_400.html"
 ren "%pkgsource%\core-HFW\XMBMANPLS\USRDIR\game_main.xml" "xmb.xml"
 mkdir "%pkgsource%\core-HFW\XMB"
 xcopy "%pkgsource%\core-HFW\XMBMANPLS\USRDIR" "%pkgsource%\core-HFW\XMB" /s

@@ -4,7 +4,7 @@ for /f "tokens=1,2 delims==" %%G in (settings.ini) do set %%G=%%H
 if %encoding_prep%==yes goto :first
 if %encoding_prep%==no goto :encodingprep
 :encodingprep
-ssr --nobackup --recurse --encoding ansi --dir "%bindir%" --include "settings.ini" --alter --search "encoding_prep=no" --replace "encoding_prep=yes"
+%external%\ssr\ssr --nobackup --recurse --encoding ansi --dir "%bindir%" --include "settings.ini" --alter --search "encoding_prep=no" --replace "encoding_prep=yes"
 start encoding_prep.bat
 
 :first
@@ -56,7 +56,7 @@ rmdir /s /q "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNC
 xcopy "%pkgbase%" "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\base\" /s
 rd /s/q "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\languages"
 xcopy "%languageinisdir%" "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\languages\" /s
-ssr --nobackup --recurse --encoding ansi --dir "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION" --include "exist.ini" --alter --search "dropboxver=%dropboxver%" --replace "dropboxver=%working_version%"
+%external%\ssr\ssr --nobackup --recurse --encoding ansi --dir "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION" --include "exist.ini" --alter --search "dropboxver=%dropboxver%" --replace "dropboxver=%working_version%"
 goto :done
 
 :download
@@ -67,7 +67,7 @@ xcopy "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISA
 xcopy "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\base" "%bindir%\base.original\" /s
 rmdir /s /q "%languageinisdir%"
 xcopy "%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\PACKAGE_TOOLKIT_SYNCRONISATION\languages" "%languageinisdir%\" /s
-ssr --nobackup --recurse --encoding ansi --dir "%bindir%" --include "settings.ini" --alter --search "working_version=%working_version%" --replace "working_version=%dropboxver%"
+%external%\ssr\ssr --nobackup --recurse --encoding ansi --dir "%bindir%" --include "settings.ini" --alter --search "working_version=%working_version%" --replace "working_version=%dropboxver%"
 goto :done
 
 :done
