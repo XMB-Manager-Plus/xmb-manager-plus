@@ -1,11 +1,9 @@
 @echo off
 title Add new theme
 for /f "tokens=1,2 delims==" %%G in (settings.ini) do set %%G=%%H
-if %encoding_prep%==yes goto :first
-if %encoding_prep%==no goto :encodingprep
-:encodingprep
-%external%\ssr\ssr --nobackup --recurse --encoding ansi --dir "%bindir%" --include "settings.ini" --alter --search "encoding_prep=no" --replace "encoding_prep=yes"
-start encoding_prep.bat
+if [%encoding_prep%]==[yes] goto :first
+if [%encoding_prep%]==[no] call "%bindir%\global_encoding.bat" %0
+goto :end
 
 :first
 cls
@@ -73,8 +71,9 @@ xcopy /E "%pkgbase%\XMBMANPLS\USRDIR\IMAGES\ORIGINAL" "%pkgbase%\XMBMANPLS\USRDI
 
 :done
 call "%bindir%\global_messages.bat" "SOURCE-THEME-CREATED"
+start explorer.exe "%pkgbase%\XMBMANPLS\USRDIR\IMAGES\%themeid%\"
+start %external%\notepad\notepad++.exe "%pkgbase%\XMBMANPLS\USRDIR\IMAGES\%themeid%\themeinfo.xml"
 goto :end
 
 :end
-start explorer.exe "%pkgbase%\XMBMANPLS\USRDIR\IMAGES\%themeid%\"
-start %external%\notepad\notepad++.exe "%pkgbase%\XMBMANPLS\USRDIR\IMAGES\%themeid%\themeinfo.xml"
+exit
