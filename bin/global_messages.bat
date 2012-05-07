@@ -1,9 +1,7 @@
 @echo off
 title Build Themes
 for /f "tokens=1,2 delims==" %%G in (settings.ini) do set %%G=%%H
-if [%encoding_prep%]==[yes] goto :first
-if [%encoding_prep%]==[no] call "%bindir%\global_encoding.bat" %0
-goto :end
+call "%bindir%\global_prechecks.bat" %0
 
 :first
 if [%~1]==[SETTINGS-PACKAGER-CHANGED] goto :msg_settings-packager-changed

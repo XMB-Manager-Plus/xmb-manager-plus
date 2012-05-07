@@ -1,9 +1,7 @@
 @echo off
 title Open Dropbox Folder
 for /f "tokens=1,2 delims==" %%G in (settings.ini) do set %%G=%%H
-if [%encoding_prep%]==[yes] goto :first
-if [%encoding_prep%]==[no] call "%bindir%\global_encoding.bat" %0
-goto :end
+call "%bindir%\global_prechecks.bat" %0
 
 :first
 if not exist %dropboxdir%\Public\XMBMPLUS goto :error_dropbox

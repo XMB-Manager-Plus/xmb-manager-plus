@@ -1,9 +1,7 @@
 @echo off
 title Update bin from git
 for /f "tokens=1,2 delims==" %%G in (settings.ini) do set %%G=%%H
-if [%encoding_prep%]==[yes] goto :first
-if [%encoding_prep%]==[no] call "%bindir%\global_encoding.bat" %0
-goto :end
+call "%bindir%\global_prechecks.bat" %0
 
 :first
 %external%\wget --no-check-certificate https://github.com/andreus-sebes/xmb-manager-plus/zipball/master -O xmbmp.zip
