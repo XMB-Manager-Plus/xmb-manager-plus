@@ -17,8 +17,8 @@ chcp 65001 >NUL
 if exist "%pkgsource%\languagepacks" rmdir /Q /S "%pkgsource%\languagepacks"
 for /f "tokens=1,2 delims=." %%X IN ('dir /b %languageinisdir%\*.ini') DO (
 echo - %%X language pack source files ...
-if not exist "%pkgsource%\languagepacks\%%X" mkdir "%pkgsource%\languagepacks\%%X"
-xcopy /E "%pkgbase%\*.*" "%pkgsource%\languagepacks\%%X" >NUL
+if not exist "%pkgsource%\languagepacks\%%X\XMBMANPLS" mkdir "%pkgsource%\languagepacks\%%X\XMBMANPLS"
+xcopy /E "%pkgbase%\XMBMANPLS\*.*" "%pkgsource%\languagepacks\%%X\XMBMANPLS" >NUL
 if exist "%pkgsource%\languagepacks\%%X\XMBMANPLS\*.pkg" del /Q /S "%pkgsource%\languagepacks\%%X\XMBMANPLS\*.pkg" >NUL
 if exist "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\IMAGES" rmdir /Q /S "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\IMAGES" >NUL
 if exist "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\THEMES" rmdir /Q /S "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\THEMES" >NUL
@@ -33,7 +33,7 @@ IF [%%Q]==[GAMEMANAGER] %external%\ssr\ssr --nobackup --recurse --encoding utf8 
 IF [%%Q]==[WEBLINKS] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Links.xml" --alter --search "%%G" --replace "%%H"
 IF [%%Q]==[MULTIMEDIAMANAGER] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Multimedia_Manager.xml" --alter --search "%%G" --replace "%%H"
 IF [%%Q]==[PACKAGEMANAGER] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Package_Manager.xml" --alter --search "%%G" --replace "%%H"
-IF [%%Q]==[PERSONALAREA] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Personal_Area.xml" --alter --search "%%G" --replace "%%H"
+IF EXIST "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES\Personal_Area.xml" IF [%%Q]==[PERSONALAREA] %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES" --include "Personal_Area.xml" --alter --search "%%G" --replace "%%H"
 )
 )
 )
@@ -45,8 +45,9 @@ echo.
 if exist "%pkgsource%\themepacks" rmdir /Q /S "%pkgsource%\themepacks"
 for /f "tokens=1,2 delims=." %%Y IN ('dir /b %pkgbase%\XMBMANPLS\USRDIR\IMAGES\*.') DO (
 echo - %%Y theme pack source files ...
-if not exist "%pkgsource%\themepacks\%%Y" mkdir "%pkgsource%\themepacks\%%Y"
-xcopy /E "%pkgbase%\*.*" "%pkgsource%\themepacks\%%Y" >NUL
+
+if not exist "%pkgsource%\themepacks\%%Y\XMBMANPLS" mkdir "%pkgsource%\themepacks\%%Y\XMBMANPLS"
+xcopy /E "%pkgbase%\XMBMANPLS\*.*" "%pkgsource%\themepacks\%%Y\XMBMANPLS" >NUL
 if exist "%pkgsource%\themepacks\%%Y\XMBMANPLS\*.pkg" del /Q /S "%pkgsource%\themepacks\%%Y\XMBMANPLS\*.pkg" >NUL
 if exist "%pkgsource%\themepacks\%%Y\XMBMANPLS\USRDIR\*.xml" del /Q /S "%pkgsource%\themepacks\%%Y\XMBMANPLS\USRDIR\*.xml" >NUL
 if exist "%pkgsource%\themepacks\%%Y\XMBMANPLS\USRDIR\FEATURES" rmdir /Q /S "%pkgsource%\themepacks\%%Y\XMBMANPLS\USRDIR\FEATURES" >NUL
@@ -69,8 +70,8 @@ echo.
 FOR %%A IN (hdd0 usb000 usb001 usb006) DO (
 echo - core %%A source files ...
 if exist "%pkgsource%\core-%%A" rmdir /Q /S "%pkgsource%\core-%%A" >NUL
-if not exist "%pkgsource%\core-%%A" mkdir "%pkgsource%\core-%%A" >NUL
-xcopy /E "%pkgbase%\*.*" "%pkgsource%\core-%%A" >NUL
+if not exist "%pkgsource%\core-%%A\XMBMANPLS" mkdir "%pkgsource%\core-%%A\XMBMANPLS" >NUL
+xcopy /E "%pkgbase%\XMBMANPLS\*.*" "%pkgsource%\core-%%A\XMBMANPLS" >NUL
 if exist "%pkgsource%\core-%%A\XMBMANPLS\USRDIR\*.xml" del /Q /S "%pkgsource%\core-%%A\XMBMANPLS\USRDIR\*.xml" >NUL
 if exist "%pkgsource%\core-%%A\XMBMANPLS\USRDIR\FEATURES" rmdir /Q /S "%pkgsource%\core-%%A\XMBMANPLS\USRDIR\FEATURES" >NUL
 if exist "%pkgsource%\core-%%A\XMBMANPLS\USRDIR\IMAGES" rmdir /Q /S "%pkgsource%\core-%%A\XMBMANPLS\USRDIR\IMAGES" >NUL
@@ -92,8 +93,8 @@ echo.
 echo CREATING HFW core source files ...
 echo.
 if exist "%pkgsource%\core-HFW" rmdir /Q /S "%pkgsource%\core-HFW" >NUL
-if not exist "%pkgsource%\core-HFW" mkdir "%pkgsource%\core-HFW" >NUL
-xcopy /E "%pkgbase%\*.*" "%pkgsource%\core-HFW" >NUL
+if not exist "%pkgsource%\core-HFW\XMBMANPLS" mkdir "%pkgsource%\core-HFW\XMBMANPLS" >NUL
+xcopy /E "%pkgbase%\XMBMANPLS\*.*" "%pkgsource%\core-HFW\XMBMANPLS" >NUL
 if exist "%pkgsource%\core-HFW\XMBMANPLS\USRDIR\*.xml" del /Q /S "%pkgsource%\core-HFW\XMBMANPLS\USRDIR\*.xml" >NUL
 if exist "%pkgsource%\core-HFW\XMBMANPLS\USRDIR\FEATURES" rmdir /Q /S "%pkgsource%\core-HFW\XMBMANPLS\USRDIR\FEATURES" >NUL
 if exist "%pkgsource%\core-HFW\XMBMANPLS\USRDIR\IMAGES" rmdir /Q /S "%pkgsource%\core-HFW\XMBMANPLS\USRDIR\IMAGES" >NUL
