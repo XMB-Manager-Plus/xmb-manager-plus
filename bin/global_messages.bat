@@ -14,6 +14,9 @@ if [%~1]==[SOURCE-LANGUAGE-EXISTS] goto :msg_source-language-exists
 if [%~1]==[SOURCE-LANGUAGE-CREATED] goto :msg_source-language-created
 if [%~1]==[SOURCE-THEME-EXISTS] goto :msg_source-theme-exists
 if [%~1]==[SOURCE-THEME-CREATED] goto :msg_source-theme-created
+if [%~1]==[SOURCE-PERSONALAREA-LINK-ADDED] goto :msg_source-personalarea-link-added
+if [%~1]==[SOURCE-PERSONALAREA-FOLDER-ADDED] goto :msg_source-personalarea-folder-added
+if [%~1]==[SOURCE-PERSONALAREA-PACKAGE-ADDED] goto :msg_source-personalarea-package-added
 if [%~1]==[BUILDING] goto :msg_building
 if [%~1]==[BUILD-OK] goto :msg_build-ok
 if [%~1]==[DISTRIBUTION] goto :msg_distribution
@@ -168,6 +171,42 @@ echo.
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo        л                                                    л
 echo        л             Theme created successfully             л
+echo        л                                                    л
+echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
+echo.
+%external%\wait 2
+goto :end
+
+:msg_source-personalarea-package-added
+cls
+echo.
+echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
+echo        л                                                    л
+echo        л      Package folder added to Personal Area         л
+echo        л                                                    л
+echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
+echo.
+%external%\wait 2
+goto :end
+
+:msg_source-personalarea-folder-added
+cls
+echo.
+echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
+echo        л                                                    л
+echo        л     File Manager Folder added to Personal Area     л
+echo        л                                                    л
+echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
+echo.
+%external%\wait 2
+goto :end
+
+:msg_source-personalarea-link-added
+cls
+echo.
+echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
+echo        л                                                    л
+echo        л             Link added to Personal Area            л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo.
