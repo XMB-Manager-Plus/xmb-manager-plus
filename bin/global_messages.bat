@@ -24,6 +24,7 @@ if [%~1]==[DISTRIBUTION-OK] goto :msg_distribution-ok
 if [%~1]==[DISTRIBUTION-BASE-UPLOAD] goto :msg_distribution-base-upload
 if [%~1]==[DISTRIBUTION-BASE-DOWNLOAD] goto :msg_distribution-base-download
 if [%~1]==[DISTRIBUTION-BASE-OK] goto :msg_distribution-base-ok
+if [%~1]==[UPDATEFROMGIT_OK] goto :msg_updatefromgit-ok
 if [%~1]==[ERROR-DISTRIBUTION-GENERIC] goto :msg_error-distribution-generic
 if [%~1]==[ERROR-DISTRIBUTION-NO-SOURCE] goto :msg_error-distribution-no-source
 if [%~1]==[ERROR-DISTRIBUTION-NO-PACKAGES] goto :msg_error-distribution-no-packages
@@ -306,6 +307,35 @@ echo.
 %external%\wait 2
 goto :end
 
+:msg_distribution-ok
+cls
+echo.
+echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
+echo        л                                                    л
+echo        л             Distributed Successfully !             л
+echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
+echo        л                                                    л
+echo        л        Will now return to XMBM+ Builder Menu       л
+echo        л                                                    л
+echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
+echo.
+%external%\wait 2
+goto :end
+
+:msg_updatefromgit-ok
+cls
+echo.
+echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
+echo        л                                                    л
+echo        л               Updated Successfully !               л
+echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
+echo        л                                                    л
+echo        л        Will now return to XMBM+ Builder Menu       л
+echo        л                                                    л
+echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
+echo.
+%external%\wait 2
+goto :end
 
 :msg_error-no-source
 cls
