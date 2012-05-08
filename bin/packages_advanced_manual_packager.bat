@@ -7,12 +7,12 @@ call "%bindir%\global_prechecks.bat" %0
 cls
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
 echo        л                                                    л
-echo        л             "%packager%" command line              л
+echo        л             "%packager%" command line       л
 echo        л                                                    л
 echo        л                    (0 to exit)                     л
 echo        л                                                    л
 echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-%packager% --informal-help
+%external%\%packager% --informal-help
 :ask_command
 set /p command= %packager% 
 if ["%command%"]==["0"] goto :done
