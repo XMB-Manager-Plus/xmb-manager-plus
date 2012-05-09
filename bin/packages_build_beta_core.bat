@@ -8,31 +8,33 @@ if not exist %pkgsource%\core-hdd0\XMBMANPLS goto :error_source
 cls
 echo.
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л   Type the version of the beta/RC Core Package  ?  л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л                example "%working_version%"                      л
-echo        л                                                    л
-echo        лммммммммммммммммммммммммммммммммммммммммммммммммммммл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}  Type the version of the beta/RC Core Package  ?{04}  л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}                  example "{02}%working_version%{0F}"{04}                   л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 echo.
 set /p version= Choose a version (default %working_version%): 
 if ["%version%"]==[""] set version=%working_version%
 cls
 echo.
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л  Developement suffix of the beta/RC Core Package   л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л  For example "BETA3" or "RC2".                     
-echo        л  It is recommended to use capital letters          л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E} Developement suffix of the beta/RC Core Package{04}   л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F} For example: "{02}BETA3{0F}" or "{02}RC2{0F}".{04}                    л{\n}
+%external%\cecho {04}        л {0F} It is recommended to use capital letters{04}          л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_suffix
 set /p suffix= Choose a suffix: 

@@ -9,19 +9,22 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 cls
 echo.
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л                Select the Source                   л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}                 Select the Source{04}                 л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л{08} ЩЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЛ {04}л{\n}
+%external%\cecho {08}        ЭЭМ                                                ШЭЭ{\n}
 set counter=0
 for /f "tokens=1,2 delims=." %%Y IN ('dir /b %pkgsource%\*.') DO (
 set /a counter += 1
-echo        л  !counter!. %%Y                                                       
+%external%\cecho {0F}           !counter!. %%Y {\n}
 )
-echo        л                                                    л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo.
+%external%\cecho {08}        ЭЭЛ                                                ЩЭЭ{\n}
+%external%\cecho {04}        л {08}ШЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭМ {04}л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_source
 set /p sourcenum= Choose a source directory: 
@@ -39,15 +42,16 @@ goto :ask_source
 cls
 echo.
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л             Type the Name of your .pkg             л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л               example "reallycoolpackage"          л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}           Type the Name of your .pkg{04}              л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}            example "reallycoolpackage"{04}            л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_name
 set /p pkgname= Choose the name: 

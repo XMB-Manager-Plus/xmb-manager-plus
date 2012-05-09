@@ -1,23 +1,24 @@
 @echo off
 title Update bin from git
-for /f "tokens=1,2 delims==" %%G in (settings.ini) do set %%G=%%H
+for /f "tokens=1,2 delims==" %%G in (..\bin\settings.ini) do set %%G=%%H
 call "%bindir%\global_prechecks.bat" %0
 
 :first
 cls
 echo.
 echo.
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo        л                                                    л
-echo        л                 Update bin from git                л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л  Atention, this will:                              л
-echo        л  - Replace all your bin dir                        л
-echo        л  - Remove all your builded sources and packages    л
-echo        л                                                    л
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo.
+cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+cecho {04}        л                                                    л{\n}
+cecho {04}        л {0E}                Update bin from git{04}                л{\n}
+cecho {04}        л                                                    л{\n}
+cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+cecho {04}        л                                                    л{\n}
+cecho {04}        л {0C} Attention{0F}, this will:{04}                             л{\n}
+cecho {04}        л {0F} - Replace all your bin dir{04}                        л{\n}
+cecho {04}        л {0F} - Remove all your builded sources and packages{04}    л{\n}
+cecho {04}        л                                                    л{\n}
+cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+cecho {0F}{\n}
 echo.
 :ask_confirm
 set /P choice= Are you sure (Y/N): 

@@ -7,20 +7,21 @@ call "%bindir%\global_prechecks.bat" %0
 cls
 echo.
 echo.
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo        л                                                    л
-echo        л                Add Personal Area                   л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}               Add Personal Area{04}                   л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{0F}{\n}
 IF EXIST "%pkgbase%\XMBMANPLS\USRDIR\FEATURES\Personal_Area.offline" goto :create_personal_area
 IF EXIST "%pkgbase%\XMBMANPLS\USRDIR\FEATURES\Personal_Area.xml" goto :edit_personal_area
 goto :end
 
 :create_personal_area
-echo        л                                                    л
-echo        л  This will had a personal area to base source      л
-echo        л                                                    л
-echo        лммммммммммммммммммммммммммммммммммммммммммммммммммммл
-echo.
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}  This will had a personal area to base source{04}     л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_confirm
 set /P choice= Do you want to add your personal area to base source? (Y/N): 
@@ -34,27 +35,27 @@ goto :ask_confirm
 MOVE /Y "%pkgbase%\XMBMANPLS\USRDIR\FEATURES\Personal_Area.offline"  "%pkgbase%\XMBMANPLS\USRDIR\FEATURES\Personal_Area.xml"
 cls
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л        Personal Area added to base source          л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}       Personal Area added to base source{04}          л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 wait 2
 goto :first
 
 :edit_personal_area
-echo        л                                                    л
-echo        л  What do you want to add?                          л
-echo        л                                                    л
-echo        л  1. Installable Package folder                     л
-echo        л  2. File manager folder                            л
-echo        л  3. Link                                           л
-echo        л                                                    л
-echo        л  0. Reset and remove Personal area from base       л
-echo        л                                                    л
-echo        лммммммммммммммммммммммммммммммммммммммммммммммммммммл
-echo.
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F} What do you want to add?{04}                          л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F} 1. Installable Package folder{04}                     л{\n}
+%external%\cecho {04}        л {0F} 2. File manager folder{04}                            л{\n}
+%external%\cecho {04}        л {0F} 3. Link{04}                                           л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F} 0. Reset and remove Personal area from base{04}       л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_option
 set /p option= Choose an option: 
@@ -69,12 +70,12 @@ del /Q /S "%pkgbase%\XMBMANPLS\USRDIR\FEATURES\Personal_Area.xml" >NUL
 copy "%bindir%\base.original\XMBMANPLS\USRDIR\FEATURES\Personal_Area.offline" "%pkgbase%\XMBMANPLS\USRDIR\FEATURES\Personal_Area.offline"
 cls
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л       Personal Area removed to base source         л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}      Personal Area removed to base source{04}         л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 wait 2
 goto :first
 
@@ -84,42 +85,45 @@ goto :first
 
 :add_package
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л                Package Folder title                л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л                Example: USB packages               л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}               Package Folder title{04}                л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}               Example: USB packages{04}               л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 :ask_packagetitle
 set /p packagetitle= Package Folder title: 
 if ["%packagetitle%"]==[""] goto :ask_packagetitle
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л               Package Folder info                  л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л             Example: My packages on USB            л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}              Package Folder info{04}                  л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}            Example: My packages on USB{04}            л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 set /p packageinfo= Package Folder info: 
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л               Package Folder path                  л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л  Example:                                          л
-echo        л  - /dev_hdd0/packages                              л
-echo        л  - /dev_usb000/packages                            л
-echo        л  - /dev_usb001/packages/multiman                   л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}              Package Folder path{04}                  л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F} Example:{04}                                          л{\n}
+%external%\cecho {04}        л {0F} - /dev_hdd0/packages{04}                              л{\n}
+%external%\cecho {04}        л {0F} - /dev_usb000/packages{04}                            л{\n}
+%external%\cecho {04}        л {0F} - /dev_usb001/packages/multiman{04}                   л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 :ask_packagepath
 set /p packagepath= Package Folder path: 
 if ["%packagepath%"]==[""] goto :ask_packagepath
@@ -139,42 +143,45 @@ goto :ask_confirm_end
 
 :add_filemanager
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л             File Manager Folder title              л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л              Example: My Games (USB)               л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}            File Manager Folder title{04}              л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}             Example: My Games (USB){04}               л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 :ask_filemanagertitle
 set /p filemanagertitle= File Manager Folder title: 
 if ["%filemanagertitle%"]==[""] goto :ask_filemanagertitle
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л              File Manager Folder info              л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л              Example: My games on USB              л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}             File Manager Folder info{04}              л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}             Example: My games on USB{04}              л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 set /p filemanagerinfo= File Manager Folder info: 
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л             File Manager Folder path               л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л  Example:                                          л
-echo        л  - /dev_hdd0/game                                  л
-echo        л  - /dev_usb000/GAMES                               л
-echo        л  - /dev_usb001/GAMEZ                               л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}            File Manager Folder path{04}               л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F} Example:{04}                                          л{\n}
+%external%\cecho {04}        л {0F} - /dev_hdd0/game{04}                                  л{\n}
+%external%\cecho {04}        л {0F} - /dev_usb000/GAMES{04}                               л{\n}
+%external%\cecho {04}        л {0F} - /dev_usb001/GAMEZ{04}                               л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 :ask_filemanagerpath
 set /p filemanagerpath= File Manager path: 
 if ["%filemanagerpath%"]==[""] goto :ask_filemanagerpath
@@ -195,39 +202,42 @@ goto :ask_confirm_end
 
 :add_link
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л                    Link title                      л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л                   Example: NASA                    л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}                   Link title{04}                      л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}                  Example: NASA{04}                    л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 :ask_linktitle
 set /p linktitle= Link title: 
 if ["%linktitle%"]==[""] goto :ask_linktitle
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л                     Link info                      л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л               Example: Nasa Homepage               л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}                    Link info{04}                      л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}              Example: Nasa Homepage{04}               л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 set /p linkinfo= Link info: 
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л                     Link URL                       л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л  Example: http://www.nasa.gov                      л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}                    Link URL{04}                       л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F} Example: http://www.nasa.gov{04}                      л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 :ask_linkurl
 set /p linkurl= Link URL: 
 if ["%linkurl%"]==[""] goto :ask_linkurl

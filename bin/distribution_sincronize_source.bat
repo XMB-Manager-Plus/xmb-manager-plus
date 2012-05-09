@@ -11,22 +11,25 @@ for /f "tokens=1,2 delims==" %%G in (%dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEA
 cls
 echo.
 echo.
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo        л                                                    л
-echo        л          Sincronize Base Package Source            л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л Dropbox Base Source version: %dropboxver%                  л
-echo        л Local Base Source version: %working_version%                    л
-echo        л                                                    л
-echo        л 1. Upload local base source to dropbox             л
-echo        л 2. Download dropbox base source to local disk      л
-echo        л    Atention: This will replace your base source,   л
-echo        л              delete all your package source and    л
-echo        л              builded packages                      л
-echo        л                                                    л
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                  л{\n}
+%external%\cecho {04}        л {0E}       Sincronize Base Package Source{04}            л{\n}
+%external%\cecho {04}        л                                                  л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                  л{\n}
+%external%\cecho {04}        л {0F}Dropbox Base Source version:{02} %dropboxver%{04}                л{\n}
+%external%\cecho {04}        л {0F}Local Base Source version:{02} %working_version%{04}                  л{\n}
+%external%\cecho {04}        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл{\n}
+%external%\cecho {04}        л {0E}1.{0F} Upload local base source to dropbox{04}           л{\n}
+%external%\cecho {04}        л {0E}2.{0F} Download dropbox base source to local disk{04}    л{\n}
+%external%\cecho {04}        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл{\n}
+%external%\cecho {04}        л                                                  л{\n}
+%external%\cecho {04}        л {0C}Attention:{0F} This will replace your base source,{04}   л{\n}
+%external%\cecho {04}        л {0F}           delete all your package source and{04}    л{\n}
+%external%\cecho {04}        л {0F}           builded packages{04}                      л{\n}
+%external%\cecho {04}        л                                                  л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_sincronize
 set /p sincronize= What do you want to do?: 

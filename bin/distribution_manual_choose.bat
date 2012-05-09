@@ -11,19 +11,22 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 cls
 echo.
 echo.
-echo        ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
-echo        Û                                                    Û
-echo        Û                 Select the Package                 Û
-echo        ÛออออออออออออออออออออออออออออออออออออออออออออออออออออÛ
-echo        Û                                                    Û
+%external%\cecho {04}        ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ{\n}
+%external%\cecho {04}        Û                                                    Û{\n}
+%external%\cecho {04}        Û {0E}                Select the Package{04}                 Û{\n}
+%external%\cecho {04}        Û                                                    Û{\n}
+%external%\cecho {04}        ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ{\n}
+%external%\cecho {04}        Û{08} ษออออออออออออออออออออออออออออออออออออออออออออออออป {04}Û{\n}
+%external%\cecho {08}        ออผ                                                ศออ{\n}
 set counter=0
 for /f "tokens=1,2 delims=" %%Y IN ('dir /b %pkgoutput%\*.pkg') DO (
 set /a counter += 1
-echo        Û  !counter!. %%Y
+%external%\cecho {0F}             !counter!. %%Y {\n}
 )
-echo        Û                                                    Û
-echo        ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
-echo.
+%external%\cecho {08}        ออป                                                ษออ{\n
+%external%\cecho {04}        Û {08}ศออออออออออออออออออออออออออออออออออออออออออออออออผ {04}Û{\n}
+%external%\cecho {04}        ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_package
 set /p packagenum= Choose a package: 
@@ -41,19 +44,22 @@ goto :ask_package
 cls
 echo.
 echo.
-echo        ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
-echo        Û                                                    Û
-echo        Û             Select the Version folder              Û
-echo        ÛออออออออออออออออออออออออออออออออออออออออออออออออออออÛ
-echo        Û                                                    Û
+%external%\cecho {04}        ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ{\n}
+%external%\cecho {04}        Û                                                    Û{\n}
+%external%\cecho {04}        Û {0E}        Select the Version folder{04}                  Û{\n}
+%external%\cecho {04}        Û                                                    Û{\n}
+%external%\cecho {04}        ÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÛ{\n}
+%external%\cecho {04}        Û{08} ษออออออออออออออออออออออออออออออออออออออออออออออออป {04}Û{\n}
+%external%\cecho {08}        ออผ                                                ศออ{\n}
 set counter=0
 for /f "tokens=1,2 delims=." %%Y IN ('dir /b %dropboxdir%\Public\XMBMPLUS\INTERNAL_RELEASES\*.') DO (
 set /a counter += 1
-echo        Û  !counter!. %%Y
+%external%\cecho {0F}             !counter!. %%Y {\n}
 )
-echo        Û                                                    Û
-echo        ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
-echo.
+%external%\cecho {08}        ออป                                                ษออ{\n}
+%external%\cecho {04}        Û {08}ศออออออออออออออออออออออออออออออออออออออออออออออออผ {04}Û{\n}
+%external%\cecho {04}        ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_version
 set /p versionnum= Choose a version folder: 
