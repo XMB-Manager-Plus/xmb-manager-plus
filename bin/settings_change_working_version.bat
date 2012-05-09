@@ -7,21 +7,22 @@ call "%bindir%\global_prechecks.bat" %0
 cls
 echo.
 echo.
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo        л                                                    л
-echo        л               Change Working Version               л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л     The version must be in the format X.XX         л
-echo        л                                                    л
-echo        л  Do not use characters other than numbers, letter  л
-echo        л  and dots otherwise will not work                  л
-echo        л                                                    л
-echo        л  Atention: This will delete all your package       л
-echo        л             source and builded packages            л
-echo        л                                                    л
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}              Change Working Version{04}               л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}    The version must be in the format{02} X.XX{04}         л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F} Do not use characters other than numbers, letter{04}  л{\n}
+%external%\cecho {04}        л {0F} and dots otherwise will not work{04}                  л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0C} Attention: {0F}This will delete all your package{04}      л{\n}
+%external%\cecho {04}        л {0F}            source and builded packages{04}            л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_version
 set /p version= Version: 
