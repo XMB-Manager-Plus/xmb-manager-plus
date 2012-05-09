@@ -41,7 +41,7 @@
 				<Pair key="title"><String>LANG_TITL_SETTINGS-ABOUT-UPDATE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-ABOUT-UPDATE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/UPDATES/CFW/Latest_version_CFW.html</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/UPDATES/CFW/Latest_version_CFW.html</String></Pair>
  			</Table>
 			<Table key="about">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/about.png</String></Pair>
@@ -90,42 +90,42 @@
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-EN-US</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-EN-US</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-en-US.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-en-US.pkg</String></Pair>
  			</Table>
 			<Table key="german">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/languages/de-DE.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-DE-DE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-DE-DE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-de-DE.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-de-DE.pkg</String></Pair>
  			</Table>
 			<Table key="spanish">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/languages/es-ES.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-ES-ES</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-ES-ES</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-es-ES.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-es-ES.pkg</String></Pair>
  			</Table>
 			<Table key="french">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/languages/fr-FR.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-FR-FR</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-FR-FR</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-fr-FR.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-fr-FR.pkg</String></Pair>
  			</Table>
 			<Table key="portuguese">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/languages/pt-PT.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-PT-PT</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-PT-PT</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-pt-PT.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-pt-PT.pkg</String></Pair>
  			</Table>
 			<Table key="polish">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/languages/pl-PL.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-PL-PL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-PL-PL</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-pl-PL.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-pl-PL.pkg</String></Pair>
  			</Table>
 		</Attributes>
 		<Items>
@@ -166,28 +166,28 @@
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-ORIGINAL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-ORIGINAL</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2BvURL-XMBMP-VERSION-THEMEPACK-ORIGINAL.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2BvURL-XMBMP-VERSION-THEMEPACK-ORIGINAL.pkg</String></Pair>
  			</Table>
 			<Table key="colour">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-COLOUR</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-COLOUR</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2BvURL-XMBMP-VERSION-THEMEPACK-COLOUR.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2BvURL-XMBMP-VERSION-THEMEPACK-COLOUR.pkg</String></Pair>
  			</Table>
 			<Table key="black">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-BLACK</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-BLACK</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2BvURL-XMBMP-VERSION-THEMEPACK-BLACK.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2BvURL-XMBMP-VERSION-THEMEPACK-BLACK.pkg</String></Pair>
  			</Table>
 			<Table key="blue">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-BLUE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-BLUE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2BvURL-XMBMP-VERSION-THEMEPACK-BLUE.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2BvURL-XMBMP-VERSION-THEMEPACK-BLUE.pkg</String></Pair>
  			</Table>
 		</Attributes>
 		<Items>
@@ -206,14 +206,14 @@
 				<Pair key="title"><String>LANG_TITL_SETTINGS-ABOUT-THREAD</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-ABOUT-THREAD</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/releasepage.html</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/releasepage.html</String></Pair>
  			</Table>
 			<Table key="development">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-ABOUT-DEVELOPMENT</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-ABOUT-DEVELOPMENT</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/developmentpage.html</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/developmentpage.html</String></Pair>
  			</Table>
 		</Attributes>
 		<Items>

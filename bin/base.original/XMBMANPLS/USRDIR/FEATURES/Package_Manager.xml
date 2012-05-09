@@ -79,84 +79,84 @@
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-MULTIMANFULL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-MULTIMANFULL</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/HOMEBREW/Latest_mmCM_FULL.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_mmCM_FULL.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew03">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-MULTIMANBASE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-MULTIMANBASE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/HOMEBREW/Latest_mmCM_BASE.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_mmCM_BASE.pkg</String></Pair>
  			</Table>
 			<!-- <Table key="homebrew04">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-BDEMULATOR</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-BDEMULATOR</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/HOMEBREW/Latest_BDEMU_3.55.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_BDEMU_3.55.pkg</String></Pair>
  			</Table> -->
 			<Table key="homebrew05">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-BDRESET</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-BDRESET</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/HOMEBREW/Latest_bdRESET.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_bdRESET.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew06">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-LASTGAME</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-LASTGAME</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/HOMEBREW/Latest_lastGAME2.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_lastGAME2.pkg</String></Pair>
  			</Table>
 			<!-- <Table key="homebrew07">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-TOGGLEQA</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-TOGGLEQA</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/HOMEBREW/Latest_toggle_qa.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_toggle_qa.pkg</String></Pair>
  			</Table> -->
 			<Table key="homebrew08">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-BLACKBOX</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-BLACKBOX</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/HOMEBREW/Latest_blackbox_ftpserver.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_blackbox_ftpserver.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew09">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-DVDENABLER</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-DVDENABLER</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/HOMEBREW/Latest_DVDenabler.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_DVDenabler.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew10">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-LEDCHANGER</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-LEDCHANGER</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/HOMEBREW/Latest_Led_Changer.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_Led_Changer.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew11">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-SNES</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-SNES</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/HOMEBREW/Latest_snes9x_3.41.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_snes9x_3.41.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew12">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-COMGENIE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-COMGENIE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/HOMEBREW/Latest_Comgenie_Awsome_Filemanager.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_Comgenie_Awsome_Filemanager.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew13">
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-JAILCRAB</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-JAILCRAB</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://dl.dropbox.com/u/60710927/XMBMPLUS/HOMEBREW/Latest_JaiC_USB_FIRM_LOADER.pkg</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_JaiC_USB_FIRM_LOADER.pkg</String></Pair>
  			</Table>
 		</Attributes>
 		<Items>
