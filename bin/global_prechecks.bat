@@ -6,6 +6,9 @@ mkdir "%pkgbase%"
 xcopy /E "%bindir%\base.original\*.*" "%bindir%\base\" >NUL
 )
 
+IF NOT EXIST "%pkgsource%\" mkdir "%pkgbase%"
+IF NOT EXIST "%pkgoutput%\" mkdir "%pkgoutput%\"
+
 if [%encoding_prep%]==[no] (
 reg add HKEY_CURRENT_USER\Console /v FaceName /t REG_SZ /d "Lucida Console" /f
 reg add HKEY_CURRENT_USER\Console /v FontFamily /t REG_DWORD /d 00000036 /f
