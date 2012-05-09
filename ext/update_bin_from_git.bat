@@ -36,7 +36,7 @@ move "*xmb-manager-plus*" "new-version"
 ::del /Q /S "%external%\new-version\README*"
 rmdir /Q /S "%external%\new-version\ext"
 rmdir /Q /S "%bindir%"
-move "%external%\new-version\bin" "..\bin"
+move "%external%\new-version\bin" "%bindir%"
 rmdir /Q /S "%external%\new-version"
 
 :end
