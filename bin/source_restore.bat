@@ -7,16 +7,17 @@ call "%bindir%\global_prechecks.bat" %0
 cls
 echo.
 echo.
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo        л                                                    л
-echo        л                 Restore Base Source                л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л  Atention: This will delete all your package       л
-echo        л             source and builded packages            л
-echo        л                                                    л
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}                Restore Base Source{04}                л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0C} Atention:{0F} This will delete all your package{04}       л{\n}
+%external%\cecho {04}        л {0F}            source and builded packages{04}            л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_confirm
 set /P choice= Are you sure (Y/N): 

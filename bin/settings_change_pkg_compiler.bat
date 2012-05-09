@@ -7,16 +7,17 @@ call "%bindir%\global_prechecks.bat" %0
 cls
 echo.
 echo.
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo        л                                                    л
-echo        л               Change Package Compiler              л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л  1. "make_package_npdrm" Sony Official (debug)     л
-echo        л  2. "psn_package_npdrm"  Hacked Version            л
-echo        л                                                    л
-echo        лммммммммммммммммммммммммммммммммммммммммммммммммммммл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}              Change Package Compiler{04}              л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л{02}  1. {0F}"make_package_npdrm" Sony Official (debug){04}     л{\n}
+%external%\cecho {04}        л{02}  2. {0F}"psn_package_npdrm"  Hacked Version{04}            л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_compiler
 set /p pack= Choose a pacakge compiler: 

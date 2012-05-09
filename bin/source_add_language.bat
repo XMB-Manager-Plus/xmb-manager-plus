@@ -7,32 +7,34 @@ call "%bindir%\global_prechecks.bat" %0
 cls
 echo.
 echo.
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo        л                                                    л
-echo        л                  Add new language                  л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л    Type the new languague name, code and author    л
-echo        л                                                    л
-echo        лммммммммммммммммммммммммммммммммммммммммммммммммммммл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}                 Add new language{04}                  л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}   Type the new languague name, code and author{04}    л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_langname
 set /p langname= Language name: 
 if ["%langname%"]==[""] goto :ask_langname
 echo.
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo        л                                                    л
-echo        л                    Language code                   л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л  Examples: en-US, fr-FR, es-ES, de-DE,pt-PT, etc   л
-echo        л                                                    л
-echo        л  See more language codes:                          л
-echo        л  http://www.i18nguy.com/unicode/language-identifiers.html
-echo        л                                                    л
-echo        лммммммммммммммммммммммммммммммммммммммммммммммммммммл
-echo.
+%external%\cecho {04}        ллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                           л{\n}
+%external%\cecho {04}        л {0E}                   Language code{04}                          л{\n}
+%external%\cecho {04}        л                                                           л{\n}
+%external%\cecho {04}        ллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                           л{\n}
+%external%\cecho {04}        л {0F} Examples: en-US, fr-FR, es-ES, de-DE,pt-PT, etc{04}          л{\n}
+%external%\cecho {04}        л                                                           л{\n}
+%external%\cecho {04}        л {0F} See more language codes:{04}                                 л{\n}
+%external%\cecho {04}        л {0F} http://www.i18nguy.com/unicode/language-identifiers.html{04} л{\n}
+%external%\cecho {04}        л                                                           л{\n}
+%external%\cecho {04}        лмммммммммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {0F}{\n}
 :ask_langcode
 set /p langcode= Language code: 
 if ["%langcode%"]==[""] goto :ask_langcode

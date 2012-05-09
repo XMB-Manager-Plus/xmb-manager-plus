@@ -5,13 +5,16 @@ call "%bindir%\global_prechecks.bat" %0
 
 :first
 cls
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л             "%packager%" command line       л
-echo        л                                                    л
-echo        л                    (0 to exit)                     л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
+echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {0F}           "%packager%" command line{04}{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}                  (0 to exit){04}                      л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
+echo.
 %external%\%packager% --informal-help
 :ask_command
 set /p command= %packager% 

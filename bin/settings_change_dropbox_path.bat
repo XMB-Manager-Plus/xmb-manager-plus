@@ -7,15 +7,16 @@ call "%bindir%\global_prechecks.bat" %0
 cls
 echo.
 echo.
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo        л                                                    л
-echo        л                 Change Dropbox Path                л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л      Example: "C:\Users\XMBM+\Dropbox"             л
-echo        л                                                    л
-echo        мммммммммммммммммммммммммммммммммммммммммммммммммммммм
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}                Change Dropbox Path{04}                л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}     Example: "C:\Users\XMBM+\Dropbox"{04}             л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лммммммммммммммммммммммммммммммммммммммммммммммммммммл{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_location
 set /p location= Dropbox Path: 

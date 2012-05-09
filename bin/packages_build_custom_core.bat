@@ -8,15 +8,16 @@ if not exist %pkgsource%\core-hdd0\XMBMANPLS goto :error_source
 cls
 echo.
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л      Version that you want for the main core       л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
-echo        л                 Example "%working_version%"                     л
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}     Version that you want for the main core{04}       л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0F}                Example "{0A}%working_version%{0F}"{04}                     л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 echo.
 set /p version= Choose a version (default %working_version%): 
 if ["%version%"]==[""] set version=%working_version%
@@ -24,19 +25,22 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 cls
 echo.
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л      Language that you want for the main core      л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}    Language that you want for the main core{04}       л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л{08} ЩЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЛ {04}л{\n}
+%external%\cecho {08}        ЭЭМ                                                ШЭЭ{\n}
 set counter=0
 for /f "tokens=1,2 delims=." %%X IN ('dir /b %languageinisdir%\*.ini') DO (
 set /a counter += 1
-echo        л  !counter!. %%X                                          л
+%external%\cecho {0F}            !counter!. %%X {\n}
 )
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {08}        ЭЭЛ                                                ЩЭЭ{\n}
+%external%\cecho {04}        л {08}ШЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭМ {04}л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_language
 set /p langnum= Choose a language: 
@@ -54,19 +58,22 @@ goto :ask_language
 cls
 echo.
 echo.
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo        л                                                    л
-echo        л      Theme that you want for the main core         л
-echo        лЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭл
-echo        л                                                    л
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}     Theme that you want for the main core{04}         л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л{08} ЩЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЛ {04}л{\n}
+%external%\cecho {08}        ШЭМ                                                ШЭМ{\n}
 set counter=0
 for /f "tokens=1,2 delims=." %%Y IN ('dir /b %pkgbase%\XMBMANPLS\USRDIR\IMAGES\*.') DO (
 set /a counter += 1
-echo        л  !counter!. %%Y                                                             
+%external%\cecho {0F}           !counter!. %%Y {\n}
 )
-echo        л                                                    л
-echo        лллллллллллллллллллллллллллллллллллллллллллллллллллллл
-echo.
+%external%\cecho {08}        ЩЭЛ                                                ЩЭЛ{\n}
+%external%\cecho {04}        л {08}ШЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭМ {04}л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 echo.
 :ask_theme
 set /p themenum= Choose a theme: 

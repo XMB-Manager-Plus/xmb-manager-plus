@@ -5,7 +5,7 @@ XMB Manager Plus (XMBM+) is a Homebrew XMB item which does many things you could
 
 This will replace the "Install Package Files" option or for REBUG CFW the "Package Manager".
 
-It officially supports six languages, three themes and boasts compatibility with most CFW and 4.00 HFW.
+It officially supports six languages, four themes and boasts compatibility with most CFW and 4.00 HFW.
 
 ## Main Features
 
