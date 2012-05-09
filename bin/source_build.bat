@@ -36,7 +36,7 @@ IF EXIST "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR\FEATURES\Personal_Area.
 )
 )
 %external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR" --include "game_settings.xml" --alter --search "URL-XMBMP-VERSION" --replace "%working_version%"
-%external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR" --include "game_settings.xml" --alter --search "FILEPROVIDER_BASE_URL" --replace "%fileprovider_base_url%"
+%external%\ssr\ssr --nobackup --recurse --encoding utf8 --dir "%pkgsource%\languagepacks\%%X\XMBMANPLS\USRDIR" --include "*.xml" --alter --search "FILEPROVIDER_BASE_URL" --replace "%fileprovider_base_url%"
 )
 echo.
 echo CREATING theme packs source files ...
