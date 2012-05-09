@@ -41,7 +41,23 @@ Gives information about the XMBM+, allows users to download language packs, them
 
 ### 0.30
 
-[Under development]
+-  Changes to base source xmls
+  -  Now items that links to webpages can show images and descriptions
+     -  New images for links (thanks xlsound)
+     -  New images for languages
+  -  New links
+  -  New BLUE theme (thanks MO3)
+  -  Added development page in 'About' subcategory
+  -  Added PSN packages subcategory to 'Package Manager Plus' category
+  -  Changed order of items in 'Package Manager Plus' category
+  -  Showtime link updated in 'Homebrew Downloads' subcategory
+  -  Some languages updated
+  -  Major code rewrite to be simpler to read & smaller
+  -  Major code review to integrate with the changes made in the Toolkit
+  -  Other minor changes
+-  Changes in the Toolkit
+  - New GUI
+  - [Under development]
 
 ### 0.20
 
@@ -205,15 +221,16 @@ NOTE: Follow the correct order or your "Install Package Files" (or "Package Mana
 
 ## Team XMBM+
 
--  andreus (coding, translator)
--  bitsbubba(coding, themes)
--  DeViL303(coding, POC/WIP)
--  ps3Hen (coding, 4.00 port, translator, batch toolkit)
 -  Aldostools (coding)
+-  andreus (coding, translator)
+-  Berion (official logos)
+-  bitsbubba (coding, themes)
 -  CloneD (themes, tester, videos)
--  Berion(official logos)
--  XiorgON (tester, translator, coding, GUI tooklit)
--  wawryn(translator)
+-  DeViL303 (coding, POC/WIP)
+-  ps3Hen (coding, 4.00 port, translator, batch toolkit)
+-  XiorgON (tester, translator, coding, GUI tookit)
+-  xlsound (images)
+-  wawryn (translator)
 
 ## Source/Development
 
