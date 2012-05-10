@@ -82,7 +82,7 @@
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="C:\Users\Andr&#x00E9; Silva\Documents\AutoPlay Media Studio 8\Projects\XMBM__GUI_Builder_Toolkit_v1.07\CD_Root\DATA\xmbm\ext\notepad\stylers.xml" />
+        <GUIConfig name="stylerTheme" path="E:\Windows 7\Bureau\XiorgON-xmb-manager-plus-b316254\ext\notepad\stylers.xml" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="200" topHeight="200" bottomHeight="200">
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
