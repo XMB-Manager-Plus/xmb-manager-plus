@@ -1,9 +1,9 @@
 @echo off
 title Build Themes
 for /f "tokens=1,2 delims==" %%G in (settings.ini) do set %%G=%%H
-call "%bindir%\global_prechecks.bat" %0
 
 :first
+if [%~1]==[CHECKING] goto :msg_checking
 if [%~1]==[SETTINGS-PACKAGER-CHANGED] goto :msg_settings-packager-changed
 if [%~1]==[SETTINGS-DROPBOX-CHANGED] goto :msg_settings-dropbox-changed
 if [%~1]==[SETTINGS-VERSION-CHANGED] goto :msg_settings-version-changed
@@ -33,6 +33,17 @@ if [%~1]==[ERROR-DISTRIBUTION-BASE-NO-DROPBOX] goto :msg_error-distribution-base
 if [%~1]==[ERROR-NO-SOURCE] goto :msg_error-no-source
 if [%~1]==[CUSTOM] goto :msg_custom
 if [%~1]==[END] goto :msg_end
+goto :end
+
+:msg_checking
+cls
+echo.
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        л {0E}             Checking your environment{04}             л{\n}
+%external%\cecho {04}        л                                                    л{\n}
+%external%\cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
+%external%\cecho {0F}{\n}
 goto :end
 
 :msg_settings-packager-changed
