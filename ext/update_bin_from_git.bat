@@ -15,7 +15,6 @@ cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
 cecho {04}        л                                                    л{\n}
 cecho {04}        л {0C} Attention{0F}, this will:{04}                             л{\n}
 cecho {04}        л {0F} - Replace all your bin dir{04}                        л{\n}
-cecho {04}        л {0F} - Remove all your builded sources and packages{04}    л{\n}
 cecho {04}        л                                                    л{\n}
 cecho {04}        лллллллллллллллллллллллллллллллллллллллллллллллллллллл{\n}
 cecho {0F}{\n}
