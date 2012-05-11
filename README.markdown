@@ -39,7 +39,7 @@ Gives information about the XMBM+, allows users to download language packs, them
 
 ## Release notes
 
-### 0.30
+### 0.40
 
 -  Changes to base source xmls
   -  Now items that links to webpages can show images and descriptions
@@ -55,9 +55,6 @@ Gives information about the XMBM+, allows users to download language packs, them
   -  Major code rewrite to be simpler to read & smaller
   -  Major code review to integrate with the changes made in the Toolkit
   -  Other minor changes
--  Changes in the Toolkit
-  - New GUI
-  - [Under development]
 
 ### 0.20
 
@@ -241,7 +238,8 @@ The Development Page, this is where we discuss/plan for the XMBM+. If you have a
 The entire source in available for download in the git
 
 -  Development page: http://www.ps3crunch.net/forum/threads/2431
--  Git: https://github.com/andreus-sebes/xmb-manager-plus
+-  Git: https://github.com/XMB-Manager-Plus/xmb-manager-plus
+-  Git (Builder Toolkit): https://github.com/XMB-Manager-Plus/xmb-manager-plus-builder-toolkit
 
-All packages are compiled with the XMBM+ Builder Toolkit
+All packages are compiled with the XMB Manager Plus Builder Toolkit
 With the XMBM+ Builder Toolkit you can create your own XMBM+ themes and language packs.
