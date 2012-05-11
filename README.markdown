@@ -46,20 +46,19 @@ Gives information about the XMBM+, allows users to download language packs, them
 
 ### 0.40
 
--  Changes to base source xmls
-  -  Now items that links to webpages can show images and descriptions
-     -  New images for links (thanks xlsound)
-     -  New images for languages
-  -  New links
-  -  New BLUE theme (thanks MO3)
-  -  Added development page in 'About' subcategory
-  -  Added PSN packages subcategory to 'Package Manager Plus' category
-  -  Changed order of items in 'Package Manager Plus' category
-  -  Showtime link updated in 'Homebrew Downloads' subcategory
-  -  Some languages updated
-  -  Major code rewrite to be simpler to read & smaller
-  -  Major code review to integrate with the changes made in the Toolkit
-  -  Other minor changes
+-  Now items that links to webpages can show images and descriptions
+   -  New images for links (thanks xlsound)
+   -  New images for languages
+-  New links
+-  New BLUE theme (thanks MO3)
+-  Added development page in 'About' subcategory
+-  Added PSN packages subcategory to 'Package Manager Plus' category
+-  Changed order of items in 'Package Manager Plus' category
+-  Showtime link updated in 'Homebrew Downloads' subcategory
+-  Some languages updated
+-  Major code rewrite to be simpler to read & smaller
+-  Major code review to integrate with the changes made in the Toolkit
+-  Other minor changes
 
 ### 0.20
 
