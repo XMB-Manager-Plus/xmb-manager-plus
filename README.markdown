@@ -12,7 +12,8 @@ It officially supports six languages, four themes and boasts compatibility with 
 ### Personal Area
 
 Allows to have your own package folders, folders and links.
-note: Only available when built with XMB Manager Builder Toolkit.
+
+Note: Only available when built with XMB Manager Builder Toolkit.
 
 ### Package Manager Plus
 
