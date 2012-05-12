@@ -219,7 +219,7 @@ NOTE: Follow the correct order or your "Install Package Files" (or "Package Mana
 
 ### XMBM+ Builder Toolkit
 
-- XMBM+ Builder Toolkit [link here]
+All packages are compiled with the XMBM+ Builder Toolkit. With the XMBM+ Builder Toolkit you can create your own XMBM+ themes, language packs and more.
 
 ## Team XMBM+
 
@@ -245,6 +245,3 @@ The entire source in available for download in the git
 -  Development page: http://www.ps3crunch.net/forum/threads/2431
 -  Git: https://github.com/XMB-Manager-Plus/xmb-manager-plus
 -  Git (Builder Toolkit): https://github.com/XMB-Manager-Plus/xmb-manager-plus-builder-toolkit
-
-All packages are compiled with the XMB Manager Plus Builder Toolkit
-With the XMBM+ Builder Toolkit you can create your own XMBM+ themes and language packs.
