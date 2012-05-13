@@ -244,4 +244,5 @@ The entire source in available for download in the git
 
 -  Development page: http://www.ps3crunch.net/forum/threads/2431
 -  Git: https://github.com/XMB-Manager-Plus/xmb-manager-plus
+-  Git (Flash): https://github.com/XMB-Manager-Plus/xmb-manager-plus-flash
 -  Git (Builder Toolkit): https://github.com/XMB-Manager-Plus/xmb-manager-plus-builder-toolkit
