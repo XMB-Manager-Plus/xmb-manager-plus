@@ -48,8 +48,8 @@ Gives information about the XMBM+, allows users to download language packs, them
 ### 0.40
 
 -  Now items that links to webpages can show images and descriptions
-   -  New images for links (thanks xlsound)
-   -  New images for languages
+-  New images for links (thanks xlsound)
+-  New images for languages
 -  New links
 -  New BLUE theme (thanks MO3)
 -  Added development page in 'About' subcategory
@@ -246,3 +246,5 @@ The entire source in available for download in the git
 -  Git: https://github.com/XMB-Manager-Plus/xmb-manager-plus
 -  Git (Flash): https://github.com/XMB-Manager-Plus/xmb-manager-plus-flash
 -  Git (Builder Toolkit): https://github.com/XMB-Manager-Plus/xmb-manager-plus-builder-toolkit
+
+-  A Special Big Thanks to all the Team XMBM+ and the public because without you the project would never exist
