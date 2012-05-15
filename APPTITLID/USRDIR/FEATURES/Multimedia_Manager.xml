@@ -25,37 +25,37 @@
 	<View id="seg_multimediamanager_subitems">
 		<Attributes>
 			<Table key="music_internal">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/music.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/music.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_MULTIMEDIAMANAGER-MUSICINTERNAL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_MULTIMEDIAMANAGER-MUSICINTERNAL</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 			</Table>
 			<Table key="music_external">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/music.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/music.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_MULTIMEDIAMANAGER-MUSICEXTERNAL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_MULTIMEDIAMANAGER-MUSICEXTERNAL</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 			</Table>
 			<Table key="video_internal">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/video.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/video.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_MULTIMEDIAMANAGER-VIDEOSINTERNAL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_MULTIMEDIAMANAGER-VIDEOSINTERNAL</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 			</Table>
 			<Table key="video_external">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/video.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/video.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_MULTIMEDIAMANAGER-VIDEOSEXTERNAL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_MULTIMEDIAMANAGER-VIDEOSEXTERNAL</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 			</Table>
 			<Table key="photo_internal">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/photo.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/photo.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_MULTIMEDIAMANAGER-PHOTOSINTERNAL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_MULTIMEDIAMANAGER-PHOTOSINTERNAL</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 			</Table>
 			<Table key="photo_external">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/photo.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/photo.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_MULTIMEDIAMANAGER-PHOTOSEXTERNAL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_MULTIMEDIAMANAGER-PHOTOSEXTERNAL</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>

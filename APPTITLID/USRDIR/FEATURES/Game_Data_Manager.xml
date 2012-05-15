@@ -5,7 +5,7 @@
 	<View id="seg_gamedatamanager">
 		<Attributes>
 			<Table key="gamedatamanager">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/gamedata.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamedata.png</String></Pair>
 				<Pair key="icon_notation"><String>WNT_XmbItemSavePS3</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-MAIN</String></Pair>
 			    <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-MAIN</String></Pair>
@@ -69,21 +69,21 @@
 				<Pair key="data_connection"><String>xcb://localhost/query?limit=2048&ssort=root.sort_selected.savedata_psp_all</String></Pair>
 			</Table>
 			<Table key="gamesonhdd">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/gamelist.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamelist.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-INSTALLEDGAMES-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-INSTALLEDGAMES-MAIN</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="backupshdd0">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/hdd.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/hdd.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-BACKUPINTERNAL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-BACKUPINTERNAL</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_gamedata</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="backupsusb">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-BACKUPEXTERNAL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-BACKUPEXTERNAL</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_gamedata</String></Pair>
@@ -97,14 +97,14 @@
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="trophies">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-MAIN</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-MAIN</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="trophiesfolders">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-MAIN</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-MAIN</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
@@ -204,37 +204,37 @@
     <View id="seg_gamedatamanager_trophies_items">
         <Attributes>
             <Table key="trophy">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
                 <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-CURRENT</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-CURRENT</String></Pair>
                 <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
             </Table>
             <Table key="trophy1">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
                 <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-USER1</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-USER1</String></Pair>
                 <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
             </Table>
             <Table key="trophy2">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
                 <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-USER2</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-USER2</String></Pair>
                 <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
             </Table>
             <Table key="trophy3">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
                 <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-USER3</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-USER3</String></Pair>
                 <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
             </Table>
             <Table key="trophy4">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
                 <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-USER4</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-USER4</String></Pair>
                 <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
             </Table>
             <Table key="trophy5">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
                 <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-USER5</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-USER5</String></Pair>
                 <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
@@ -259,37 +259,37 @@
     <View id="seg_gamedatamanager_trophiesfolders_items">
         <Attributes>
             <Table key="trophyfolder">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
                 <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-CURRENT</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-CURRENT</String></Pair>
                 <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
             </Table>
             <Table key="trophyfolder1">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
                 <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-USER1</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-USER1</String></Pair>
                 <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
             </Table>
             <Table key="trophyfolder2">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
                 <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-USER2</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-USER2</String></Pair>
                 <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
             </Table>
             <Table key="trophyfolder3">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
                 <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-USER3</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-USER3</String></Pair>
                 <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
             </Table>
             <Table key="trophyfolder4">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
                 <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-USER4</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-USER4</String></Pair>
                 <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
             </Table>
             <Table key="trophyfolder5">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/trophy.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
                 <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-USER5</String></Pair>
                 <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-USER5</String></Pair>
                 <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>

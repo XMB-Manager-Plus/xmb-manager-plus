@@ -5,7 +5,7 @@
 	<View id="seg_packagemanager">
 		<Attributes>
 			<Table key="packagemanager">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/pkgmanager.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/pkgmanager.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
@@ -25,30 +25,30 @@
 	<View id="seg_packagemanager_subitems">
 		<Attributes>
 			<Table key="homebrew">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-MAIN</String></Pair>
 			</Table>
 			<Table key="install">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/pkgmanager.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/pkgmanager.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="delete">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/delete.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/delete.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="psnpackages">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/psn-package.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/psn-package.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-PSNPACKAGES-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-PSNPACKAGES-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="psn">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/psn.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/psn.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-PSNCONTENT</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-PSNCONTENT</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_psn_content</String></Pair>
@@ -59,7 +59,7 @@
 			<Query class="type:x-xmb/folder-pixmap" key="install" attr="install" src="#seg_packagemanager_install"/>
 			<Query class="type:x-xmb/folder-pixmap" key="delete" attr="delete" src="#seg_packagemanager_delete"/>
 			<Query class="type:x-xmb/folder-pixmap" key="homebrew" attr="homebrew" src="#seg_packagemanager_homebrewdownload"/>
-			<Query class="type:x-xmb/folder-pixmap" key="psnpackages" attr="psnpackages" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Package_Manager-PSN.xml#seg_packagemanager_psnpackages_submenu"/>
+			<Query class="type:x-xmb/folder-pixmap" key="psnpackages" attr="psnpackages" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Package_Manager-PSN.xml#seg_packagemanager_psnpackages_submenu"/>
 			<Query class="type:x-xmb/folder-pixmap" key="psn" attr="psn" src="ese://localhost/query?type=install_game"/>
 		</Items>
 	</View>
@@ -68,91 +68,91 @@
 	<View id="seg_packagemanager_homebrewdownload">
 		<Attributes>
 			<Table key="homebrew01">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-SHOWTIME</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-SHOWTIME</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>https://www.lonelycoder.com/doozer/buildmaster/download/313</String></Pair>
  			</Table>
 			<Table key="homebrew02">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-MULTIMANFULL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-MULTIMANFULL</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_mmCM_FULL.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew03">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-MULTIMANBASE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-MULTIMANBASE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_mmCM_BASE.pkg</String></Pair>
  			</Table>
 			<!-- <Table key="homebrew04">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-BDEMULATOR</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-BDEMULATOR</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_BDEMU_3.55.pkg</String></Pair>
  			</Table> -->
 			<Table key="homebrew05">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-BDRESET</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-BDRESET</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_bdRESET.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew06">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-LASTGAME</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-LASTGAME</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_lastGAME2.pkg</String></Pair>
  			</Table>
 			<!-- <Table key="homebrew07">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-TOGGLEQA</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-TOGGLEQA</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_toggle_qa.pkg</String></Pair>
  			</Table> -->
 			<Table key="homebrew08">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-BLACKBOX</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-BLACKBOX</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_blackbox_ftpserver.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew09">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-DVDENABLER</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-DVDENABLER</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_DVDenabler.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew10">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-LEDCHANGER</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-LEDCHANGER</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_Led_Changer.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew11">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-SNES</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-SNES</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_snes9x_3.41.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew12">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-COMGENIE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-COMGENIE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_Comgenie_Awsome_Filemanager.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew13">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-HOMEBREW-JAILCRAB</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-HOMEBREW-JAILCRAB</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
@@ -185,28 +185,28 @@
 	<View id="seg_packagemanager_install_items">
 		<Attributes>
 			<Table key="homebrew">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-HOMEBREW</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-HOMEBREW</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="hdd0">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/hdd.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/hdd.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-PS3DISK</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-PS3DISK</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="usb">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-PACKAGES</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-PACKAGES</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="standard">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/pkgmanager.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/pkgmanager.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-STANDARD</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-STANDARD</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
@@ -293,28 +293,28 @@
 	<View id="seg_packagemanager_delete_items">
 		<Attributes>
 			<Table key="homebrew">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/homebrew.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-HOMEBREW</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-HOMEBREW</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="hdd0">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/hdd.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/hdd.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-PS3DISK</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-PS3DISK</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>				
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="usb">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-PACKAGES</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-PACKAGES</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="standard">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/pkgmanager.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/pkgmanager.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-STANDARD</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-STANDARD</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>				

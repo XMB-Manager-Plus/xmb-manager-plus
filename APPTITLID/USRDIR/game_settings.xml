@@ -5,7 +5,7 @@
 	<View id="seg_settings">
 		<Attributes>
 			<Table key="settings">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
@@ -25,26 +25,26 @@
 	<View id="seg_settings_subitems">
 		<Attributes>
 			<Table key="languages">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings_language.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings_language.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="themes">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings_theme.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings_theme.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="update"> 
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-ABOUT-UPDATE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-ABOUT-UPDATE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/UPDATES/CFW/Latest_version_CFW.html</String></Pair>
  			</Table>
 			<Table key="about">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/about.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/about.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-ABOUT-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-ABOUT-MAIN vURL-XMBMP-VERSION</String></Pair>
 			</Table>
@@ -71,7 +71,7 @@
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-CURRENT</String></Pair>
 			</Table>
 			<Table key="languagepacks">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-MAIN</String></Pair>
 			</Table>
@@ -86,42 +86,42 @@
 	<View id="seg_settings_languages_languagepacks">
 		<Attributes>
 			<Table key="english">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/languages/en-US.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/languages/en-US.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-EN-US</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-EN-US</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-en-US.pkg</String></Pair>
  			</Table>
 			<Table key="german">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/languages/de-DE.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/languages/de-DE.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-DE-DE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-DE-DE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-de-DE.pkg</String></Pair>
  			</Table>
 			<Table key="spanish">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/languages/es-ES.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/languages/es-ES.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-ES-ES</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-ES-ES</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-es-ES.pkg</String></Pair>
  			</Table>
 			<Table key="french">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/languages/fr-FR.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/languages/fr-FR.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-FR-FR</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-FR-FR</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-fr-FR.pkg</String></Pair>
  			</Table>
 			<Table key="portuguese">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/languages/pt-PT.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/languages/pt-PT.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-PT-PT</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-PT-PT</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2BvURL-XMBMP-VERSION-LANGUAGEPACK-pt-PT.pkg</String></Pair>
  			</Table>
 			<Table key="polish">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/languages/pl-PL.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/languages/pl-PL.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-PL-PL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-PL-PL</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
@@ -141,14 +141,14 @@
 	<!-- Main  > Settings > Themes -->
 	<View id="seg_settings_themes">
 		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="currenttheme"  src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/themeinfo.xml#seg_current_theme_LANGUAGE-CODE"/>
+			<Query class="type:x-xmb/folder-pixmap" key="currenttheme"  src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/themeinfo.xml#seg_current_theme_LANGUAGE-CODE"/>
 			<Query class="type:x-xmb/folder-pixmap" key="themepacks" src="#seg_settings_themes_items"/>
 		</Items>
 	</View>
 	<View id="seg_settings_themes_items">
 		<Attributes>
 			<Table key="themepacks">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-MAIN</String></Pair>
 			</Table>
@@ -162,28 +162,28 @@
 	<View id="seg_settings_themes_themespacks">
 		<Attributes>
 			<Table key="original">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-ORIGINAL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-ORIGINAL</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2BvURL-XMBMP-VERSION-THEMEPACK-ORIGINAL.pkg</String></Pair>
  			</Table>
 			<Table key="colour">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-COLOUR</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-COLOUR</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2BvURL-XMBMP-VERSION-THEMEPACK-COLOUR.pkg</String></Pair>
  			</Table>
 			<Table key="black">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-BLACK</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-BLACK</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2BvURL-XMBMP-VERSION-THEMEPACK-BLACK.pkg</String></Pair>
  			</Table>
 			<Table key="blue">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-BLUE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-BLUE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
@@ -202,14 +202,14 @@
 	<View id="seg_settings_about">
 		<Attributes>
 			<Table key="release">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-ABOUT-THREAD</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-ABOUT-THREAD</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/RELEASES/releasepage.html</String></Pair>
  			</Table>
 			<Table key="development">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-ABOUT-DEVELOPMENT</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-ABOUT-DEVELOPMENT</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>

@@ -5,7 +5,7 @@
 	<View id="seg_filemanager">
 		<Attributes>
 			<Table key="filemanager">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/filemanager.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/filemanager.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
@@ -25,43 +25,43 @@
 	<View id="seg_filemanager_subitems">
 		<Attributes>
 			<Table key="fm_dev_all">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/filemanager.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/filemanager.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-ALL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-ALL</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_hdd">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/hdd.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/hdd.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-INTERNALHDD-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-INTERNALHDD-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/usb.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usb.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_flash">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/devflash.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/devflash.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-FLASH-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-FLASH-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_optical">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/bd.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/bd.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-OPTICAL-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-OPTICAL-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_memorycard">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/mc.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/mc.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-CARDS-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-CARDS-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_network">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/network.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/network.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-NETWORK-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-NETWORK-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
@@ -90,21 +90,21 @@
 	<View id="seg_filemanager_hdd_items">
 		<Attributes>
 			<Table key="fm_dev_hdd0">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/hdd.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/hdd.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-INTERNALHDD-HDD0</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-INTERNALHDD-HDD0</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_hdd1">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/hdd.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/hdd.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-INTERNALHDD-HDD1</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-INTERNALHDD-HDD1</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_ps3_home">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/hdd.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/hdd.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-INTERNALHDD-PS3HOME</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-INTERNALHDD-PS3HOME</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
@@ -131,56 +131,56 @@
 	<View id="seg_filemanager_usb_items">
 		<Attributes>
 			<Table key="fm_dev_usb000">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-0</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-0</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb001">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-1</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-1</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb006">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-6</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-6</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb002">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-2</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-2</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb003">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-3</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-3</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb004">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-4</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-4</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb005">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-5</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-5</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb007">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-7</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-7</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
@@ -216,28 +216,28 @@
 	<View id="seg_filemanager_flash_items">
 		<Attributes>
 			<Table key="fm_dev_flash">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/devflash.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/devflash.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-FLASH-1</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-FLASH-1</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_blind">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/devblind.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/devblind.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-FLASH-WR</String></Pair>
 				<Pair key="info"><String>LANG_TITL_FILEMANAGER-FLASH-WR</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_flash2">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/devflash.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/devflash.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-FLASH-2</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-FLASH-2</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_flash3">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/devflash.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/devflash.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-FLASH-3</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-FLASH-3</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
@@ -265,21 +265,21 @@
 	<View id="seg_filemanager_optical_items">
 		<Attributes>
 			<Table key="fm_dev_bdvd">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/bd.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/bd.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-OPTICAL-BDVD</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-OPTICAL-BDVD</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_app_home">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/bddata.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/bddata.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-OPTICAL-APPHOME</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-OPTICAL-APPHOME</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_ps2disc">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/ps2.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/ps2.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-OPTICAL-PS2DISC</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-OPTICAL-PS2DISC</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
@@ -305,21 +305,21 @@
 	<View id="seg_filemanager_memorycard_items">
 		<Attributes>
 			<Table key="fm_dev_ms">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/ms.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/ms.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-CARDS-MS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-CARDS-MS</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_sd">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/sd.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/sd.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-CARDS-SD</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-CARDS-SD</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_cf">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/cf.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/cf.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-CARDS-CF</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-CARDS-CF</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
@@ -345,7 +345,7 @@
 	<View id="seg_filemanager_network_items">
 		<Attributes>
 			<Table key="fm_net_host">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/network.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/network.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-NETWORK-NETHOST</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-NETWORK-NETHOST</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>

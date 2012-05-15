@@ -5,7 +5,7 @@
 	<View id="seg_links">
 		<Attributes>
 			<Table key="links">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/network.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/network.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
@@ -25,17 +25,17 @@
 	<View id="seg_links_subitems">
 		<Attributes>
 			<Table key="ps3scene">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/network.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/network.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-MAIN</String></Pair>
 			</Table>
 			<Table key="homebrew">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/network.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/network.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-HOMEBREWSTORES-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-HOMEBREWSTORES-MAIN</String></Pair>
 			</Table>
 			<Table key="social">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/network.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/network.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-SOCIALNETWORK-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-SOCIALNETWORK-MAIN</String></Pair>
 			</Table>
@@ -51,91 +51,91 @@
 	<View id="seg_links_ps3scene">
 		<Attributes>
 			<Table key="ps3crunch">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/ps3crunch.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/ps3crunch.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3CRUNCH</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3CRUNCH</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3crunch.net/</String></Pair>
  			</Table>
 			<Table key="ps3hax">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/ps3hax.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/ps3hax.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3HAX</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3HAX</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3hax.net/</String></Pair>
  			</Table>
 			<Table key="ps3news">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/ps3news.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/ps3news.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3NEWS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3NEWS</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3news.com/</String></Pair>
  			</Table>
 			<Table key="psxscene">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/psxscene.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/psxscene.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PSXSCENE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PSXSCENE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.psx-scene.com/</String></Pair>
  			</Table>
 			<Table key="rebug">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/rebug.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/rebug.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-REBUG</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-REBUG</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://rebug.me/</String></Pair>
  			</Table>
 			<Table key="tortugacove">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/tortugacove.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/tortugacove.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-TORTUGACOVE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-TORTUGACOVE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://tortuga-cove.com/</String></Pair>
  			</Table>
 			<Table key="ps3devwiki">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/ps3devwiki.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/ps3devwiki.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3DEVWIKI</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3DEVWIKI</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3devwiki.com/</String></Pair>
  			</Table>
 			<Table key="jailbreakscene">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/jailbreakscene.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/jailbreakscene.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3JAILBREAKSCENE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3JAILBREAKSCENE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.jailbreakscene.net/</String></Pair>
  			</Table>
 			<Table key="logicsunrise">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/logicsunrise.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/logicsunrise.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3LOGICSUNRISE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3LOGICSUNRISE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.logic-sunrise.com/</String></Pair>
  			</Table>
 			<Table key="psaddict">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/psaddict.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/psaddict.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3ADDICT</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3ADDICT</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps-addict.fr/</String></Pair>
  			</Table>
 			<Table key="ps3infos">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/ps3info.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/ps3info.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3INFOS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3INFOS</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3-infos.fr/</String></Pair>
  			</Table>
 			<Table key="ps3gen">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/ps3gen.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/ps3gen.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3GEN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3GEN</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3gen.fr/</String></Pair>
  			</Table>
 			<Table key="ps3gx">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/ps3gx.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/ps3gx.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3GX</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3GX</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
@@ -163,21 +163,21 @@
 	<View id="seg_links_homebrew">
 		<Attributes>
 			<Table key="brewlogy">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/brewology.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/brewology.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-HOMEBREWSTORES-BREWLOGY</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-HOMEBREWSTORES-BREWLOGY</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://store.brewology.com/</String></Pair>
  			</Table>
 			<Table key="psxstore">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/psxstore.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/psxstore.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-HOMEBREWSTORES-PSXSTORE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-HOMEBREWSTORES-PSXSTORE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.psxstore.com/</String></Pair>
  			</Table>
 			<Table key="openps3store">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/openps3store.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/openps3store.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-HOMEBREWSTORES-OPENPS3STORE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-HOMEBREWSTORES-OPENPS3STORE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
@@ -195,21 +195,21 @@
 	<View id="seg_links_social">
 		<Attributes>
 			<Table key="facebook">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/facebook.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/facebook.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-SOCIALNETWORK-FACEBOOK</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-SOCIALNETWORK-FACEBOOK</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://m.facebook.com/</String></Pair>
  			</Table>
 			<Table key="youtube">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/youtube.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/youtube.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-SOCIALNETWORK-YOUTUBE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-SOCIALNETWORK-YOUTUBE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.youtube.com/xl</String></Pair>
  			</Table>
 			<Table key="twitter">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/links/twitter.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/twitter.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-SOCIALNETWORK-TWITTER</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-SOCIALNETWORK-TWITTER</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>

@@ -221,7 +221,7 @@
 			- RQAF00003: qa reset tool
 			- QAFG00003: qa flag tool
 			- LV2LOADER: Rebug's lv2_kernel.self Loader
-			- XMBMANPLS: XMB Manager Plus
+			- APPTITLID XMB Manager Plus
 			- GDSW00001: GameData Tool
 			- PKGMANAGE: Rebug Package Manager
 			- RBGSELECT: Rebug Selector
@@ -232,7 +232,7 @@
 			- LUAP0PS3: LUA Player (script interpreter - maybe obsolete)
 			- PS3LOAD04: Run PS3 SELF programs via wireless (maybe obsolete)
 			-->
-			<Query class="type:x-xmb/folder-pixmap" key="tools" attr="tools" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId BLND00001+Oe+Game:Game.titleId DISABLECP+Oe+Game:Game.titleId FREEFLASH+Oe+Game:Game.titleId FIXP12345+Oe+Game:Game.titleId RPSN00001+Oe+Game:Game.titleId RESACTDAT+Oe+Game:Game.titleId TRUEBLUE4+Oe+Game:Game.titleId MONSTER01+Oe+Game:Game.titleId TEST00000+Oe+Game:Game.titleId FSMT00001+Oe+Game:Game.titleId PKGENABLE+Oe+Game:Game.titleId VERSPOOFA+Oe+Game:Game.titleId XREG00001+Oe+Game:Game.titleId VSHU00100+Oe+Game:Game.titleId CLDBTINST+Oe+Game:Game.titleId HVDEBUG01+Oe+Game:Game.titleId WIPE01337+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId RQAF00003+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId LV2LOADER+Oe+Game:Game.titleId XMBMANPLS+Oe+Game:Game.titleId GDSW00001+Oe+Game:Game.titleId PKGMANAGE+Oe+Game:Game.titleId RBGSELECT+Oe+Game:Game.titleId TOGGLEQAF+Oe+Game:Game.titleId JAICUSBL0+Oe+Game:Game.titleId LED0DISC0+Oe+Game:Game.titleId PSVB00001+Oe+Game:Game.titleId LUAP0PS3+Oe+Game:Game.titleId PS3LOAD04+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
+			<Query class="type:x-xmb/folder-pixmap" key="tools" attr="tools" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId BLND00001+Oe+Game:Game.titleId DISABLECP+Oe+Game:Game.titleId FREEFLASH+Oe+Game:Game.titleId FIXP12345+Oe+Game:Game.titleId RPSN00001+Oe+Game:Game.titleId RESACTDAT+Oe+Game:Game.titleId TRUEBLUE4+Oe+Game:Game.titleId MONSTER01+Oe+Game:Game.titleId TEST00000+Oe+Game:Game.titleId FSMT00001+Oe+Game:Game.titleId PKGENABLE+Oe+Game:Game.titleId VERSPOOFA+Oe+Game:Game.titleId XREG00001+Oe+Game:Game.titleId VSHU00100+Oe+Game:Game.titleId CLDBTINST+Oe+Game:Game.titleId HVDEBUG01+Oe+Game:Game.titleId WIPE01337+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId RQAF00003+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId LV2LOADER+Oe+Game:Game.titleId APPTITLID+Oe+Game:Game.titleId GDSW00001+Oe+Game:Game.titleId PKGMANAGE+Oe+Game:Game.titleId RBGSELECT+Oe+Game:Game.titleId TOGGLEQAF+Oe+Game:Game.titleId JAICUSBL0+Oe+Game:Game.titleId LED0DISC0+Oe+Game:Game.titleId PSVB00001+Oe+Game:Game.titleId LUAP0PS3+Oe+Game:Game.titleId PS3LOAD04+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
 		</Items>
 	</View>
 
