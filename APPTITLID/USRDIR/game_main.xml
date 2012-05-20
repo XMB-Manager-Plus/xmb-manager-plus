@@ -2,7 +2,7 @@
 <XMBML version="1.0">
 
 	<!-- Main (HDD) -->
-	<View id="seg_xmb_hdd0_app">
+	<View id="seg_xmb_app">
 		<Attributes>
 			<Table key="xmb_app">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/xmbmp.png</String></Pair>
@@ -13,10 +13,10 @@
 			</Table>
 		</Attributes>
 		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="xmb_app" attr="xmb_app" src="#seg_xmb_app_hdd0_items"/>
+			<Query class="type:x-xmb/folder-pixmap" key="xmb_app" attr="xmb_app" src="#seg_xmb_app_items"/>
 		</Items>
 	</View>
-	<View id="seg_xmb_app_hdd0_items">
+	<View id="seg_xmb_app_items">
 		<Items>
 			<Query class="type:x-xmb/folder-pixmap" key="file01" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Personal_Area.xml#seg_personalarea"/>
 			<Query class="type:x-xmb/folder-pixmap" key="file00" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Package_Manager.xml#seg_packagemanager"/>
