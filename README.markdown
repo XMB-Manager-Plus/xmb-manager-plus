@@ -45,6 +45,12 @@ Gives information about the XMBM+, allows users to download language packs, them
 
 ## Release notes
 
+### 0.50
+
+-  Merged XMB Manager Plus Flash Mod package and XMB Manager Plus main package
+-  New instalable packages for Cobra CFW and NFW
+-  Corrected bug in RCO's
+
 ### 0.40
 
 -  Now items that links to webpages can show images and descriptions
@@ -106,32 +112,17 @@ Release page: http://www.ps3crunch.net/forum/threads/2708
 
 #### Normal CFW (Kneaw, Rebug, etc)
 
--  Download the CFW Core Pack
--  Download the CFW Flash Mod
--  Copy the "XMB_Manager_Plus_v0.20_Flash_Mod.pkg" and "XMB_Manager_Plus_vX.XX_Core.pkg" files to the root of your USB media
--  Install "XMB_Manager_Plus_vX.XX_Core.pkg"
--  Install "XMB_Manager_Plus_v0.20_Flash_Mod.pkg" 
--  Run the XMB Manager Plus installer (you can delete it afterwards)
+-  Download the Core Pack - [Normal CFW](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html) or [Cobra CFW](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cobra.html) or [NFW v3 (cobraUSB)](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-nfw.html)
+-  Copy the "XMB_Manager_Plus_v0.50_Core_CFW.pkg" files to the root of your USB media
+-  Install "XMB_Manager_Plus_v0.50_Core_CFW.pkg"
+-  Run the XMB Manager Plus application (you can delete it afterwards)
 -  Enjoy!
 
-NOTE: Follow the correct order or your "Install Package Files" (or "Package Manager") option will disappear and you'll have to reinstall Firmware
-
-#### Cobra CFW or NFW v3 (CobraUSB)
-
--  Download the CFW Core Pack
--  Download either the Cobra CFW or NFW v3(CobraUSB) dev_flash swap
--  Copy "XMB_Manager_Plus_vX.XX_Core.pkg" files to the root of your USB media. As well as Cobra CFW or NFW v3 dev_flash swap
--  Install "XMB_Manager_Plus_vX.XX_Core.pkg"
--  Mount dev_blind or similar 
--  Copy the contents of the relevant dev_flash swap to dev_blind
--  Restart PS3
--  Enjoy
-
-NOTE: Follow the correct order or your "Install Package Files" (or "Package Manager") option will disappear and you'll have to reinstall Firmware
+NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert back to your "Install Package Files" option or you'll have to reinstall the Firmware
 
 #### 4.00 HFW
 
--  Either download the Update using the update function (if you had a previous installed), or straight from the release page
+-  Download the Core Pack - [HFW](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hfw.html)
 -  Extract the contents of the archive to the root of your USB drive you are using to host the XMBM+
 -  Plugin the USB drive in /dev_usb000/(closest to the disc drive) before you turn the PS3 on
 -  Turn PS3 on to see the XMBM+ on the XMB
@@ -181,41 +172,36 @@ NOTE: due to the constant requirements to call to the USB for resources, removin
 
 ## Uninstall Instructions
 
--  Download Rebug Package Manager pkg
--  Install Rebug Package Manager pkg file
--  Run the Rebug Package Manager installer (you can delete it afterwards)
--  Delete XMB Manager Plus in the XMB "Game Data" category
+-  Run previous installed "XMB Manager Plus" application and revert to your previous "Install Package Files" option
+-  Uninstall XMB Manager Plus from the XMB "Game Data" category (if any themes/language packs installed)
+-  Uninstall XMB Manager Plus from the XMB "Game" category
 
-NOTE: Follow the correct order or your "Install Package Files" (or "Package Manager") option will not appear and you'll have to reinstall Firmware
+NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert back to your "Install Package Files" option or you'll have to reinstall the Firmware
 
 ## Downloads
 
 ### Core Package
 
--  Normal CFW (Kneaw, Rebug, etc) http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/XMB_Manager_Plus_v0.20.rar
--  4.00 HFW http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/XMB_Manager_Plus_v0.20_4.00HFW.rar
-
-### Flash mods (only need to do this once)
-
--  Normal CFW (Kneaw, Rebug, etc) http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/XMB_Manager_Plus_v0.20.rar
--  Cobra CFW dev_flash swap http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/XMBM%2B_v0.20_devblind_fix_CobraCFW.rar
--  NFW v3 (cobraUSB) dev_flash swap http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/XMBM%2B_0.20_devblind_fix_NFWv3.rar
--  4.00 HFW http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/XMB_Manager_Plus_v0.20_4.00HFW.rar
+-  Normal CFW (Kneaw, Rebug, etc) http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html
+-  Cobra CFW http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cobra.html
+-  NFW v3 (cobraUSB) http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-nfw.html
+-  4.00 HFW http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hfw.html
 
 ### Language packs
 
--  American English http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2Bv0.20-ENGLISH-LANGPACK.pkg
--  French http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2Bv0.20-FRANCAIS-LANGPACK.pkg
--  German http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2Bv0.20-DEUTSCH-LANGPACK.pkg
--  Polish http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2Bv0.20-POLSKI-LANGPACK.pkg
--  European Portuguese http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2Bv0.20-PORTUGUES-LANGPACK.pkg
--  Polish http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/LANGUAGEPACKS/XMBM%2Bv0.20-ESPANOL-LANGPACK.pkg
+-  American English http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-en-US.pkg
+-  French http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-fr-FR.pkg
+-  German http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-de-DE.pkg
+-  Polish http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-pl-PL.pkg
+-  European Portuguese http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-pt-PT.pkg
+-  Polish http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-es-ES.pkg
 
 ### Theme packs
 
--  Original http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2Bv0.20-ORIGINAL-THEME.pkg
--  Colour http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2Bv0.20-COLOUR-THEME.pkg
--  Black http://dl.dropbox.com/u/60710927/XMBMPLUS/RELEASES/THEMEPACKS/XMBM%2Bv0.20-BLACK-THEME.pkg
+-  Original http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMBM%2Bv0.50-THEMEPACK-ORIGINAL.pkg
+-  Colour http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMBM%2Bv0.50-THEMEPACK-COLOUR.pkg
+-  Black http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMBM%2Bv0.50-THEMEPACK-BLACK.pkg
+-  Blue http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMBM%2Bv0.50-THEMEPACK-BLUE.pkg
 
 ### XMBM+ Builder Toolkit
 
@@ -244,7 +230,6 @@ The entire source in available for download in the git
 
 -  Development page: http://www.ps3crunch.net/forum/threads/2431
 -  Git: https://github.com/XMB-Manager-Plus/xmb-manager-plus
--  Git (Flash): https://github.com/XMB-Manager-Plus/xmb-manager-plus-flash
 -  Git (Builder Toolkit): https://github.com/XMB-Manager-Plus/xmb-manager-plus-builder-toolkit
 
--  A Special Big Thanks to all the Team XMBM+ and the public because without you the project would never exist
+-  A Special Big Thanks to the Rebug team and the public because without you the project would never exist
