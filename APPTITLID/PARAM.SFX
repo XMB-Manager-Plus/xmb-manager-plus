@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<paramsfo add_hidden="false">
+  <param key="APP_VER" fmt="utf8" max_len="8">00.00</param>
+  <param key="ATTRIBUTE" fmt="int32" max_len="4">0</param>
+  <param key="BOOTABLE" fmt="int32" max_len="4">1</param>
+  <param key="CATEGORY" fmt="utf8" max_len="4">HG</param>
+  <param key="LICENSE" fmt="utf8" max_len="512">This application was created with the official non-official SDK called PSL1GHT, for more information visit http://www.psl1ght.com/ . This is in no way associated with Sony Computer Entertainment Inc., please do not contact them for help, they will not be able to provide it.</param>
+  <param key="PARENTAL_LEVEL" fmt="int32" max_len="4">0</param>
+  <param key="PS3_SYSTEM_VER" fmt="utf8" max_len="8">03.4100</param>
+  <param key="RESOLUTION" fmt="int32" max_len="4">63</param>
+  <param key="SOUND_FORMAT" fmt="int32" max_len="4">279</param>
+  <param key="TITLE" fmt="utf8" max_len="128">XBM Manager Plus (XMBM+) v0.00 DESCRIPTION</param>
+  <param key="TITLE_ID" fmt="utf8" max_len="16">APPTITLID</param>
+  <param key="VERSION" fmt="utf8" max_len="8">01.00</param>
+</paramsfo>
+
