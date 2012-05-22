@@ -48,7 +48,7 @@ Gives information about the XMBM+, allows users to download language packs, them
 ### 0.50
 
 -  Merged XMB Manager Plus Flash Mod package and XMB Manager Plus main package
--  New instalable packages for Cobra CFW and NFW
+-  New instalable package for Cobra CFW and NFW
 -  Corrected bug in RCO's
 
 ### 0.40
@@ -112,9 +112,9 @@ Release page: http://www.ps3crunch.net/forum/threads/2708
 
 #### Normal CFW (Kneaw, Rebug, etc)
 
--  Download the Core Pack - [Normal CFW](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html) or [Cobra CFW](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cobra.html) or [NFW v3 (cobraUSB)](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-nfw.html)
--  Copy the "XMB_Manager_Plus_v0.50_Core_CFW.pkg" files to the root of your USB media
--  Install "XMB_Manager_Plus_v0.50_Core_CFW.pkg"
+-  Download the Core Pack - [Normal CFW or Rebug](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html) or [Cobra CFW or NFW v3 (cobraUSB)](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cobra.html)
+-  Copy the pkg file to the root of your USB media
+-  Install the pkg file
 -  Run the XMB Manager Plus application (you can delete it afterwards)
 -  Enjoy!
 
@@ -125,7 +125,7 @@ NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert
 -  Download the Core Pack - [HFW](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hfw.html)
 -  Extract the contents of the archive to the root of your USB drive you are using to host the XMBM+
 -  Plugin the USB drive in /dev_usb000/(closest to the disc drive) before you turn the PS3 on
--  Turn PS3 on to see the XMBM+ on the XMB
+-  Turn PS3 on to see the XMB Manager Plus on the XMB
 
 NOTE: due to the constant requirements to call to the USB for resources, removing the USB drive after the ps3 has booted will break the XMBM+, but pluging it back in should fix it.
 
@@ -183,8 +183,7 @@ NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert
 ### Core Package
 
 -  Normal CFW (Kneaw, Rebug, etc) http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html
--  Cobra CFW http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cobra.html
--  NFW v3 (cobraUSB) http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-nfw.html
+-  Cobra CFW or NFW v3 (cobraUSB http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cobra.html
 -  4.00 HFW http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hfw.html
 
 ### Language packs
