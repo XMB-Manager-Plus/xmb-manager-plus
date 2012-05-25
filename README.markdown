@@ -208,7 +208,7 @@ All packages are compiled with the XMBM+ Builder Toolkit. With the XMBM+ Builder
 
 ## Team XMBM+
 
--  Aldostools (coding)
+-  aldostools (coding, SFX/SFO editor/converter)
 -  andreus (coding, translator)
 -  Berion (official logos)
 -  bitsbubba (coding, themes)
