@@ -39,8 +39,8 @@
 			</Table>
 			<Table key="update"> 
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_SETTINGS-ABOUT-UPDATE</String></Pair>
-				<Pair key="info"><String>LANG_INFO_SETTINGS-ABOUT-UPDATE</String></Pair>
+				<Pair key="title"><String>LANG_TITL_SETTINGS-UPDATE</String></Pair>
+				<Pair key="info"><String>LANG_INFO_SETTINGS-UPDATE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/UPDATES/Latest_version_XXX.html</String></Pair>
  			</Table>
@@ -216,10 +216,18 @@
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/ABOUT/developmentpage.html</String></Pair>
  			</Table>
+			<Table key="git">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/git.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_SETTINGS-ABOUT-GIT</String></Pair>
+				<Pair key="info"><String>LANG_INFO_SETTINGS-ABOUT-GIT</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>https://github.com/XMB-Manager-Plus/</String></Pair>
+ 			</Table>
 		</Attributes>
 		<Items>
 			<Item class="type:x-xmb/module-action" key="release" attr="release"/>
 			<Item class="type:x-xmb/module-action" key="development" attr="development"/>
+			<Item class="type:x-xmb/module-action" key="git" attr="git"/>
 		</Items>
 	</View>
 
