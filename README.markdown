@@ -17,7 +17,11 @@ Note: Only available when built with XMB Manager Builder Toolkit.
 
 ### Package Manager Plus
 
-Allows homebrew/packages to be easily downloaded, installed and deleted.
+Allows homebrew/packages to be easily installed or deleted.
+
+### Download Manager
+
+Allows homebrew or PSN packages to be easily downloaded.
 
 ### File Manager
 
@@ -49,6 +53,7 @@ Gives information about the XMBM+, allows users to download language packs, them
 
 -  Merged XMB Manager Plus Flash Mod package and XMB Manager Plus main package
 -  New instalable package for Cobra CFW and NFW
+-  New category Download Manager
 -  Corrected bug in RCO's
 
 ### 0.40
