@@ -6,7 +6,7 @@
 	<View id="seg_downloadmanager">
 		<Attributes>
 			<Table key="downloadmanager">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/pkgmanager.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/download.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
