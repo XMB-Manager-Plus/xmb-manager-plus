@@ -51,7 +51,7 @@
 				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-SHOWTIME</String></Pair>
 				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-SHOWTIME</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>https://www.lonelycoder.com/doozer/buildmaster/download/590</String></Pair>
+				<Pair key="module_action"><String>https://www.lonelycoder.com/doozer/buildmaster/download/656</String></Pair>
  			</Table>
 			<Table key="homebrew02">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
