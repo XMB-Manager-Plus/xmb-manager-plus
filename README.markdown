@@ -54,6 +54,7 @@ Gives information about the XMBM+, allows users to download language packs, them
 -  Merged XMB Manager Plus Flash Mod package and XMB Manager Plus main package
 -  New instalable package for Cobra CFW and NFW
 -  New category Download Manager
+-  Changes installer resolution to 720
 -  Corrected bug in RCO's
 
 ### 0.40
@@ -183,6 +184,23 @@ NOTE: due to the constant requirements to call to the USB for resources, removin
 
 NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert back to your "Install Package Files" option or you'll have to reinstall the Firmware
 
+## Translating to your language
+
+### Manual
+
+- Go to https://github.com/XMB-Manager-Plus/xmb-manager-plus/tree/master/languages
+- Download the en-US.ini file
+- Find your language code (http://www.i18nguy.com/unicode/language-identifiers.html)
+- Translate it
+- Push to git or send it to XMB Manager Plus Development page (http://www.ps3crunch.net/forum/threads/2431)
+
+### With XMB Manager Toolkit
+
+- Use Toolkit "Add language" option
+- Go to \bin\base-source\languages\langcode.ini
+- Translate it
+- Push to git or send it to XMB Manager Plus Development page (http://www.ps3crunch.net/forum/threads/2431)
+
 ## Downloads
 
 ### Core Package
@@ -193,12 +211,12 @@ NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert
 
 ### Language packs
 
--  American English http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-en-US.pkg
--  French http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-fr-FR.pkg
--  German http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-de-DE.pkg
--  Polish http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-pl-PL.pkg
--  European Portuguese http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-pt-PT.pkg
--  Polish http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-es-ES.pkg
+-  American English (en-US) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-en-US.pkg
+-  French (fr-FR) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-fr-FR.pkg
+-  German (de-DE) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-de-DE.pkg
+-  Polish (pl-PL) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-pl-PL.pkg
+-  European Portuguese (pt-PT) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-pt-PT.pkg
+-  Spanish (es-ES) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-es-ES.pkg
 
 ### Theme packs
 
