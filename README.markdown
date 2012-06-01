@@ -211,19 +211,20 @@ NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert
 
 ### Language packs
 
--  American English (en-US) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-en-US.pkg
--  French (fr-FR) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-fr-FR.pkg
--  German (de-DE) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-de-DE.pkg
--  Polish (pl-PL) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-pl-PL.pkg
--  European Portuguese (pt-PT) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-pt-PT.pkg
--  Spanish (es-ES) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMBM%2Bv0.50-LANGUAGEPACK-es-ES.pkg
+-  American English (en-US) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-en-US.pkg
+-  French (fr-FR) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-fr-FR.pkg
+-  German (de-DE) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-de-DE.pkg
+-  Polish (pl-PL) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-pl-PL.pkg
+-  European Portuguese (pt-PT) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-pt-PT.pkg
+-  Spanish (es-ES) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-es-ES.pkg
+-  Russian (ru-RU) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-ru-RU.pkg
 
 ### Theme packs
 
--  Original http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMBM%2Bv0.50-THEMEPACK-ORIGINAL.pkg
--  Colour http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMBM%2Bv0.50-THEMEPACK-COLOUR.pkg
--  Black http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMBM%2Bv0.50-THEMEPACK-BLACK.pkg
--  Blue http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMBM%2Bv0.50-THEMEPACK-BLUE.pkg
+-  Original http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.50-THEMEPACK-ORIGINAL.pkg
+-  Colour http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.50-THEMEPACK-COLOUR.pkg
+-  Black http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.50-THEMEPACK-BLACK.pkg
+-  Blue http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.50-THEMEPACK-BLUE.pkg
 
 ### XMBM+ Builder Toolkit
 
