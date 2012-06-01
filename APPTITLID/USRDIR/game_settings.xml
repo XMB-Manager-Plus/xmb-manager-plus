@@ -86,56 +86,64 @@
 	<!-- Main  > Settings > Languages > Languages packs -->
 	<View id="seg_settings_languages_languagepacks">
 		<Attributes>
-			<Table key="english">
+			<Table key="en-US">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/languages/en-US.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-EN-US</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-EN-US</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/LANGUAGEPACKS/XMB_Manager_Plus_vXMBMP-VERSION-LANGUAGEPACK-en-US.pkg</String></Pair>
  			</Table>
-			<Table key="german">
+			<Table key="de-DE">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/languages/de-DE.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-DE-DE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-DE-DE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/LANGUAGEPACKS/XMB_Manager_Plus_vXMBMP-VERSION-LANGUAGEPACK-de-DE.pkg</String></Pair>
  			</Table>
-			<Table key="spanish">
+			<Table key="es-ES">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/languages/es-ES.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-ES-ES</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-ES-ES</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/LANGUAGEPACKS/XMB_Manager_Plus_vXMBMP-VERSION-LANGUAGEPACK-es-ES.pkg</String></Pair>
  			</Table>
-			<Table key="french">
+			<Table key="fr-FR">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/languages/fr-FR.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-FR-FR</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-FR-FR</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/LANGUAGEPACKS/XMB_Manager_Plus_vXMBMP-VERSION-LANGUAGEPACK-fr-FR.pkg</String></Pair>
  			</Table>
-			<Table key="portuguese">
+			<Table key="pt-PT">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/languages/pt-PT.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-PT-PT</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-PT-PT</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/LANGUAGEPACKS/XMB_Manager_Plus_vXMBMP-VERSION-LANGUAGEPACK-pt-PT.pkg</String></Pair>
  			</Table>
-			<Table key="polish">
+			<Table key="pl-PL">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/languages/pl-PL.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-PL-PL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-PL-PL</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/LANGUAGEPACKS/XMB_Manager_Plus_vXMBMP-VERSION-LANGUAGEPACK-pl-PL.pkg</String></Pair>
  			</Table>
+			<Table key="ru-RU">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/languages/ru-RU.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-ru-RU</String></Pair>
+				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-ru-RU</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/LANGUAGEPACKS/XMBMBvXMBMP-VERSION-LANGUAGEPACK-ru-RU.pkg</String></Pair>
+			</Table>
 		</Attributes>
 		<Items>
-			<Item class="type:x-xmb/module-action" key="german" attr="german"/>
-			<Item class="type:x-xmb/module-action" key="english" attr="english"/>
-			<Item class="type:x-xmb/module-action" key="spanish" attr="spanish"/>
-			<Item class="type:x-xmb/module-action" key="french" attr="french"/>
-			<Item class="type:x-xmb/module-action" key="polish" attr="portuguese"/>
-			<Item class="type:x-xmb/module-action" key="portuguese" attr="polish"/>
+			<Item class="type:x-xmb/module-action" key="en-US" attr="en-US"/>
+			<Item class="type:x-xmb/module-action" key="es-ES" attr="es-ES"/>
+			<Item class="type:x-xmb/module-action" key="fr-FR" attr="fr-FR"/>
+			<Item class="type:x-xmb/module-action" key="pt-PT" attr="pt-PT"/>
+			<Item class="type:x-xmb/module-action" key="ru-RU" attr="ru-RU"/>
+			<Item class="type:x-xmb/module-action" key="de-DE" attr="de-DE"/>
+			<Item class="type:x-xmb/module-action" key="pl-PL" attr="pl-PL"/>
 		</Items>
 	</View>
 	
