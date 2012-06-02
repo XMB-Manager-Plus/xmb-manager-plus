@@ -54,7 +54,7 @@ Gives information about the XMBM+, allows users to download language packs, them
 -  Merged XMB Manager Plus Flash Mod package and XMB Manager Plus main package
 -  New instalable package for Cobra CFW and NFW
 -  New category Download Manager
--  Changes installer resolution to 720
+-  New russian translation
 -  Corrected bug in RCO's
 
 ### 0.40
@@ -230,18 +230,36 @@ NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert
 
 All packages are compiled with the XMBM+ Builder Toolkit. With the XMBM+ Builder Toolkit you can create your own XMBM+ themes, language packs and more.
 
-## Team XMBM+
+## Credits
+
+### XMBM+
 
 -  aldostools (coding, SFX/SFO editor/converter)
 -  andreus (coding, translator)
--  Berion (official logos)
+-  Berion (graphical design)
 -  bitsbubba (coding, themes)
 -  CloneD (themes, tester, videos)
 -  DeViL303 (coding, POC/WIP)
--  ps3Hen (coding, 4.00 port, translator, batch toolkit)
--  XiorgON (tester, translator, coding, GUI tookit)
+-  dragoangel (translator, themes)
+-  ps3Hen (coding, 4.00 port, translator)
+-  XiorgON (tester, translator, coding)
 -  xlsound (images)
 -  wawryn (translator)
+
+### XMBM+ Builder Toolkit
+
+-  GUI: XiorgON
+-  Batch coding: andreus, ps3hen, XiorgON
+-  SFX/SFO editor/converter: aldostools
+-  Graphical design: Berion
+
+### Special thanks
+
+- rebug team for the package manager installer
+- sandungas for the ps3devwiki and all is help
+- all xmbm+ toolkit tools developers
+- all the testers and bug reporters
+- and of course the users
 
 ## Source/Development
 
@@ -254,5 +272,3 @@ The entire source in available for download in the git
 -  Development page: http://www.ps3crunch.net/forum/threads/2431
 -  Git: https://github.com/XMB-Manager-Plus/xmb-manager-plus
 -  Git (Builder Toolkit): https://github.com/XMB-Manager-Plus/xmb-manager-plus-builder-toolkit
-
--  A Special Big Thanks to the Rebug team and the public because without you the project would never exist
