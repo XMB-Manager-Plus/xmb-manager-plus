@@ -26,7 +26,7 @@
 	<View id="seg_userdatamanager_subitems">
 		<Attributes>
             <Table key="all">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/user.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/users.png</String></Pair>
                 <Pair key="title"><String>LANG_TITL_USERDATAMANAGER-ALL-MAIN</String></Pair>
                 <Pair key="info"><String>LANG_INFO_USERDATAMANAGER-ALL-MAIN</String></Pair>
             </Table>
@@ -259,22 +259,22 @@
 	<View id="seg_userdatamanager_all_savedata">
 		<Attributes>
 			<Table key="sdps3">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/ps3.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-ALL-SAVADATA-PS3-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-ALL-SAVADATA-PS3-MAIN</String></Pair>
 			</Table>
 			<Table key="sdps1">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/ps2.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-ALL-SAVADATA-PS2X-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-ALL-SAVADATA-PS2X-MAIN</String></Pair>
 			</Table>
 			<Table key="sdpsp">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/psp.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-ALL-SAVADATA-PSP-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-ALL-SAVADATA-PSP-MAIN</String></Pair>
 			</Table>
 			<Table key="sdplus">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/plus.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-ALL-SAVADATA-PLUS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-ALL-SAVADATA-PLUS</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
@@ -459,19 +459,19 @@
 	<View id="seg_userdatamanager_cu_savedata">
 		<Attributes>
 			<Table key="sdps3">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/ps3.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-CURRENT-SAVADATA-PS3</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-CURRENT-SAVADATA-PS3</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
 			</Table>
 			<Table key="sdpsp">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/psp.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-CURRENT-SAVADATA-PSP</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-CURRENT-SAVADATA-PSP</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
 			</Table>
 			<Table key="sdplus">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/plus.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-CURRENT-SAVADATA-PLUS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-CURRENT-SAVADATA-PLUS</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
@@ -488,19 +488,19 @@
 	<View id="seg_userdatamanager_u1_savedata">
 		<Attributes>
 			<Table key="sdps3">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/ps3.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER1-SAVADATA-PS3</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER1-SAVADATA-PS3</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
 			</Table>
 			<Table key="sdpsp">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/psp.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER1-SAVADATA-PSP</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER1-SAVADATA-PSP</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
 			</Table>
 			<Table key="sdplus">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/plus.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER1-SAVADATA-PLUS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER1-SAVADATA-PLUS</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
@@ -517,19 +517,19 @@
 	<View id="seg_userdatamanager_u2_savedata">
 		<Attributes>
 			<Table key="sdps3">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/ps3.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER2-SAVADATA-PS3</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER2-SAVADATA-PS3</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
 			</Table>
 			<Table key="sdpsp">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/psp.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER2-SAVADATA-PSP</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER2-SAVADATA-PSP</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
 			</Table>
 			<Table key="sdplus">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/plus.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER2-SAVADATA-PLUS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER2-SAVADATA-PLUS</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
@@ -546,19 +546,19 @@
 	<View id="seg_userdatamanager_u3_savedata">
 		<Attributes>
 			<Table key="sdps3">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/ps3.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER3-SAVADATA-PS3</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER3-SAVADATA-PS3</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
 			</Table>
 			<Table key="sdpsp">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/psp.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER3-SAVADATA-PSP</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER3-SAVADATA-PSP</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
 			</Table>
 			<Table key="sdplus">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/plus.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER3-SAVADATA-PLUS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER3-SAVADATA-PLUS</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
@@ -575,19 +575,19 @@
 	<View id="seg_userdatamanager_u4_savedata">
 		<Attributes>
 			<Table key="sdps3">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/ps3.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER4-SAVADATA-PS3</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER4-SAVADATA-PS3</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
 			</Table>
 			<Table key="sdpsp">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/psp.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER4-SAVADATA-PSP</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER4-SAVADATA-PSP</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
 			</Table>
 			<Table key="sdplus">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/plus.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER4-SAVADATA-PLUS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER4-SAVADATA-PLUS</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
@@ -604,19 +604,19 @@
 	<View id="seg_userdatamanager_u5_savedata">
 		<Attributes>
 			<Table key="sdps3">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/ps3.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER5-SAVADATA-PS3</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER5-SAVADATA-PS3</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
 			</Table>
 			<Table key="sdpsp">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/psp.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER5-SAVADATA-PSP</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER5-SAVADATA-PSP</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
 			</Table>
 			<Table key="sdplus">
-                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/savedata.png</String></Pair>
+                <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/systems/plus.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-USER5-SAVADATA-PLUS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_USERDATAMANAGER-USER5-SAVADATA-PLUS</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_savedata</String></Pair>
