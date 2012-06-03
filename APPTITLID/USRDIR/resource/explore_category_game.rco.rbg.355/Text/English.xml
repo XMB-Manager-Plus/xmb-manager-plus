@@ -230,4 +230,5 @@ If you play a game that supports the trophy feature and collect trophies, they w
 	<Text name="msg_psp_exclusive_install_ask">This content is exclusively for use with the PSP™ system.
 Do you want to install it on the PSP™ system now?</Text>
 	<Text name="msg_version">Version</Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Package Manager]]></Text>
 </TextLang>

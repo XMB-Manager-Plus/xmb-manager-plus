@@ -230,4 +230,5 @@ Se si utilizza un gioco che supporta la funzione dei trofei e si accumulano trof
 	<Text name="msg_psp_exclusive_install_ask">Questo contenuto può essere usato esclusivamente con il sistema PSP™.
 Installarlo sul sistema PSP™ ora?</Text>
 	<Text name="msg_version">Versione</Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Package Manager]]></Text>
 </TextLang>

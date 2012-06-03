@@ -230,4 +230,5 @@
 	<Text name="msg_psp_exclusive_install_ask"><![CDATA[Эти материалы предназначены для использования только на системе PSP™.
 Установить их на систему PSP™ сейчас?]]></Text>
 	<Text name="msg_version">Версия</Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Package Manager]]></Text>
 </TextLang>

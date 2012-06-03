@@ -230,4 +230,5 @@ Si vous obtenez des trophées dans un jeu qui prend en charge la fonction de tro
 	<Text name="msg_psp_exclusive_install_ask">Ce contenu est exclusivement destiné au système PSP™.
 Voulez-vous l'installer sur le système PSP™ maintenant ?</Text>
 	<Text name="msg_version">Version</Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Package Manager]]></Text>
 </TextLang>

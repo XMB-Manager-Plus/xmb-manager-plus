@@ -230,4 +230,5 @@ Hvis du spiller et spil der understøtter trophy funktionen, og samler trophies,
 	<Text name="msg_psp_exclusive_install_ask">Dette indhold er udelukkende til brug med PSP™-systemet.
 Ønsker du at installere det på PSP™-systemet nu?</Text>
 	<Text name="msg_version">Version</Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Package Manager]]></Text>
 </TextLang>

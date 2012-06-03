@@ -899,26 +899,25 @@ Saisir un nom d'utilisateur différent.</Text>
 Voulez-vous vraiment continuer ?</Text>
 	<Text name="msg_error_character">Les caractères suivants ne peuvent être saisis :
 %1</Text>
-	<Text name="msg_tool_rebug_file"><![CDATA[★ Les Essentiels Rebug]]></Text>
-	<Text name="msg_tool_rebug_file_info">INSTALLER les outils essentiels pour bénéficier completement de l'expérience REBUG.</Text>
-	<Text name="msg_tool_psn_file"><![CDATA[★ Contenu PlayStation®Network (SEN)]]></Text>
-	<Text name="msg_tool_psn_file_info">Gérez votre contenu téléchargé PlayStation®Network (SEN).</Text>
-	<Text name="msg_tool_install_file"><![CDATA[★ Installer les Fichiers Paquets]]></Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Package Manager]]></Text>
+	<Text name="msg_tool_package_file_info">Manage your PlayStation®Network Content and Homebrew packages.</Text>
+	<Text name="msg_tool_rebug_file"><![CDATA[★ Rebug Essentials]]></Text>
+	<Text name="msg_tool_rebug_file_info">INSTALL essential tools to fully enjoy the REBUG experience.</Text>
+	<Text name="msg_tool_psn_file"><![CDATA[★ PlayStation®Network Content]]></Text>
+	<Text name="msg_tool_psn_file_info">Manage your downloaded PlayStation®Network Content.</Text>
+	<Text name="msg_tool_install_file"><![CDATA[★ Install Package Files]]></Text>
 	<Text name="msg_tool_install_file_info">INSTALL package files from Storage Devices and your PS3™.</Text>
-	<Text name="msg_tool_delete_file"><![CDATA[★ Supprimer  les Fichiers Paquets]]></Text>
-	<Text name="msg_tool_delete_file_info">SUPPRIMEZ vos fichiers paquets des périphériques de stockage et de votre PS3™.</Text>
-	<Text name="msg_tool_hdd0_file">PS3™ Disque Dur</Text>
-	<Text name="msg_tool_hdd0_install_info">INSTALLER depuis le dossier [dev_hdd0/packages] de votre PS3™.</Text>
-	<Text name="msg_tool_hdd0_delete_info">SUPPRIMER depuis le dossier [dev_hdd0/packages] de votre PS3™.</Text>
-	<Text name="msg_tool_usb_file">Dossier de Paquet</Text>
-	<Text name="msg_tool_usb_install_info">INSTALLER depuis le dossier [packages] de vos périphériques de stockage.</Text>
-	<Text name="msg_tool_usb_delete_info">SUPPRIMER depuis le dossier [packages] de vos périphériques de stockage.</Text>
-	<Text name="msg_tool_og_file">Emplacement Standard des paquets</Text>
-	<Text name="msg_tool_og_install_info">INSTALLER depuis l'emplacement racine de vos périphériques.</Text>
-	<Text name="msg_tool_og_delete_info">SUPPRIMER depuis l'emplacement racine de vos périphériques.</Text>
-	<Text name="msg_tool_no_package">Aucun paquet trouvé.</Text>
-	<Text name="msg_tool_no_psn_content">Aucun contenu PlayStation®Network (SEN) trouvé.</Text>
-	<Text name="msg_applications_vita">Applications (PS Vita)</Text>
-	<Text name="msg_when_use_content_on_vita_hint">Si vous utilisez du contenu sur un système PS Vita, connectez la PS Vita avec un cable USB, et démarrez le [Gestionnaire de contenu] sur le système PS Vita.</Text>
-	<Text name="msg_remoteplay_explanation"><![CDATA[Utiliser un périphérique qui supporte le controle distance (comme une PS Vita ou une PSP™) pour opérer ce système sur le reseau. Allez à [Paramètres] > [Paramètres de lecture à distance] > [Enregistrer le périphérique] et enregistrez votre appareil.]]></Text>
+	<Text name="msg_tool_delete_file"><![CDATA[★ Delete Package Files]]></Text>
+	<Text name="msg_tool_delete_file_info">DELETE package files from Storage Devices and your PS3™.</Text>
+	<Text name="msg_tool_hdd0_file">PS3™ Hard Disk</Text>
+	<Text name="msg_tool_hdd0_install_info">INSTALL from [dev_hdd0/packages] folder on your PS3™.</Text>
+	<Text name="msg_tool_hdd0_delete_info">DELETE from [dev_hdd0/packages] folder on your PS3™.</Text>
+	<Text name="msg_tool_usb_file">Package Folder</Text>
+	<Text name="msg_tool_usb_install_info">INSTALL from [packages] folder on your Storage Device.</Text>
+	<Text name="msg_tool_usb_delete_info">DELETE from [packages] folder on your Storage Device.</Text>
+	<Text name="msg_tool_og_file">Standard Package Location</Text>
+	<Text name="msg_tool_og_install_info"><![CDATA[INSTALL from the standard [★ Install Package Files] locations.]]></Text>
+	<Text name="msg_tool_og_delete_info"><![CDATA[DELETE from the standard [★ Install Package Files] locations.]]></Text>
+	<Text name="msg_tool_no_package">No package files found.</Text>
+	<Text name="msg_tool_no_psn_content">No PlayStation®Network Content found.</Text>
 </TextLang>

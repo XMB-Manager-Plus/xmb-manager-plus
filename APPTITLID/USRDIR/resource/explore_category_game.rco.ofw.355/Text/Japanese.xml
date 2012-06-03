@@ -230,4 +230,5 @@
 	<Text name="msg_psp_exclusive_install_ask">このコンテンツはPSP™専用です。
 PSP™にインストールしますか？</Text>
 	<Text name="msg_version">バージョン</Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Package Manager]]></Text>
 </TextLang>

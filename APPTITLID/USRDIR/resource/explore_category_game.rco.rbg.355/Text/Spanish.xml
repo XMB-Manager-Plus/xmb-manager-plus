@@ -230,4 +230,5 @@ Si utiliza un juego que tenga la función de trofeos y obtiene alguno, se mostra
 	<Text name="msg_psp_exclusive_install_ask">Este contenido es para uso exclusivo con el sistema PSP™.
 ¿Desea instalarlo ahora en el sistema PSP™?</Text>
 	<Text name="msg_version">Versión</Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Package Manager]]></Text>
 </TextLang>

@@ -3,7 +3,6 @@
 <RcoFile UMDFlag="0" rcomageXmlVer="1.1" type="ps3" minFirmwareVer="unknownId0x110">
 	<MainTree name="explore_plugin">
 		<ImageTree>
-			<Image name="item_tex_online_storage" src="Images\item_tex_online_storage.gim" format="gim" compression="zlib" unknownByte="0" />
 			<Image name="item_tex_plain_folder" src="Images\item_tex_plain_folder.gim" format="gim" compression="zlib" unknownByte="0" />
 			<Image name="tex_aa_plane" src="Images\tex_aa_plane.gim" format="gim" compression="zlib" unknownByte="0" />
 			<Image name="tex_button" src="Images\tex_button.gim" format="gim" compression="zlib" unknownByte="0" />
@@ -22,7 +21,6 @@
 			<Image name="tex_unknown_icon" src="Images\tex_unknown_icon.gim" format="gim" compression="zlib" unknownByte="0" />
 			<Image name="tex_bg_icon" src="Images\tex_bg_icon.gim" format="gim" compression="zlib" unknownByte="0" />
 			<Image name="tex_lock_icon" src="Images\tex_lock_icon.gim" format="gim" compression="zlib" unknownByte="0" />
-			<Image name="tex_xmb_manager_icon" src="Images\tex_xmb_manager_icon.gim" format="gim" compression="zlib" unknownByte="0" />
 			<Image name="music_tex_load" src="Images\music_tex_load.gim" format="gim" compression="zlib" unknownByte="0" />
 			<Image name="music_tex_load_shadow" src="Images\music_tex_load_shadow.gim" format="gim" compression="zlib" unknownByte="0" />
 			<Image name="music_tex_album_pic" src="Images\music_tex_album_pic.gim" format="gim" compression="zlib" unknownByte="0" />

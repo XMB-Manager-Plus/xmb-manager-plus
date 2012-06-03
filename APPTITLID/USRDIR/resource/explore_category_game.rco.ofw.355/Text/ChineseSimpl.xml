@@ -230,4 +230,5 @@
 	<Text name="msg_psp_exclusive_install_ask">本内容为PSP™专用。
 要安装至PSP™吗？</Text>
 	<Text name="msg_version">版本</Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Package Manager]]></Text>
 </TextLang>

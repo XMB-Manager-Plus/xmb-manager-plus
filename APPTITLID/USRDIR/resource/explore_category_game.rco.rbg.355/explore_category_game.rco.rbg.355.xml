@@ -47,7 +47,6 @@
 			<Image name="tex_unknown_icon" src="Images\tex_unknown_icon.gim" format="gim" compression="zlib" unknownByte="0" />
 			<Image name="tex_bg_icon" src="Images\tex_bg_icon.gim" format="gim" compression="zlib" unknownByte="0" />
 			<Image name="tex_lock_icon" src="Images\tex_lock_icon.gim" format="gim" compression="zlib" unknownByte="0" />
-			<Image name="tex_xmb_manager_icon" src="Images\tex_xmb_manager_icon.gim" format="gim" compression="zlib" unknownByte="0" />
 			<Image name="trophy_tex_default" src="Images\trophy_tex_default.gim" format="gim" compression="zlib" unknownByte="0" />
 			<Image name="trophy_tex_default2" src="Images\trophy_tex_default2.gim" format="gim" compression="zlib" unknownByte="0" />
 			<Image name="trophy_tex_addon" src="Images\trophy_tex_addon.gim" format="gim" compression="zlib" unknownByte="0" />

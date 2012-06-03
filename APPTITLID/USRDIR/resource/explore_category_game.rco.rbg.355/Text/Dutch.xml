@@ -230,4 +230,5 @@ Als u een game speelt die de trofee functie ondersteund en u trofeeën verzamelt
 	<Text name="msg_psp_exclusive_install_ask">Deze content is exclusief voor gebruik met het PSP™-systeem.
 Wilt u dit nu op het PSP™-systeem installeren?</Text>
 	<Text name="msg_version">Versie</Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Package Manager]]></Text>
 </TextLang>

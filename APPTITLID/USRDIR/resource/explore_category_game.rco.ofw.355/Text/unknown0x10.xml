@@ -230,4 +230,5 @@ Jeżeli zagrasz w grę, która obsługuje funkcję trofeów i zdobędziesz trofe
 	<Text name="msg_psp_exclusive_install_ask">Te materiały są przeznaczone wyłącznie do użytku w systemie PSP™. 
 Czy chcesz teraz zainstalować je w systemie PSP™?</Text>
 	<Text name="msg_version">Wersja</Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Package Manager]]></Text>
 </TextLang>

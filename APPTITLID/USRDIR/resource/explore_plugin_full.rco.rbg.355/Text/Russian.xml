@@ -898,6 +898,8 @@ Network</Text>
 Продолжить?]]></Text>
 	<Text name="msg_error_character"><![CDATA[Следующие знаки не могут быть введены:
 %1]]></Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Package Manager]]></Text>
+	<Text name="msg_tool_package_file_info">Manage your PlayStation®Network Content and Homebrew packages.</Text>
 	<Text name="msg_tool_rebug_file"><![CDATA[★ Rebug Essentials]]></Text>
 	<Text name="msg_tool_rebug_file_info">INSTALL essential tools to fully enjoy the REBUG experience.</Text>
 	<Text name="msg_tool_psn_file"><![CDATA[★ PlayStation®Network Content]]></Text>
@@ -917,7 +919,4 @@ Network</Text>
 	<Text name="msg_tool_og_delete_info"><![CDATA[DELETE from the standard [★ Install Package Files] locations.]]></Text>
 	<Text name="msg_tool_no_package">No package files found.</Text>
 	<Text name="msg_tool_no_psn_content">No PlayStation®Network Content found.</Text>
-	<Text name="msg_applications_vita">Applications (PS Vita)</Text>
-	<Text name="msg_when_use_content_on_vita_hint">If using the content on a PS Vita system, connect the PS Vita system using a USB cable, and then start [Content Manager] on the PS Vita system.</Text>
-	<Text name="msg_remoteplay_explanation"><![CDATA[Use a device that supports remote play (such as a PS Vita or a PSP™ system) to operate this system over a network. Go to [Settings] > [Remote Play Settings] > [Register Device] and register the remote play device.]]></Text>
 </TextLang>

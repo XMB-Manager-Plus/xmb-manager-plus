@@ -230,4 +230,5 @@ Wenn Sie in einem Spiel, das die Trophäenfunktion unterstützt, Trophäen samme
 	<Text name="msg_psp_exclusive_install_ask">Dieser Inhalt ist ausschließlich für die Verwendung mit dem PSP™-System bestimmt.
 Möchten Sie ihn jetzt auf das PSP™-System kopieren?</Text>
 	<Text name="msg_version">Version</Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Package Manager]]></Text>
 </TextLang>
