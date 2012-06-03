@@ -75,7 +75,7 @@
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="usb">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usb.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-PACKAGES</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-PACKAGES</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
@@ -183,7 +183,7 @@
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="usb">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usb.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-PACKAGES</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-PACKAGES</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>

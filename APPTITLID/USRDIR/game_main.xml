@@ -26,6 +26,7 @@
 			<Query class="type:x-xmb/folder-pixmap" key="file20" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Multimedia_Manager.xml#seg_multimediamanager"/> 
 			<Query class="type:x-xmb/folder-pixmap" key="file30" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Game_Manager.xml#seg_gamemanager"/>
 			<Query class="type:x-xmb/folder-pixmap" key="file40" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Game_Data_Manager.xml#seg_gamedatamanager"/>
+			<Query class="type:x-xmb/folder-pixmap" key="file45" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/User_Data_Manager.xml#seg_userdatamanager"/>
 			<Query class="type:x-xmb/folder-pixmap" key="file50" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Links.xml#seg_links"/>
 			<Query class="type:x-xmb/folder-pixmap" key="file60" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/game_settings.xml#seg_settings"/>
 		</Items>

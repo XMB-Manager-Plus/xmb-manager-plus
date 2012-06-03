@@ -6,7 +6,7 @@
 	<View id="seg_gamemanager">
 		<Attributes>
 			<Table key="game">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
@@ -26,20 +26,20 @@
 	<View id="seg_gamemanager_subitems">
 		<Attributes>
 			<Table key="bytype">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-MAIN</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
  			</Table>
 			<Table key="byfolder">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYFOLDER-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYFOLDER-MAIN</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="bycategory">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-MAIN</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
@@ -63,14 +63,14 @@
 	<View id="seg_gamemanager_bytype_items">
 		<Attributes>
 			<Table key="homebrew">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-HOMEBREW-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-HOMEBREW-MAIN</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
  			</Table>
 			<Table key="games">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-GAMES-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-GAMES-MAIN</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
@@ -92,43 +92,43 @@
 	<View id="seg_gamemanager_bytype_homebrew_items">
 		<Attributes>
 			<Table key="all">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-HOMEBREW-ALL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-HOMEBREW-ALL</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="backupmanagers">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-HOMEBREW-BACKUPMANAGERS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-HOMEBREW-BACKUPMANAGERS</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="multimedia">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-HOMEBREW-MULTIMEDIA</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-HOMEBREW-MULTIMEDIA</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="games">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-HOMEBREW-GAMES</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-HOMEBREW-GAMES</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="emulators">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-HOMEBREW-EMULATORS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-HOMEBREW-EMULATORS</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="network">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-HOMEBREW-NETWORK</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-HOMEBREW-NETWORK</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="tools">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-HOMEBREW-TOOLS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-HOMEBREW-TOOLS</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
@@ -246,19 +246,19 @@
 	<View id="seg_gamemanager_bytype_games_items">
 		<Attributes>
 			<Table key="all">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-GAMES-ALL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-GAMES-ALL</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="regular">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-GAMES-REGULAR</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-GAMES-REGULAR</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="psn">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-GAMES-PSN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-GAMES-PSN</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
@@ -283,109 +283,109 @@
 	<View id="seg_gamemanager_bycategory_items">
 		<Attributes>
 			<Table key="all">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-ALL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-ALL</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="1p">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-1P</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-1P</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="2p">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-2P</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-2P</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="2d">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-2D</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-2D</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="am">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-AM</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-AM</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="ap">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-AP</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-AP</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="at">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-AT</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-AT</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="av">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-AV</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-AV</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="bv">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-BV</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-BV</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="cb">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-CB</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-CB</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="gd">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-GD</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-GD</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="hg">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-HG</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-HG</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="hm">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-HM</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-HM</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="mn">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-MN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-MN</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="pp">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-PP</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-PP</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="sd">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-SD</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-SD</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="vf">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-VF</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-VF</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="wt">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-WT</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-WT</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>

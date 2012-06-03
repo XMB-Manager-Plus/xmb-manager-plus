@@ -6,7 +6,7 @@
 	<View id="seg_multimediamanager">
 		<Attributes>
 			<Table key="multimediamanager">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/multimedia.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_MULTIMEDIAMANAGER-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_MULTIMEDIAMANAGER-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>

@@ -7,7 +7,6 @@
 		<Attributes>
 			<Table key="gamedatamanager">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamedata.png</String></Pair>
-				<Pair key="icon_notation"><String>WNT_XmbItemSavePS3</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-MAIN</String></Pair>
 			    <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
@@ -27,52 +26,22 @@
 	<View id="seg_gamedatamanager_subitems">
 		<Attributes>
 			<Table key="gamedata">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
-				<Pair key="icon_notation"><String>WNT_XmbItemSavePS3</String></Pair>
-				<Pair key="title_rsc"><String>msg_gamedata_utility</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamedata.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-GAMEDATA</String></Pair>
+				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-GAMEDATA</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_gamedata</String></Pair>
-				<Pair key="action"><String>exec_game</String></Pair>
-			</Table>
-			<Table key="sdps3">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
-				<Pair key="icon_notation"><String>WNT_XmbItemSavePS3</String></Pair>
-				<Pair key="title_rsc"><String>msg_savedata_utility_ps3</String></Pair>
-				<Pair key="action"><String>exec_ps3savedata</String></Pair>
-				<Pair key="ms_connection"><String>xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&subclass=x-xcb/storagemedia-sdps3&sort=+StorageMedia:StorageMedia.sortOrder&genre=Game&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.deviceType %xCB_DEVICE_TYPE_MS+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_MS_STD %xCB_MEDIA_TYPE_MS_IOX+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA</String></Pair>
-				<Pair key="sd_connection"><String>xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&subclass=x-xcb/storagemedia-sdps3&sort=+StorageMedia:StorageMedia.sortOrder&genre=Game&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.deviceType %xCB_DEVICE_TYPE_SD+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA</String></Pair>
-				<Pair key="cf_connection"><String>xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&subclass=x-xcb/storagemedia-sdps3&sort=+StorageMedia:StorageMedia.sortOrder&genre=Game&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.deviceType %xCB_DEVICE_TYPE_CF+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA</String></Pair>
-				<Pair key="mass_connection"><String>xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&subclass=x-xcb/storagemedia-sdps3&sort=+StorageMedia:StorageMedia.sortOrder+StorageMedia:StorageMedia.timeInserted&genre=Game&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.deviceType %xCB_DEVICE_TYPE_USBMASS %xCB_DEVICE_TYPE_USBWM+An+StorageMedia:StorageMedia.deviceType %xCB_DEVICE_TYPE_ETHER+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA</String></Pair>
-				<Pair key="data_connection"><String>xcb://localhost/query?limit=2048&ssort=root.sort_selected.savedata_ps3_all</String></Pair>
-			</Table>
-			<Table key="sdvmc">
-				<Pair key="icon_rsc"><String>item_tex_ps12util</String></Pair>
-				<Pair key="icon_notation"><String>WNT_XmbItemSavePS12</String></Pair>
-				<Pair key="title_rsc"><String>msg_mc_utility</String></Pair>
-				<Pair key="action"><String>exec_vmcsavedata</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
-				<Pair key="vmc"><String>promote</String></Pair>
-			</Table> -->
-			<Table key="sdplus">
-				<Pair key="icon_rsc"><String>item_tex_ps12util</String></Pair>
-				<Pair key="icon_notation"><String>WNT_XmbItemSavePS12</String></Pair>
-				<Pair key="icon_rsc"><String>item_tex_plusutil</String></Pair>
-                <Pair key="icon_notation"><String>WNT_XmbItemSavePlus</String></Pair>
-			</Table>
-			<Table key="sdpsp">
-				<Pair key="icon_rsc"><String>item_tex_psputil</String></Pair>
-				<Pair key="icon_notation"><String>WNT_XmbItemSavedataMinis</String></Pair>
-				<Pair key="title_rsc"><String>msg_savedata_utility_minis</String></Pair>
-				<Pair key="action"><String>exec_pspsavedata</String></Pair>
-				<Pair key="ms_connection"><String>xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&subclass=x-xcb/storagemedia-sdpsp&sort=+StorageMedia:StorageMedia.sortOrder&genre=Game&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.deviceType %xCB_DEVICE_TYPE_MS+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_MS_STD %xCB_MEDIA_TYPE_MS_IOX+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA</String></Pair>
-				<Pair key="sd_connection"><String>xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&subclass=x-xcb/storagemedia-sdpsp&sort=+StorageMedia:StorageMedia.sortOrder&genre=Game&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.deviceType %xCB_DEVICE_TYPE_SD+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA</String></Pair>
-				<Pair key="cf_connection"><String>xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&subclass=x-xcb/storagemedia-sdpsp&sort=+StorageMedia:StorageMedia.sortOrder&genre=Game&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.deviceType %xCB_DEVICE_TYPE_CF+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA</String></Pair>
-				<Pair key="mass_connection"><String>xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&subclass=x-xcb/storagemedia-sdpsp&sort=+StorageMedia:StorageMedia.sortOrder+StorageMedia:StorageMedia.timeInserted&genre=Game&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.deviceType %xCB_DEVICE_TYPE_USBMASS %xCB_DEVICE_TYPE_USBWM+An+StorageMedia:StorageMedia.deviceType %xCB_DEVICE_TYPE_ETHER+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA</String></Pair>
-				<Pair key="data_connection"><String>xcb://localhost/query?limit=2048&ssort=root.sort_selected.savedata_psp_all</String></Pair>
 			</Table>
 			<Table key="gamesonhdd">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamelist.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-INSTALLEDGAMES-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-INSTALLEDGAMES-MAIN</String></Pair>
+				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+			<Table key="gamesinstalled">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamelist.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-INSTALLEDHDDGAMES</String></Pair>
+				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-INSTALLEDHDDGAMES</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
@@ -84,46 +53,19 @@
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="backupsusb">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usb.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-BACKUPEXTERNAL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-BACKUPEXTERNAL</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_gamedata</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
-			<Table key="gamesinstalled">
-				<Pair key="icon_rsc"><String>tex_game</String></Pair>
-				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-INSTALLEDHDDGAMES</String></Pair>
-				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-INSTALLEDHDDGAMES</String></Pair>
-				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
-			</Table>
-			<Table key="trophies">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-MAIN</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-MAIN</String></Pair>
-				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
-			</Table>
-			<Table key="trophiesfolders">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-MAIN</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-MAIN</String></Pair>
-				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
-			</Table>
 		</Attributes>
 		<Items>
 			<Query class="type:x-xmb/folder-pixmap" key="gamedata" attr="gamedata" src="xcb://localhost/query?limit=2048&table=MMS_MEDIA_TYPE_HDD&sort=-Game:Common.timeCreated&cond=Ae+Game:Game.category GD+Oe+Game:Game.category 2D" />
-			<Query class="type:x-xmb/xmlsavedata-ps3" key="sdps3" attr="sdps3"/>
-			<!-- <Query class="type:x-xmb/xmlsavedata-vmc" key="sdvmc" attr="sdvmc"/> -->
-			<!-- <Query class="type:x-xmb/xmlsavedata-plus" key="sdplus" attr="sdplus"/> -->
-			<Query class="type:x-xmb/xmlsavedata-psp" key="sdpsp" attr="sdpsp"/>
 			<Query class="type:x-xmb/folder-pixmap" key="gamesonhdd" attr="gamesonhdd" src="#seg_gamedatamanager_gamesonhdd"/>
 			<!-- <Query class="type:x-xmb/folder-pixmap" key="gamesinstalled" attr="gamesinstalled" src="#seg_gamedatamanager_gamesinstalled"/> -->
 			<Query class="type:x-xmb/folder-pixmap" key="backupshdd0" attr="backupshdd0" src="#seg_gamedatamanager_backupshdd0"/>
 			<Query class="type:x-xmb/folder-pixmap" key="backupsusb" attr="backupsusb" src="#seg_gamedatamanager_backupsusb"/>
-			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="#seg_gamedatamanager_trophies"/>
-			<Query class="type:x-xmb/folder-pixmap" key="trophiesfolders" attr="trophiesfolders" src="#seg_gamedatamanager_trophiesfolders"/>
 		</Items>
 	</View>
 
@@ -136,25 +78,25 @@
 	<View id="seg_gamedatamanager_gamesonhdd_items">
 		<Attributes>
 			<Table key="hg">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamedata.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-INSTALLEDGAMES-PS3</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-INSTALLEDGAMES-PS3</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
  			</Table>
 			<Table key="mn">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamedata.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-INSTALLEDGAMES-MINIS</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-INSTALLEDGAMES-MINIS</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
  			</Table>
 			<Table key="1p">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamedata.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-INSTALLEDGAMES-PS1</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-INSTALLEDGAMES-PS1</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
  			</Table>
 			<Table key="2p">
-				<Pair key="icon_rsc"><String>item_tex_ps3util</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamedata.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-INSTALLEDGAMES-PS2</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-INSTALLEDGAMES-PS2</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
@@ -195,115 +137,5 @@
 			<Query class="type:x-xmb/folder-pixmap" key="usb7" attr="usb7" src="host://localhost/dev_usb007/GAMES"/>
 		</Items>
 	</View>
-
-	<!-- Main > Game Data Manager > Trophies -->
-	<View id="seg_gamedatamanager_trophies">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="gamedatamanager_trophies_items" attr="gamedatamanager_trophies_items" src="#seg_gamedatamanager_trophies_items"/>
-		</Items>
-	</View>
-    <View id="seg_gamedatamanager_trophies_items">
-        <Attributes>
-            <Table key="trophy">
-                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-                <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-CURRENT</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-CURRENT</String></Pair>
-                <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
-            </Table>
-            <Table key="trophy1">
-                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-                <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-USER1</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-USER1</String></Pair>
-                <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
-            </Table>
-            <Table key="trophy2">
-                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-                <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-USER2</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-USER2</String></Pair>
-                <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
-            </Table>
-            <Table key="trophy3">
-                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-                <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-USER3</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-USER3</String></Pair>
-                <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
-            </Table>
-            <Table key="trophy4">
-                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-                <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-USER4</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-USER4</String></Pair>
-                <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
-            </Table>
-            <Table key="trophy5">
-                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-                <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHIES-USER5</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHIES-USER5</String></Pair>
-                <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
-            </Table>
-        </Attributes>
-        <Items>
-                <Query class="type:x-xmb/folder-pixmap" key="trophy" attr="trophy" src="xcb://localhost/query?cond=Ae+AchievTitle:Common.dirPath %xUserHomeDir/trophy&subclass=x-xcb/achievtitle"/>
-                <Query class="type:x-xmb/folder-pixmap" key="trophy1" attr="trophy1" src="xcb://localhost/query?cond=Ae+AchievTitle:Common.dirPath /dev_hdd0/home/00000001/trophy&subclass=x-xcb/achievtitle"/>
-                <Query class="type:x-xmb/folder-pixmap" key="trophy2" attr="trophy2" src="xcb://localhost/query?cond=Ae+AchievTitle:Common.dirPath /dev_hdd0/home/00000002/trophy&subclass=x-xcb/achievtitle"/>
-                <Query class="type:x-xmb/folder-pixmap" key="trophy3" attr="trophy3" src="xcb://localhost/query?cond=Ae+AchievTitle:Common.dirPath /dev_hdd0/home/00000003/trophy&subclass=x-xcb/achievtitle"/>
-                <Query class="type:x-xmb/folder-pixmap" key="trophy4" attr="trophy4" src="xcb://localhost/query?cond=Ae+AchievTitle:Common.dirPath /dev_hdd0/home/00000004/trophy&subclass=x-xcb/achievtitle"/>
-                <Query class="type:x-xmb/folder-pixmap" key="trophy5" attr="trophy5" src="xcb://localhost/query?cond=Ae+AchievTitle:Common.dirPath /dev_hdd0/home/00000005/trophy&subclass=x-xcb/achievtitle"/>
-        </Items>
-    </View>
-
-	<!-- Main > Game Data Manager > Trophies Folders -->
-	<View id="seg_gamedatamanager_trophiesfolders">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="gamedatamanager_trophiesfolders_items" attr="gamedatamanager_trophiesfolders_items" src="#seg_gamedatamanager_trophiesfolders_items"/>
-		</Items>
-	</View>
-    <View id="seg_gamedatamanager_trophiesfolders_items">
-        <Attributes>
-            <Table key="trophyfolder">
-                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-                <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-CURRENT</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-CURRENT</String></Pair>
-                <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
-            </Table>
-            <Table key="trophyfolder1">
-                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-                <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-USER1</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-USER1</String></Pair>
-                <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
-            </Table>
-            <Table key="trophyfolder2">
-                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-                <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-USER2</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-USER2</String></Pair>
-                <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
-            </Table>
-            <Table key="trophyfolder3">
-                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-                <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-USER3</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-USER3</String></Pair>
-                <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
-            </Table>
-            <Table key="trophyfolder4">
-                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-                <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-USER4</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-USER4</String></Pair>
-                <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
-            </Table>
-            <Table key="trophyfolder5">
-                <Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/trophy.png</String></Pair>
-                <Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-TROPHYFOLDERS-USER5</String></Pair>
-                <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-TROPHYFOLDERS-USER5</String></Pair>
-                <Pair key="str_noitem"><String>msg_no_trophy</String></Pair>
-            </Table>
-        </Attributes>
-        <Items>
-			<!-- <Query class="type:x-xmb/folder-pixmap" key="trophyfolder" attr="trophyfolder" src="host://localhost/q?path=%xUserHomeDir/trophy"/> -->
-			<Query class="type:x-xmb/folder-pixmap" key="trophyfolder1" attr="trophyfolder1" src="host://localhost/dev_hdd0/home/00000001/trophy"/>
-			<Query class="type:x-xmb/folder-pixmap" key="trophyfolder2" attr="trophyfolder2" src="host://localhost/dev_hdd0/home/00000002/trophy"/>
-			<Query class="type:x-xmb/folder-pixmap" key="trophyfolder3" attr="trophyfolder3" src="host://localhost/dev_hdd0/home/00000003/trophy"/>
-			<Query class="type:x-xmb/folder-pixmap" key="trophyfolder4" attr="trophyfolder4" src="host://localhost/dev_hdd0/home/00000004/trophy"/>
-			<Query class="type:x-xmb/folder-pixmap" key="trophyfolder5" attr="trophyfolder5" src="host://localhost/dev_hdd0/home/00000005/trophy"/>
-        </Items>
-    </View>
 
 </XMBML>

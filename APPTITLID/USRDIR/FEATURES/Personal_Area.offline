@@ -6,7 +6,7 @@
 	<View id="seg_personalarea">
 		<Attributes>
 			<Table key="personalarea">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/network.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/personal.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PERSONALAREA-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PERSONALAREA-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
@@ -82,7 +82,7 @@
 	<View id="seg_personalarea_links">
 		<Attributes>
 			<!-- Links attributes -->
-			<!-- Example: <Table key="l%ID%"><Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/network.png</String></Pair><Pair key="title"><String>%TITLE%</String></Pair><Pair key="info"><String>%INFO%</String></Pair><Pair key="module_name"><String>webbrowser_plugin</String></Pair><Pair key="module_action"><String>%LINK%</String></Pair></Table> -->
+			<!-- Example: <Table key="l%ID%"><Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/www.png</String></Pair><Pair key="title"><String>%TITLE%</String></Pair><Pair key="info"><String>%INFO%</String></Pair><Pair key="module_name"><String>webbrowser_plugin</String></Pair><Pair key="module_action"><String>%LINK%</String></Pair></Table> -->
 		</Attributes>
 		<Items>
 			<!-- Links items -->

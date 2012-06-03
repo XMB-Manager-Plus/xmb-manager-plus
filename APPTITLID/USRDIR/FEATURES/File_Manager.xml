@@ -132,56 +132,56 @@
 	<View id="seg_filemanager_usb_items">
 		<Attributes>
 			<Table key="fm_dev_usb000">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usb.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-0</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-0</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb001">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usb.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-1</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-1</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb006">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usb.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-6</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-6</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb002">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usb.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-2</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-2</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb003">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usb.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-3</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-3</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb004">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usb.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-4</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-4</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb005">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usb.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-5</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-5</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="fm_dev_usb007">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usbdevice.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usb.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_FILEMANAGER-USB-7</String></Pair>
 				<Pair key="info"><String>LANG_INFO_FILEMANAGER-USB-7</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>

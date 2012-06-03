@@ -38,7 +38,7 @@
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="update"> 
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/update.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-UPDATE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-UPDATE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
@@ -72,7 +72,7 @@
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-CURRENT</String></Pair>
 			</Table>
 			<Table key="languagepacks">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings_language.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-PACKS-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-PACKS-MAIN</String></Pair>
 			</Table>
@@ -157,7 +157,7 @@
 	<View id="seg_settings_themes_items">
 		<Attributes>
 			<Table key="themepacks">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings_theme.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-MAIN</String></Pair>
 			</Table>
@@ -171,28 +171,35 @@
 	<View id="seg_settings_themes_themespacks">
 		<Attributes>
 			<Table key="original">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/theme.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-ORIGINAL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-ORIGINAL</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/THEMEPACKS/XMB_Manager_Plus_vXMBMP-VERSION-THEMEPACK-ORIGINAL.pkg</String></Pair>
  			</Table>
+			<Table key="white">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/theme.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-WHITE</String></Pair>
+				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-WHITE</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/THEMEPACKS/XMB_Manager_Plus_vXMBMP-VERSION-THEMEPACK-WHITE.pkg</String></Pair>
+ 			</Table>
 			<Table key="colour">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/theme.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-COLOUR</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-COLOUR</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/THEMEPACKS/XMB_Manager_Plus_vXMBMP-VERSION-THEMEPACK-COLOUR.pkg</String></Pair>
  			</Table>
 			<Table key="black">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/theme.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-BLACK</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-BLACK</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/THEMEPACKS/XMB_Manager_Plus_vXMBMP-VERSION-THEMEPACK-BLACK.pkg</String></Pair>
  			</Table>
 			<Table key="blue">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/theme.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-THEMES-PACKS-BLUE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-THEMES-PACKS-BLUE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
@@ -201,6 +208,7 @@
 		</Attributes>
 		<Items>
 			<Item class="type:x-xmb/module-action" key="original" attr="original"/>
+			<Item class="type:x-xmb/module-action" key="white" attr="white"/>
 			<Item class="type:x-xmb/module-action" key="colour" attr="colour"/>
 			<Item class="type:x-xmb/module-action" key="black" attr="black"/>
 			<Item class="type:x-xmb/module-action" key="blue" attr="blue"/>
@@ -211,14 +219,14 @@
 	<View id="seg_settings_about">
 		<Attributes>
 			<Table key="release">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/xmbmp.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-ABOUT-THREAD</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-ABOUT-THREAD</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/ABOUT/releasepage.html</String></Pair>
  			</Table>
 			<Table key="development">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/development.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-ABOUT-DEVELOPMENT</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-ABOUT-DEVELOPMENT</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>

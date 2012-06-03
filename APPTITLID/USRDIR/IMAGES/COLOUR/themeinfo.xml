@@ -4,7 +4,7 @@
 	<View id="seg_current_theme_en-US">
 		<Attributes>
 			<Table key="current_theme">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/theme.png</String></Pair>
 				<Pair key="title"><String>[en-US]_TITL_SETTINGS-THEMES-PACKS</String></Pair>
 				<Pair key="info"><String>[en-US]_INFO_SETTINGS-THEMES-PACKS</String></Pair>
 			</Table>
@@ -17,7 +17,7 @@
 	<View id="seg_current_theme_pt-PT">
 		<Attributes>
 			<Table key="current_theme">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/theme.png</String></Pair>
 				<Pair key="title"><String>[pt-PT]_TITL_SETTINGS-THEMES-PACKS</String></Pair>
 				<Pair key="info"><String>[pt-PT]_INFO_SETTINGS-THEMES-PACKS</String></Pair>
 			</Table>
@@ -30,7 +30,7 @@
 	<View id="seg_current_theme_de-DE">
 		<Attributes>
 			<Table key="current_theme">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/theme.png</String></Pair>
 				<Pair key="title"><String>[de-DE]_TITL_SETTINGS-THEMES-PACKS</String></Pair>
 				<Pair key="info"><String>[de-DE]_INFO_SETTINGS-THEMES-PACKS</String></Pair>
 			</Table>
@@ -43,7 +43,7 @@
 	<View id="seg_current_theme_fr-FR">
 		<Attributes>
 			<Table key="current_theme">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/theme.png</String></Pair>
 				<Pair key="title"><String>[fr-FR]_TITL_SETTINGS-THEMES-PACKS</String></Pair>
 				<Pair key="info"><String>[fr-FR]_INFO_SETTINGS-THEMES-PACKS</String></Pair>
 			</Table>
@@ -56,7 +56,7 @@
 	<View id="seg_current_theme_es-ES">
 		<Attributes>
 			<Table key="current_theme">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/theme.png</String></Pair>
 				<Pair key="title"><String>[es-ES]_TITL_SETTINGS-THEMES-PACKS</String></Pair>
 				<Pair key="info"><String>[es-ES]_INFO_SETTINGS-THEMES-PACKS</String></Pair>
 			</Table>
@@ -69,7 +69,7 @@
 	<View id="seg_current_theme_pl-PL">
 		<Attributes>
 			<Table key="current_theme">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/theme.png</String></Pair>
 				<Pair key="title"><String>[pl-PL]_TITL_SETTINGS-THEMES-PACKS</String></Pair>
 				<Pair key="info"><String>[pl-PL]_INFO_SETTINGS-THEMES-PACKS</String></Pair>
 			</Table>
@@ -82,7 +82,7 @@
 <View id="seg_current_theme_ru-RU">
 		<Attributes>
 			<Table key="current_theme">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/theme.png</String></Pair>
 				<Pair key="title"><String>[ru-RU]_TITL_SETTINGS-THEMES-PACKS</String></Pair>
 				<Pair key="info"><String>[ru-RU]_INFO_SETTINGS-THEMES-PACKS</String></Pair>
 			</Table>

@@ -5,7 +5,7 @@ XMB Manager Plus (XMBM+) is a Homebrew XMB item which does many things you could
 
 This will replace the "Install Package Files" option or for REBUG CFW the "Package Manager".
 
-It officially supports six languages, four themes and boasts compatibility with most CFW and 4.00 HFW.
+It officially supports seven languages, five themes and boasts compatibility with most CFW and 4.00 HFW.
 
 ## Main Features
 
@@ -33,7 +33,11 @@ View and manage your ps3 applications, by type, by folder, by category etc..
 
 ### Game Data Manager
 
-Includes all the game data tools from main XMB plus some more additions. Things like Gamedata, Savedata, Backups and Trophies are contained here.
+Includes all the game data tools from main XMB plus some more additions. Things like Gamedata, Backups are contained here.
+
+### User Data Manager
+
+Includes all the user data tools from main XMB plus some more additions. Things like Save Data, Trophies and user folders are contained here.
 
 ### Multi-Media Manager
 
@@ -48,6 +52,13 @@ This section includes links to some popular websites for easier access.
 Gives information about the XMBM+, allows users to download language packs, theme packs and XMBM+ updates, it also links to the PS3Crunch release thread.
 
 ## Release notes
+
+### 0.60
+
+-  New category User Data Manager
+-  Old original theme is now White theme and a new original theme
+-  Removed all images and text entries from rco
+-  Original theme icons rearranged
 
 ### 0.50
 
@@ -211,20 +222,21 @@ NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert
 
 ### Language packs
 
--  American English (en-US) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-en-US.pkg
--  French (fr-FR) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-fr-FR.pkg
--  German (de-DE) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-de-DE.pkg
--  Polish (pl-PL) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-pl-PL.pkg
--  European Portuguese (pt-PT) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-pt-PT.pkg
--  Spanish (es-ES) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-es-ES.pkg
--  Russian (ru-RU) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.50-LANGUAGEPACK-ru-RU.pkg
+-  American English (en-US) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-en-US.pkg
+-  French (fr-FR) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-fr-FR.pkg
+-  German (de-DE) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-de-DE.pkg
+-  Polish (pl-PL) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-pl-PL.pkg
+-  European Portuguese (pt-PT) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-pt-PT.pkg
+-  Spanish (es-ES) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-es-ES.pkg
+-  Russian (ru-RU) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-ru-RU.pkg
 
 ### Theme packs
 
--  Original http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.50-THEMEPACK-ORIGINAL.pkg
--  Colour http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.50-THEMEPACK-COLOUR.pkg
--  Black http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.50-THEMEPACK-BLACK.pkg
--  Blue http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.50-THEMEPACK-BLUE.pkg
+-  Original http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.60-THEMEPACK-ORIGINAL.pkg
+-  White http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.60-THEMEPACK-WHITE.pkg
+-  Colour http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.60-THEMEPACK-COLOUR.pkg
+-  Black http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.60-THEMEPACK-BLACK.pkg
+-  Blue http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.60-THEMEPACK-BLUE.pkg
 
 ### XMBM+ Builder Toolkit
 

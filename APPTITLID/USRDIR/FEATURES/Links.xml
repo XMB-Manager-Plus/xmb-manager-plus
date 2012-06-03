@@ -6,7 +6,7 @@
 	<View id="seg_links">
 		<Attributes>
 			<Table key="links">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/network.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/www.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-MAIN</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
@@ -26,17 +26,17 @@
 	<View id="seg_links_subitems">
 		<Attributes>
 			<Table key="ps3scene">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/network.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/www.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-MAIN</String></Pair>
 			</Table>
 			<Table key="homebrew">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/network.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/www.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-HOMEBREWSTORES-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-HOMEBREWSTORES-MAIN</String></Pair>
 			</Table>
 			<Table key="social">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/network.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/www.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-SOCIALNETWORK-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-SOCIALNETWORK-MAIN</String></Pair>
 			</Table>
