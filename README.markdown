@@ -23,13 +23,21 @@ Allows homebrew/packages to be easily installed or deleted.
 
 Allows homebrew or PSN packages to be easily downloaded.
 
+### Game Manager
+
+View and manage your ps3 applications, by type, by folder, by category etc..
+
+### Homebrew Manager
+
+View and manage your homebrew applications
+
 ### File Manager
 
 Browse and Delete files from all locations such as hdd, usb etc. 
 
-### Game Manager
+### Multimedia Manager
 
-View and manage your ps3 applications, by type, by folder, by category etc..
+Browse, Copy, Rename and Play all your PS3's internal hdds media from one location. All options from the normal XMB categories are available in one new  combined category
 
 ### Game Data Manager
 
@@ -38,10 +46,6 @@ Includes all the game data tools from main XMB plus some more additions. Things 
 ### User Data Manager
 
 Includes all the user data tools from main XMB plus some more additions. Things like Save Data, Trophies and user folders are contained here.
-
-### Multi-Media Manager
-
-Browse, Copy, Rename and Play all your PS3's internal hdds media from one location. All options from the normal XMB categories are available in one new  combined category
 
 ### Web Links
 
@@ -56,6 +60,7 @@ Gives information about the XMBM+, allows users to download language packs, them
 ### 0.60
 
 -  New category User Data Manager
+-  New category Homebrew Manager
 -  Old original theme is now White theme and a new original theme
 -  Removed all images and text entries from rco
 -  Original theme icons rearranged
