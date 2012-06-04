@@ -48,92 +48,92 @@
 		<Attributes>
 			<Table key="homebrew01">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-SHOWTIME</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-SHOWTIME</String></Pair>
+				<Pair key="title"><String>Showtime v3.99.41</String></Pair>
+				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Andreas Öman</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>https://www.lonelycoder.com/doozer/buildmaster/download/656</String></Pair>
  			</Table>
 			<Table key="homebrew02">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-MULTIMANFULL</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-MULTIMANFULL</String></Pair>
+				<Pair key="title"><String>MultiMan Cobra Manager (mmCM) v04.03.00 FULL (20120531)</String></Pair>
+				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Dean/Cobra Team</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_mmCM_FULL.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew03">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-MULTIMANBASE</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-MULTIMANBASE</String></Pair>
+				<Pair key="title"><String>MultiMan Cobra Manager (mmCM) v04.03.00 BASE (20120531)</String></Pair>
+				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Dean/Cobra Team</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_mmCM_BASE.pkg</String></Pair>
  			</Table>
 			<!-- <Table key="homebrew04">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-BDEMULATOR</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-BDEMULATOR</String></Pair>
+				<Pair key="title"><String>BD Emulator (3.55)</String></Pair>
+				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: ????</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_BDEMU_3.55.pkg</String></Pair>
  			</Table> -->
 			<Table key="homebrew05">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-BDRESET</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-BDRESET</String></Pair>
+				<Pair key="title"><String>MultiMan BDReset</String></Pair>
+				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Dean</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_bdRESET.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew06">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-LASTGAME</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-LASTGAME</String></Pair>
+				<Pair key="title"><String>MultiMan LastGAME (3.55)</String></Pair>
+				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Dean</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_lastGAME2.pkg</String></Pair>
  			</Table>
 			<!-- <Table key="homebrew07">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-TOGGLEQA</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-TOGGLEQA</String></Pair>
+				<Pair key="title"><String>Toggle QA v1.0</String></Pair>
+				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Rebug</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_toggle_qa.pkg</String></Pair>
  			</Table> -->
 			<Table key="homebrew08">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-BLACKBOX</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-BLACKBOX</String></Pair>
+				<Pair key="title"><String>Blackb0x FTP v1.2</String></Pair>
+				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Blackb0x</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_blackbox_ftpserver.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew09">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-DVDENABLER</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-DVDENABLER</String></Pair>
+				<Pair key="title"><String>DVD Enabler</String></Pair>
+				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Gatz85</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_DVDenabler.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew10">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-LEDCHANGER</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-LEDCHANGER</String></Pair>
+				<Pair key="title"><String>LED Changer v2.0</String></Pair>
+				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Deroad</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_Led_Changer.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew11">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-SNES</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-SNES</String></Pair>
+				<Pair key="title"><String>Snes9x v4.4.6 (3.41)</String></Pair>
+				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Squarepusher2</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_snes9x_3.41.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew12">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-COMGENIE</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-COMGENIE</String></Pair>
+				<Pair key="title"><String>Comgenie's Awsome Filemanager v0.06</String></Pair>
+				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Comgenie</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_Comgenie_Awsome_Filemanager.pkg</String></Pair>
  			</Table>
 			<Table key="homebrew13">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-HOMEBREW-JAILCRAB</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-JAILCRAB</String></Pair>
+				<Pair key="title"><String>JaiCraB's USB Firmware Loader v0.3 (3.55)</String></Pair>
+				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: JaiCraB</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_JaiC_USB_FIRM_LOADER.pkg</String></Pair>
  			</Table>
