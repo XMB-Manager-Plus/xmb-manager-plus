@@ -22,9 +22,10 @@
 			<Query class="type:x-xmb/folder-pixmap" key="file01" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Personal_Area.xml#seg_personalarea"/>
 			<Query class="type:x-xmb/folder-pixmap" key="file00" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Package_Manager.xml#seg_packagemanager"/>
 			<Query class="type:x-xmb/folder-pixmap" key="file05" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Download_Manager.xml#seg_downloadmanager"/>
+			<Query class="type:x-xmb/folder-pixmap" key="file30" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Game_Manager.xml#seg_gamemanager"/>
+			<Query class="type:x-xmb/folder-pixmap" key="file35" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Homebrew_Manager.xml#seg_homebrewmanager"/>
 			<Query class="type:x-xmb/folder-pixmap" key="file10" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/File_Manager.xml#seg_filemanager"/>
 			<Query class="type:x-xmb/folder-pixmap" key="file20" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Multimedia_Manager.xml#seg_multimediamanager"/> 
-			<Query class="type:x-xmb/folder-pixmap" key="file30" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Game_Manager.xml#seg_gamemanager"/>
 			<Query class="type:x-xmb/folder-pixmap" key="file40" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Game_Data_Manager.xml#seg_gamedatamanager"/>
 			<Query class="type:x-xmb/folder-pixmap" key="file45" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/User_Data_Manager.xml#seg_userdatamanager"/>
 			<Query class="type:x-xmb/folder-pixmap" key="file50" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/FEATURES/Links.xml#seg_links"/>
