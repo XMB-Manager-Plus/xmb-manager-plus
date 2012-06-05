@@ -216,11 +216,19 @@
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>https://mobile.twitter.com/</String></Pair>
  			</Table>
+			<Table key="vkontakte">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/links/vkontakte.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-SOCIALNETWORK-VKONTAKTE</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-SOCIALNETWORK-VKONTAKTE</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>https://vk.com/</String></Pair>
+ 			</Table>
 		</Attributes>
 		<Items>
 			<Item class="type:x-xmb/module-action" key="facebook" attr="facebook"/>
 			<Item class="type:x-xmb/module-action" key="youtube" attr="youtube"/>
 			<Item class="type:x-xmb/module-action" key="twitter" attr="twitter"/>
+			<Item class="type:x-xmb/module-action" key="vkontakte" attr="vkontakte"/>
 		</Items>
 	</View>
 
