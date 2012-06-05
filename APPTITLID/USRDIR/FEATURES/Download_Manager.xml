@@ -90,13 +90,13 @@
  			</Table>
 		</Attributes>
 		<Items>
-			<Query class="type:x-xmb/module-action" key="all" attr="all" src="#seg_downloadmanager_homebrew_all"/>
-			<Query class="type:x-xmb/module-action" key="backupmanagers" attr="backupmanagers" src="#seg_downloadmanager_homebrew_backupmanagers"/>
-			<Query class="type:x-xmb/module-action" key="multimedia" attr="multimedia" src="#seg_downloadmanager_homebrew_multimedia"/>
-			<Query class="type:x-xmb/module-action" key="games" attr="games" src="#seg_downloadmanager_homebrew_games"/>
-			<Query class="type:x-xmb/module-action" key="emulators" attr="emulators" src="#seg_downloadmanager_homebrew_emulators"/>
-			<Query class="type:x-xmb/module-action" key="network" attr="network" src="#seg_downloadmanager_homebrew_network"/>
-			<Query class="type:x-xmb/module-action" key="tools" attr="tools" src="#seg_downloadmanager_homebrew_tools"/>
+			<Query class="type:x-xmb/folder-pixmap" key="all" attr="all" src="#seg_downloadmanager_homebrew_all"/>
+			<Query class="type:x-xmb/folder-pixmap" key="backupmanagers" attr="backupmanagers" src="#seg_downloadmanager_homebrew_backupmanagers"/>
+			<Query class="type:x-xmb/folder-pixmap" key="multimedia" attr="multimedia" src="#seg_downloadmanager_homebrew_multimedia"/>
+			<Query class="type:x-xmb/folder-pixmap" key="games" attr="games" src="#seg_downloadmanager_homebrew_games"/>
+			<Query class="type:x-xmb/folder-pixmap" key="emulators" attr="emulators" src="#seg_downloadmanager_homebrew_emulators"/>
+			<Query class="type:x-xmb/folder-pixmap" key="network" attr="network" src="#seg_downloadmanager_homebrew_network"/>
+			<Query class="type:x-xmb/folder-pixmap" key="tools" attr="tools" src="#seg_downloadmanager_homebrew_tools"/>
 		</Items>
 	</View>
 
