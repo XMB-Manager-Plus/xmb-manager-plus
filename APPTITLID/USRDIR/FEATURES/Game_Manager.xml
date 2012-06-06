@@ -70,8 +70,8 @@
  			</Table>
 			<Table key="regular">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-GAMES-REGULAR</String></Pair>
-				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-GAMES-REGULAR</String></Pair>
+				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-GAMES-RETAIL</String></Pair>
+				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-GAMES-RETAIL</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
 			<Table key="psn">
@@ -117,7 +117,7 @@
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-2P</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
-			<Table key="2d">
+			<Table key="2g">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-2G</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-2G</String></Pair>
@@ -188,7 +188,7 @@
 			<Query class="type:x-xmb/folder-pixmap" key="all" attr="all" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.category 1P+Oe+Game:Game.category 2P+Oe+Game:Game.category 2G+Oe+Game:Game.category AM+Oe+Game:Game.category AP+Oe+Game:Game.category AT+Oe+Game:Game.category AV+Oe+Game:Game.category CB+Oe+Game:Game.category HG+Oe+Game:Game.category HM+Oe+Game:Game.category MN+Oe+Game:Game.category PP+Oe+Game:Game.category VT"/>
 			<Query class="type:x-xmb/folder-pixmap" key="1p" attr="1p" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Ae+Game:Game.category 1P"/>
 			<Query class="type:x-xmb/folder-pixmap" key="2p" attr="2p" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Ae+Game:Game.category 2P"/>
-			<Query class="type:x-xmb/folder-pixmap" key="2d" attr="2d" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Ae+Game:Game.category 2G"/>
+			<Query class="type:x-xmb/folder-pixmap" key="2g" attr="2g" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Ae+Game:Game.category 2G"/>
 			<Query class="type:x-xmb/folder-pixmap" key="am" attr="am" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Ae+Game:Game.category AM"/>
 			<Query class="type:x-xmb/folder-pixmap" key="ap" attr="ap" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Ae+Game:Game.category AP"/>
 			<Query class="type:x-xmb/folder-pixmap" key="at" attr="at" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Ae+Game:Game.category AT"/>
