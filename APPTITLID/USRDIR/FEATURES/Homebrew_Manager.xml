@@ -67,6 +67,12 @@
 				<Pair key="info"><String>LANG_INFO_HOMEBREWMANAGER-TOOLS</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
  			</Table>
+			<Table key="development">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/development.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_HOMEBREWMANAGER-DEVELOPMENT</String></Pair>
+				<Pair key="info"><String>LANG_INFO_HOMEBREWMANAGER-DEVELOPMENT</String></Pair>
+				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
+ 			</Table>
 		</Attributes>
 		<Items>
 			<!-- All -->
@@ -145,19 +151,15 @@
 			- RESACTDAT: Restore act.dat
 			- TRUEBLUE4: TrueBlue Updater
 			- MONSTER01: Chaos Air Bringer (Change PS3 MAC Address)
-			- TEST00000: PS3 Model Detection
-			- FSMT00001: Factory Service Mode by CrashSerious
 			- PKGENABLE: PKG Enabler (hide/show PGK Installer obsolete with XMBM+)
 			- VERSPOOFA: Rebug's 4.00 Version Spoofer
 			- XREG00001: xReg Plus (backup/restore xRegistry.sys)
 			- VSHU00100: vsh.self patcher for reActPSN
 			- CLDBTINST: Coldboot Installer
-			- HVDEBUG01: HVDebug (hypervisor debugging from GameOS)
 			- WIPE01337: Wipe History (obsolete with multiMAN)
 			- QAFG00003: qa flag extra tool
 			- RQAF00003: qa reset tool
 			- QAFG00003: qa flag tool
-			- LV2LOADER: Rebug's lv2_kernel.self Loader
 			- APPTITLID: XMB Manager Plus
 			- GDSW00001: GameData Tool
 			- PKGMANAGE: Rebug Package Manager
@@ -166,12 +168,21 @@
 			- JAICUSBL0: USB FIRM LOADER
 			- LED0DISC0: LED Changer
 			- PSVB00001: PSVibe (Sex tool for wife/gf & others)
-			- LUAP0PS3: LUA Player (script interpreter - maybe obsolete)
 			- PS3LOAD04: Run PS3 SELF programs via wireless (maybe obsolete)
 			- MA00BLACK: MA BD TOOL
+			-->
+			<Query class="type:x-xmb/folder-pixmap" key="tools" attr="tools" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId BLND00001+Oe+Game:Game.titleId DISABLECP+Oe+Game:Game.titleId FREEFLASH+Oe+Game:Game.titleId FIXP12345+Oe+Game:Game.titleId RPSN00001+Oe+Game:Game.titleId RESACTDAT+Oe+Game:Game.titleId TRUEBLUE4+Oe+Game:Game.titleId MONSTER01+Oe+Game:Game.titleId PKGENABLE+Oe+Game:Game.titleId VERSPOOFA+Oe+Game:Game.titleId XREG00001+Oe+Game:Game.titleId VSHU00100+Oe+Game:Game.titleId CLDBTINST+Oe+Game:Game.titleId WIPE01337+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId RQAF00003+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId APPTITLID+Oe+Game:Game.titleId GDSW00001+Oe+Game:Game.titleId PKGMANAGE+Oe+Game:Game.titleId RBGSELECT+Oe+Game:Game.titleId TOGGLEQAF+Oe+Game:Game.titleId JAICUSBL0+Oe+Game:Game.titleId LED0DISC0+Oe+Game:Game.titleId PSVB00001+Oe+Game:Game.titleId PS3LOAD04+Oe+Game:Game.titleId MA00BLACK+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
+			<!-- Development
+			- TEST00000: PS3 Model Detection
+			- FSMT00001: Factory Service Mode by CrashSerious
+			- HVDEBUG01: HVDebug (hypervisor debugging from GameOS)
+			- LV2LOADER: Rebug's lv2_kernel.self Loader
+			- LUAP0PS3: LUA Player (script interpreter - maybe obsolete)
 			- MEMD00001: MemDump
 			-->
-			<Query class="type:x-xmb/folder-pixmap" key="tools" attr="tools" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId BLND00001+Oe+Game:Game.titleId DISABLECP+Oe+Game:Game.titleId FREEFLASH+Oe+Game:Game.titleId FIXP12345+Oe+Game:Game.titleId RPSN00001+Oe+Game:Game.titleId RESACTDAT+Oe+Game:Game.titleId TRUEBLUE4+Oe+Game:Game.titleId MONSTER01+Oe+Game:Game.titleId TEST00000+Oe+Game:Game.titleId FSMT00001+Oe+Game:Game.titleId PKGENABLE+Oe+Game:Game.titleId VERSPOOFA+Oe+Game:Game.titleId XREG00001+Oe+Game:Game.titleId VSHU00100+Oe+Game:Game.titleId CLDBTINST+Oe+Game:Game.titleId HVDEBUG01+Oe+Game:Game.titleId WIPE01337+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId RQAF00003+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId LV2LOADER+Oe+Game:Game.titleId APPTITLID+Oe+Game:Game.titleId GDSW00001+Oe+Game:Game.titleId PKGMANAGE+Oe+Game:Game.titleId RBGSELECT+Oe+Game:Game.titleId TOGGLEQAF+Oe+Game:Game.titleId JAICUSBL0+Oe+Game:Game.titleId LED0DISC0+Oe+Game:Game.titleId PSVB00001+Oe+Game:Game.titleId LUAP0PS3+Oe+Game:Game.titleId PS3LOAD04+Oe+Game:Game.titleId MA00BLACK+Oe+Game:Game.titleId MEMD00001+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
+			<Query class="type:x-xmb/folder-pixmap" key="development" attr="development" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId TEST00000+Oe+Game:Game.titleId FSMT00001+Oe+Game:Game.titleId HVDEBUG01+Oe+Game:Game.titleId LV2LOADER+Oe+Game:Game.titleId LUAP0PS3+Oe+Game:Game.titleId MEMD00001+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
+
+
 		</Items>
 	</View>
 
