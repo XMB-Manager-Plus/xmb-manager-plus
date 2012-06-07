@@ -3,7 +3,7 @@ XMB Manager Plus
 
 XMB Manager Plus (XMBM+) is a Homebrew XMB item which does many things you could want to on the XMB and more.
 
-This will replace the "Install Package Files" option or for REBUG CFW the "Package Manager".
+This will replace the "Install Package Files" option or Rebug's "Package Manager" option.
 
 It officially supports seven languages, five themes and boasts compatibility with most CFW and 4.00 HFW.
 
@@ -61,9 +61,12 @@ Gives information about the XMBM+, allows users to download language packs, them
 
 -  New category User Data Manager
 -  New category Homebrew Manager
+-  Homebrew divided in categories
+-  3.41 support now in a different instalable package for those who needed
 -  Old original theme is now White theme and a new original theme
 -  Removed all images and text entries from rco
 -  Original theme icons rearranged
+-  Many minor changes and bug corrections
 
 ### 0.50
 
@@ -134,7 +137,7 @@ Release page: http://www.ps3crunch.net/forum/threads/2708
 
 #### Normal CFW (Kneaw, Rebug, etc)
 
--  Download the Core Pack - [Normal CFW or Rebug](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html) or [Cobra CFW or NFW v3 (cobraUSB)](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cobra.html)
+-  Download the Core Pack - [Normal CFW or Rebug 3.55](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html), or [Normal CFW or Rebug 3.55/3.41](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw-full.html) or [Cobra CFW or NFW v3 (cobraUSB)](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cobra.html)
 -  Copy the pkg file to the root of your USB media
 -  Install the pkg file
 -  Run the XMB Manager Plus application (you can delete it afterwards)
@@ -221,7 +224,8 @@ NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert
 
 ### Core Package
 
--  Normal CFW (Kneaw, Rebug, etc) http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html
+-  Normal 3.55 CFW (Kneaw, Rebug, etc) http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html
+-  Normal 3.55/3.41 CFW (Kneaw, Rebug, etc) http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw-full.html
 -  Cobra CFW or NFW v3 (cobraUSB http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cobra.html
 -  4.00 HFW http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hfw.html
 
