@@ -47,7 +47,7 @@
 			<Table key="about">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/about.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-ABOUT-MAIN</String></Pair>
-				<Pair key="info"><String>LANG_INFO_SETTINGS-ABOUT-MAIN vXMBMP-VERSION</String></Pair>
+				<Pair key="info"><String>XMB Manager Plus vXMBMP-VERSION</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>

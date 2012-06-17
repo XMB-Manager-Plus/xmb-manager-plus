@@ -144,6 +144,7 @@
 			<Query class="type:x-xmb/folder-pixmap" key="network" attr="network" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId DARK0RSX5+Oe+Game:Game.titleId OFTP00003+Oe+Game:Game.titleId BB0011111+Oe+Game:Game.titleId BLES01059+Oe+Game:Game.titleId OFTP00001+Oe+Game:Game.titleId WIRC12345+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
 			<!-- Tools
 			- DISABLECP: Disable Cinavia
+			- CHET11111: PS3usercheat
 			- BLND00001: dev_blind
 			- FREEFLASH: FreeFlash (dev_blind clone)
 			- FIXP12345: PL3 Permission Fix
@@ -171,7 +172,7 @@
 			- PS3LOAD04: Run PS3 SELF programs via wireless (maybe obsolete)
 			- MA00BLACK: MA BD TOOL
 			-->
-			<Query class="type:x-xmb/folder-pixmap" key="tools" attr="tools" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId BLND00001+Oe+Game:Game.titleId DISABLECP+Oe+Game:Game.titleId FREEFLASH+Oe+Game:Game.titleId FIXP12345+Oe+Game:Game.titleId RPSN00001+Oe+Game:Game.titleId RESACTDAT+Oe+Game:Game.titleId TRUEBLUE4+Oe+Game:Game.titleId MONSTER01+Oe+Game:Game.titleId PKGENABLE+Oe+Game:Game.titleId VERSPOOFA+Oe+Game:Game.titleId XREG00001+Oe+Game:Game.titleId VSHU00100+Oe+Game:Game.titleId CLDBTINST+Oe+Game:Game.titleId WIPE01337+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId RQAF00003+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId APPTITLID+Oe+Game:Game.titleId GDSW00001+Oe+Game:Game.titleId PKGMANAGE+Oe+Game:Game.titleId RBGSELECT+Oe+Game:Game.titleId TOGGLEQAF+Oe+Game:Game.titleId JAICUSBL0+Oe+Game:Game.titleId LED0DISC0+Oe+Game:Game.titleId PSVB00001+Oe+Game:Game.titleId PS3LOAD04+Oe+Game:Game.titleId MA00BLACK+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
+			<Query class="type:x-xmb/folder-pixmap" key="tools" attr="tools" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId BLND00001+Oe+Game:Game.titleId CHET11111+Oe+Game:Game.titleId DISABLECP+Oe+Game:Game.titleId FREEFLASH+Oe+Game:Game.titleId FIXP12345+Oe+Game:Game.titleId RPSN00001+Oe+Game:Game.titleId RESACTDAT+Oe+Game:Game.titleId TRUEBLUE4+Oe+Game:Game.titleId MONSTER01+Oe+Game:Game.titleId PKGENABLE+Oe+Game:Game.titleId VERSPOOFA+Oe+Game:Game.titleId XREG00001+Oe+Game:Game.titleId VSHU00100+Oe+Game:Game.titleId CLDBTINST+Oe+Game:Game.titleId WIPE01337+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId RQAF00003+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId APPTITLID+Oe+Game:Game.titleId GDSW00001+Oe+Game:Game.titleId PKGMANAGE+Oe+Game:Game.titleId RBGSELECT+Oe+Game:Game.titleId TOGGLEQAF+Oe+Game:Game.titleId JAICUSBL0+Oe+Game:Game.titleId LED0DISC0+Oe+Game:Game.titleId PSVB00001+Oe+Game:Game.titleId PS3LOAD04+Oe+Game:Game.titleId MA00BLACK+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
 			<!-- Development
 			- TEST00000: PS3 Model Detection
 			- FSMT00001: Factory Service Mode by CrashSerious

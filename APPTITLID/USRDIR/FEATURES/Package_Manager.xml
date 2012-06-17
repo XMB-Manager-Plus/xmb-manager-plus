@@ -89,17 +89,17 @@
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="mmcm">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/pkgmanager.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/mmcm.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-MULTIMAN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-MULTIMAN</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="homebrew" attr="homebrew" src="#seg_packagemanager_install_homebrew"/>
 			<Query class="type:x-xmb/folder-pixmap" key="hdd0" attr="hdd0" src="#seg_packagemanager_install_hdd0"/>	
 			<Query class="type:x-xmb/folder-pixmap" key="usb" attr="usb" src="#seg_packagemanager_install_usb"/>
 			<Query class="type:x-xmb/folder-pixmap" key="standard" attr="standard" src="#seg_packagemanager_install_standard"/>
+			<Query class="type:x-xmb/folder-pixmap" key="homebrew" attr="homebrew" src="#seg_packagemanager_install_homebrew"/>
 			<Query class="type:x-xmb/xmlpackagefolder" key="mmcm" attr="mmcm" src="host://localhost/q?path=/dev_hdd0/game/BLES80608/USRDIR/PKG&suffix=.pkg&subclass=x-host/package"/>
 		</Items>
 	</View>
@@ -204,17 +204,17 @@
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="mmcm">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/pkgmanager.png</String></Pair>
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/mmcm.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-MULTIMAN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-MULTIMAN</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="homebrew" attr="homebrew" src="#seg_packagemanager_delete_delete"/>
 			<Query class="type:x-xmb/folder-pixmap" key="hdd0" attr="hdd0" src="#seg_packagemanager_delete_hdd0"/>
 			<Query class="type:x-xmb/folder-pixmap" key="usb" attr="usb" src="#seg_packagemanager_delete_usb"/>
 			<Query class="type:x-xmb/folder-pixmap" key="standard" attr="standard" src="#seg_packagemanager_delete_standard"/>
+			<Query class="type:x-xmb/folder-pixmap" key="homebrew" attr="homebrew" src="#seg_packagemanager_delete_delete"/>
 			<Query class="type:x-xmb/folder-pixmap" key="mmcm" attr="mmcm" src="host://localhost/q?path=/dev_hdd0/game/BLES80608/USRDIR/PKG&suffix=.pkg"/>
 		</Items>
 	</View>

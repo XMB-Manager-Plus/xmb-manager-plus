@@ -155,14 +155,14 @@ Por favor, aguarde.</Text>
 	<Text name="msg_level_11">Nível 11</Text>
 	<Text name="msg_gameetc_pc">Controlo parental</Text>
 	<Text name="msg_cannot_operate_in_demonstration_mode">Não é possível utilizar esta operação durante o modo de demonstração.</Text>
-	<Text name="msg_tool_install_file"><![CDATA[★ Install Package Files]]></Text>
+	<Text name="msg_tool_install_file"><![CDATA[★ Instalar Ficheiros Package]]></Text>
 	<Text name="msg_tool_app_home_ps3_game"><![CDATA[★ /app_home/PS3_GAME/]]></Text>
-	<Text name="msg_tool_lock"><![CDATA[★ Lock]]></Text>
-	<Text name="msg_tool_unlock"><![CDATA[★ Unlock]]></Text>
-	<Text name="msg_tool_check"><![CDATA[★ Check]]></Text>
-	<Text name="msg_tool_cancel_purchase"><![CDATA[★ Cancel Purchase]]></Text>
-	<Text name="msg_tool_del"><![CDATA[★ Delete]]></Text>
-	<Text name="msg_no_trophy">There are no trophies.</Text>
+	<Text name="msg_tool_lock"><![CDATA[★ Bloquear]]></Text>
+	<Text name="msg_tool_unlock"><![CDATA[★ Desbloquear]]></Text>
+	<Text name="msg_tool_check"><![CDATA[★ Verificar]]></Text>
+	<Text name="msg_tool_cancel_purchase"><![CDATA[★ Cancelar Compra]]></Text>
+	<Text name="msg_tool_del"><![CDATA[★ Apagar]]></Text>
+	<Text name="msg_no_trophy">Não existem troféus.</Text>
 	<Text name="msg_del_trackfolder_ask">A pasta e respectivas faixas serão eliminadas.
 Tem a certeza de que pretende continuar?</Text>
 	<Text name="msg_del_title_ask">O título será eliminado.

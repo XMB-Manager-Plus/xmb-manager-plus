@@ -438,22 +438,22 @@ Vá para [Definições] > [Definições de Sistema] e active ATRAC.]]></Text>
 	<Text name="msg_error_server_connect_timeout">A ligação ao servidor excedeu o tempo.</Text>
 	<Text name="msg_cannot_operate_in_demonstration_mode">Não é possível utilizar esta operação durante o modo de demonstração.</Text>
 	<Text name="msg_tool_app_home_ps3_game"><![CDATA[★ /app_home/PS3_GAME/]]></Text>
-	<Text name="msg_tool_title_store_preview">Title Store Preview</Text>
-	<Text name="msg_tool_title_store_preview_ingame"><![CDATA[★ Title Store Preview (inGame)]]></Text>
-	<Text name="msg_tool_title_store_preview_store"><![CDATA[★ Title Store Preview (Store)]]></Text>
-	<Text name="msg_tool_lock"><![CDATA[★ Lock]]></Text>
-	<Text name="msg_tool_unlock"><![CDATA[★ Unlock]]></Text>
-	<Text name="msg_tool_check"><![CDATA[★ Check]]></Text>
-	<Text name="msg_tool_cancel_purchase"><![CDATA[★ Cancel Purchase]]></Text>
-	<Text name="msg_tool_del"><![CDATA[★ Delete]]></Text>
-	<Text name="msg_tool_import"><![CDATA[★ Import]]></Text>
-	<Text name="msg_tool_export"><![CDATA[★ Export]]></Text>
-	<Text name="msg_tool_quick_sign_up"><![CDATA[★ Quick Sign Up]]></Text>
-	<Text name="msg_tool_performance_bar"><![CDATA[★ Performance Bar]]></Text>
-	<Text name="msg_tool_no_memory_limit"><![CDATA[★ No Memory Limit]]></Text>
-	<Text name="msg_tool_quick_preview"><![CDATA[★ Quick Preview]]></Text>
-	<Text name="msg_tool_owner_info"><![CDATA[★ Owner Information]]></Text>
-	<Text name="msg_no_trophy">There are no trophies.</Text>
+	<Text name="msg_tool_title_store_preview">Pré-visualização de Loja de Títulos</Text>
+	<Text name="msg_tool_title_store_preview_ingame"><![CDATA[★ Pré-visualização de Loja de Títulos (inGame)]]></Text>
+	<Text name="msg_tool_title_store_preview_store"><![CDATA[★ Pré-visualização de Loja de Títulos (Loja)]]></Text>
+	<Text name="msg_tool_lock"><![CDATA[★ Bloquear]]></Text>
+	<Text name="msg_tool_unlock"><![CDATA[★ Desbloquear]]></Text>
+	<Text name="msg_tool_check"><![CDATA[★ Verificar]]></Text>
+	<Text name="msg_tool_cancel_purchase"><![CDATA[★ Cancelar Compra]]></Text>
+	<Text name="msg_tool_del"><![CDATA[★ Apagar]]></Text>
+	<Text name="msg_tool_import"><![CDATA[★ Importar]]></Text>
+	<Text name="msg_tool_export"><![CDATA[★ Exportar]]></Text>
+	<Text name="msg_tool_quick_sign_up"><![CDATA[★ Inscrição Rápida]]></Text>
+	<Text name="msg_tool_performance_bar"><![CDATA[★ Barra de Performance]]></Text>
+	<Text name="msg_tool_no_memory_limit"><![CDATA[★ Sem Limite de Memória]]></Text>
+	<Text name="msg_tool_quick_preview"><![CDATA[★ Pré-visualização Rápida]]></Text>
+	<Text name="msg_tool_owner_info"><![CDATA[★ Informações do Proprietário]]></Text>
+	<Text name="msg_no_trophy">Não existem troféus.</Text>
 	<Text name="msg_digitalcamera_image">Imagens de Câmara Digital</Text>
 	<Text name="msg_del_image_ask">A imagem será eliminada.
 Tem a certeza de que pretende continuar?</Text>
@@ -917,6 +917,6 @@ Tem a certeza de que pretende continuar?</Text>
 	<Text name="msg_tool_og_file">Standard Package Location</Text>
 	<Text name="msg_tool_og_install_info"><![CDATA[INSTALL from the standard [★ Install Package Files] locations.]]></Text>
 	<Text name="msg_tool_og_delete_info"><![CDATA[DELETE from the standard [★ Install Package Files] locations.]]></Text>
-	<Text name="msg_tool_no_package">No package files found.</Text>
-	<Text name="msg_tool_no_psn_content">No PlayStation®Network Content found.</Text>
+	<Text name="msg_tool_no_package">Não foram encontrados ficheiros de package.</Text>
+	<Text name="msg_tool_no_psn_content">Não foi encontrado conteúdo da PlayStation®Network.</Text>
 </TextLang>

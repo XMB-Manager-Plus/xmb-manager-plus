@@ -917,6 +917,6 @@ Tem a certeza de que pretende continuar?</Text>
 	<Text name="msg_tool_og_file">Standard Package Location</Text>
 	<Text name="msg_tool_og_install_info"><![CDATA[INSTALL from the standard [★ Install Package Files] locations.]]></Text>
 	<Text name="msg_tool_og_delete_info"><![CDATA[DELETE from the standard [★ Install Package Files] locations.]]></Text>
-	<Text name="msg_tool_no_package">No package files found.</Text>
-	<Text name="msg_tool_no_psn_content">No PlayStation®Network Content found.</Text>
+	<Text name="msg_tool_no_package">Não foram encontrados ficheiros de package.</Text>
+	<Text name="msg_tool_no_psn_content">Não foi encontrado conteúdo da PlayStation®Network.</Text>
 </TextLang>

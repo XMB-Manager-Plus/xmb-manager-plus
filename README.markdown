@@ -57,6 +57,18 @@ Gives information about the XMBM+, allows users to download language packs, them
 
 ## Release notes
 
+### 0.70 Beta
+
+-  Languages dor cre hdd packages now in RCO, so they are autodetected and so no need to install language packs
+-  New option for installing packages from mmCM pkg directory
+-  Many minor changes and bug corrections
+
+Know issues:
+- Download Manager: Homebrew is imcomplete
+- Download Manager: PSN packages is not working
+- User data manager: Trophies return errors or no empy message
+- User data manager: VMC cause ps3 to freeze
+
 ### 0.60
 
 -  New category User Data Manager
@@ -161,23 +173,6 @@ NOTE: due to the constant requirements to call to the USB for resources, removin
 -  Restart PS3
 -  Enjoy!
 
-### Install Language Pack
-
-#### Normal CFW (Kneaw, Rebug, etc) and Cobra CFW or NFW v3 (CobraUSB)
-
--  In the XMBM+ go to ["Settings" -> "Language Settings" -> "Language Packs" ->]
--  Choose a language pack and download it to the root of the USB Stick
--  Install it, like you would any other homebrew package
--  Restart PS3 to see the new language 
-
-#### 4.00 HFW
-
--  In the XMBM+ go to ["Settings" -> "Language Settings" -> "Language Packs" ->]
--  Choose a language pack and download it to the root of the USB Stick
--  Extract the contents of the archive to the root of your USB drive you are using to host the XMBM+, let it overwrite any files it wants
--  Plugin the USB drive in /dev_usb000/(closest to the disc drive) before you turn the PS3 on
--  Turn PS3 on to see the new language pack
-
 ### Install Theme Pack
 
 #### Normal CFW (Kneaw, Rebug, etc) and Cobra CFW or NFW v3 (CobraUSB)
@@ -229,23 +224,13 @@ NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert
 -  Cobra CFW or NFW v3 (cobraUSB http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cobra.html
 -  4.00 HFW http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hfw.html
 
-### Language packs
-
--  American English (en-US) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-en-US.pkg
--  French (fr-FR) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-fr-FR.pkg
--  German (de-DE) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-de-DE.pkg
--  Polish (pl-PL) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-pl-PL.pkg
--  European Portuguese (pt-PT) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-pt-PT.pkg
--  Spanish (es-ES) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-es-ES.pkg
--  Russian (ru-RU) http://dl.dropbox.com/u/60710927/XMBMANPLS/LANGUAGEPACKS/XMB_Manager_Plus_v0.60-LANGUAGEPACK-ru-RU.pkg
-
 ### Theme packs
 
--  Original http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.60-THEMEPACK-ORIGINAL.pkg
--  White http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.60-THEMEPACK-WHITE.pkg
--  Colour http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.60-THEMEPACK-COLOUR.pkg
--  Black http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.60-THEMEPACK-BLACK.pkg
--  Blue http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.60-THEMEPACK-BLUE.pkg
+-  Original http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.70-THEMEPACK-ORIGINAL.pkg
+-  White http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.70-THEMEPACK-WHITE.pkg
+-  Colour http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.70-THEMEPACK-COLOUR.pkg
+-  Black http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.70-THEMEPACK-BLACK.pkg
+-  Blue http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.70-THEMEPACK-BLUE.pkg
 
 ### XMBM+ Builder Toolkit
 
