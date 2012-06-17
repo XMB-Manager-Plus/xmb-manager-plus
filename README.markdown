@@ -66,7 +66,6 @@ Gives information about the XMBM+, allows users to download language packs, them
 Know issues:
 - Download Manager: Homebrew is imcomplete
 - Download Manager: PSN packages is not working
-- User data manager: Trophies return errors or no empy message
 - User data manager: VMC cause ps3 to freeze
 
 ### 0.60

@@ -94,7 +94,7 @@
 		</Attributes>
 		<Items>
 			<Query class="type:x-xmb/folder-pixmap" key="savedata" attr="savedata" src="#seg_userdatamanager_all_savedata"/>
-			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Aa+AchievTitle:Common.dirPath"/>
+			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Ae+AchievTitle:Common.stat.contentsStatus 1"/>
 			<Query class="type:x-xmb/folder-pixmap" key="folders" attr="folders" src="#seg_userdatamanager_all_folders"/>
 		</Items>
 	</View>
@@ -116,7 +116,7 @@
 		</Attributes>
 		<Items>
 			<Query class="type:x-xmb/folder-pixmap" key="savedata" attr="savedata" src="#seg_userdatamanager_cu_savedata"/>
-			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Ae+AchievTitle:Common.dirPath %xUserHomeDir/trophy"/>
+			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Ae+AchievTitle:Common.owner %xUserId+Ae+AchievTitle:Common.stat.contentsStatus 1"/>
 		</Items>
 	</View>
 
@@ -142,7 +142,7 @@
 		</Attributes>
 		<Items>
 			<Query class="type:x-xmb/folder-pixmap" key="savedata" attr="savedata" src="#seg_userdatamanager_u1_savedata"/>
-			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Ae+AchievTitle:Common.dirPath /dev_hdd0/home/00000001/trophy"/>
+			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Ae+AchievTitle:Common.owner 00000001+Ae+AchievTitle:Common.stat.contentsStatus 1"/>
 			<Query class="type:x-xmb/folder-pixmap" key="folders" attr="folders" src="#seg_userdatamanager_u1_folders"/>
 		</Items>
 	</View>
@@ -169,7 +169,7 @@
 		</Attributes>
 		<Items>
 			<Query class="type:x-xmb/folder-pixmap" key="savedata" attr="savedata" src="#seg_userdatamanager_u2_savedata"/>
-			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Ae+AchievTitle:Common.dirPath /dev_hdd0/home/00000002/trophy"/>
+			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Ae+AchievTitle:Common.owner 00000002+Ae+AchievTitle:Common.stat.contentsStatus 1"/>
 			<Query class="type:x-xmb/folder-pixmap" key="folders" attr="folders" src="#seg_userdatamanager_u2_folders"/>
 		</Items>
 	</View>
@@ -196,7 +196,7 @@
 		</Attributes>
 		<Items>
 			<Query class="type:x-xmb/folder-pixmap" key="savedata" attr="savedata" src="#seg_userdatamanager_u3_savedata"/>
-			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Ae+AchievTitle:Common.dirPath /dev_hdd0/home/00000003/trophy"/>
+			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Ae+AchievTitle:Common.owner 00000003+Ae+AchievTitle:Common.stat.contentsStatus 1"/>
 			<Query class="type:x-xmb/folder-pixmap" key="folders" attr="folders" src="#seg_userdatamanager_u3_folders"/>
 		</Items>
 	</View>
@@ -223,7 +223,7 @@
 		</Attributes>
 		<Items>
 			<Query class="type:x-xmb/folder-pixmap" key="savedata" attr="savedata" src="#seg_userdatamanager_u4_savedata"/>
-			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Ae+AchievTitle:Common.dirPath /dev_hdd0/home/00000004/trophy"/>
+			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Ae+AchievTitle:Common.owner 00000004+Ae+AchievTitle:Common.stat.contentsStatus 1"/>
 			<Query class="type:x-xmb/folder-pixmap" key="folders" attr="folders" src="#seg_userdatamanager_u4_folders"/>
 		</Items>
 	</View>
@@ -250,7 +250,7 @@
 		</Attributes>
 		<Items>
 			<Query class="type:x-xmb/folder-pixmap" key="savedata" attr="savedata" src="#seg_userdatamanager_u5_savedata"/>
-			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Ae+AchievTitle:Common.dirPath /dev_hdd0/home/00000005/trophy"/>
+			<Query class="type:x-xmb/folder-pixmap" key="trophies" attr="trophies" src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&subclass=x-xcb/achievtitle&cond=Ae+AchievTitle:Common.owner 00000005+Ae+AchievTitle:Common.stat.contentsStatus 1"/>
 			<Query class="type:x-xmb/folder-pixmap" key="folders" attr="folders" src="#seg_userdatamanager_u5_folders"/>
 		</Items>
 	</View>
