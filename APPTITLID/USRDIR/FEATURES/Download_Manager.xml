@@ -9,7 +9,6 @@
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/download.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-MAIN</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -19,11 +18,6 @@
 
 	<!-- Main  > Download Manager > Submenu -->
 	<View id="seg_downloadmanager_items">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="downloadmanager_subitems" attr="downloadmanager_subitems" src="#seg_downloadmanager_subitems"/>
-		</Items>
-	</View>
-	<View id="seg_downloadmanager_subitems">
 		<Attributes>
 			<Table key="homebrew">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
@@ -34,7 +28,6 @@
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/psn-package.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_DOWNLOADMANAGER-PSNPACKAGES-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-PSNPACKAGES-MAIN</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -98,218 +91,26 @@
 		</Attributes>
 		<Items>
 			<Query class="type:x-xmb/folder-pixmap" key="all" attr="all" src="#seg_downloadmanager_homebrew_all"/>
-			<Query class="type:x-xmb/folder-pixmap" key="backupmanagers" attr="backupmanagers" src="#seg_downloadmanager_homebrew_backupmanagers"/>
-			<Query class="type:x-xmb/folder-pixmap" key="multimedia" attr="multimedia" src="#seg_downloadmanager_homebrew_multimedia"/>
-			<Query class="type:x-xmb/folder-pixmap" key="games" attr="games" src="#seg_downloadmanager_homebrew_games"/>
-			<Query class="type:x-xmb/folder-pixmap" key="emulators" attr="emulators" src="#seg_downloadmanager_homebrew_emulators"/>
-			<Query class="type:x-xmb/folder-pixmap" key="network" attr="network" src="#seg_downloadmanager_homebrew_network"/>
-			<Query class="type:x-xmb/folder-pixmap" key="tools" attr="tools" src="#seg_downloadmanager_homebrew_tools"/>
-			<Query class="type:x-xmb/folder-pixmap" key="development" attr="development" src="#seg_downloadmanager_homebrew_development"/>
+			<Query class="type:x-xmb/folder-pixmap" key="backupmanagers" attr="backupmanagers" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_backupmanagers"/>
+			<Query class="type:x-xmb/folder-pixmap" key="multimedia" attr="multimedia" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_multimedia"/>
+			<Query class="type:x-xmb/folder-pixmap" key="games" attr="games" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_games"/>
+			<Query class="type:x-xmb/folder-pixmap" key="emulators" attr="emulators" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_emulators"/>
+			<Query class="type:x-xmb/folder-pixmap" key="network" attr="network" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_network"/>
+			<Query class="type:x-xmb/folder-pixmap" key="tools" attr="tools" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_tools"/>
+			<Query class="type:x-xmb/folder-pixmap" key="development" attr="development" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_development"/>
 		</Items>
 	</View>
 
 	<!-- Main  > Download Manager > Homebrew > All -->
 	<View id="seg_downloadmanager_homebrew_all">
 		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="backupmanagers" src="#seg_downloadmanager_homebrew_backupmanagers"/>
-			<Query class="type:x-xmb/folder-pixmap" key="multimedia" src="#seg_downloadmanager_homebrew_multimedia"/>
-			<Query class="type:x-xmb/folder-pixmap" key="games" src="#seg_downloadmanager_homebrew_games"/>
-			<Query class="type:x-xmb/folder-pixmap" key="emulators" src="#seg_downloadmanager_homebrew_emulators"/>
-			<Query class="type:x-xmb/folder-pixmap" key="network" src="#seg_downloadmanager_homebrew_network"/>
-			<Query class="type:x-xmb/folder-pixmap" key="tools" src="#seg_downloadmanager_homebrew_tools"/>
-			<Query class="type:x-xmb/folder-pixmap" key="development" src="#seg_downloadmanager_homebrew_development"/>
-		</Items>
-	</View>
-
-	<!-- Main  > Download Manager > Homebrew > Backup Managers -->
-	<View id="seg_downloadmanager_homebrew_backupmanagers">
-		<Attributes>
-			<Table key="item1">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>MultiMan Cobra Manager (mmCM) v04.03.00 FULL (20120531)</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Dean/Cobra Team</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_mmCM_FULL.pkg</String></Pair>
- 			</Table>
-			<Table key="item2">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>MultiMan Cobra Manager (mmCM) v04.03.00 BASE (20120531)</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Dean/Cobra Team</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_mmCM_BASE.pkg</String></Pair>
- 			</Table>
-			<Table key="item3">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>Comgenie's Awsome Filemanager v0.06</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Comgenie</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_Comgenie_Awsome_Filemanager.pkg</String></Pair>
- 			</Table>
-		</Attributes>
-		<Items>
-			<Query class="type:x-xmb/module-action" key="item1" attr="item1"/>
-			<Query class="type:x-xmb/module-action" key="item2" attr="item2"/>
-			<Query class="type:x-xmb/module-action" key="item3" attr="item3"/>
-		</Items>
-	</View>
-
-	<!-- Main  > Download Manager > Homebrew > Multimedia -->
-	<View id="seg_downloadmanager_homebrew_multimedia">
-		<Attributes>
-			<Table key="item1">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>Showtime v3.99.41</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Andreas Öman</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>https://www.lonelycoder.com/doozer/buildmaster/download/656</String></Pair>
- 			</Table>
-			<Table key="item2">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>DVD Enabler</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Gatz85</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_DVDenabler.pkg</String></Pair>
- 			</Table>
-		</Attributes>
-		<Items>
-			<Query class="type:x-xmb/module-action" key="item1" attr="item1"/>
-			<Query class="type:x-xmb/module-action" key="item2" attr="item2"/>
-		</Items>
-	</View>
-
-	<!-- Main  > Download Manager > Homebrew > Games -->
-	<View id="seg_downloadmanager_homebrew_games">
-		<Attributes>
-			<Table key="item1">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>xxxxxxxxxx</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: xxxxxxxxxxx</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/HOMEBREW/xxxxxxxxxx.pkg</String></Pair>
- 			</Table>
-			<Table key="item2">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>xxxxxxxxxxx</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: xxxx</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/HOMEBREW/xxxxxxxxxx.pkg</String></Pair>
- 			</Table>
-		</Attributes>
-		<Items>
-			<Query class="type:x-xmb/module-action" key="item1" attr="item1"/>
-			<Query class="type:x-xmb/module-action" key="item2" attr="item2"/>
-		</Items>
-	</View>
-
-	<!-- Main  > Download Manager > Homebrew > Emulators -->
-	<View id="seg_downloadmanager_homebrew_emulators">
-		<Attributes>
-			<Table key="item1">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>Snes9x v4.4.6 (3.41)</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Squarepusher2</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_snes9x_3.41.pkg</String></Pair>
- 			</Table>
-		</Attributes>
-		<Items>
-			<Query class="type:x-xmb/module-action" key="item1" attr="item1"/>
-		</Items>
-	</View>
-
-	<!-- Main  > Download Manager > Homebrew > Network -->
-	<View id="seg_downloadmanager_homebrew_network">
-		<Attributes>
-			<Table key="item1">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>Blackb0x FTP v1.2</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Blackb0x</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_blackbox_ftpserver.pkg</String></Pair>
- 			</Table>
-		</Attributes>
-		<Items>
-			<Query class="type:x-xmb/module-action" key="item1" attr="item1"/>
-		</Items>
-	</View>
-
-	<!-- Main  > Download Manager > Homebrew > Tools -->
-	<View id="seg_downloadmanager_homebrew_tools">
-		<Attributes>
-			<Table key="item1">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>BD Emulator (3.55)</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: ????</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_BDEMU_3.55.pkg</String></Pair>
- 			</Table>
-			<Table key="item2">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>MultiMan BDReset</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Dean</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_bdRESET.pkg</String></Pair>
- 			</Table>
-			<Table key="item3">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>MultiMan LastGAME (3.55)</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Dean</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_lastGAME2.pkg</String></Pair>
- 			</Table>
-			<Table key="item4">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>Toggle QA v1.0</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Rebug</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_toggle_qa.pkg</String></Pair>
- 			</Table>
-			<Table key="item5">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LED Changer v2.0</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: Deroad</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_Led_Changer.pkg</String></Pair>
- 			</Table>
-			<Table key="item6">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>JaiCraB's USB Firmware Loader v0.3 (3.55)</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: JaiCraB</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/XMBMPLUS/HOMEBREW/Latest_JaiC_USB_FIRM_LOADER.pkg</String></Pair>
- 			</Table>
-		</Attributes>
-		<Items>
-			<!-- <Query class="type:x-xmb/module-action" key="item1" attr="item1"/> -->
-			<Query class="type:x-xmb/module-action" key="item2" attr="item2"/>
-			<Query class="type:x-xmb/module-action" key="item3" attr="item3"/>
-			<!-- <Query class="type:x-xmb/module-action" key="item4" attr="item4"/> -->
-			<Query class="type:x-xmb/module-action" key="item5" attr="item5"/>
-			<Query class="type:x-xmb/module-action" key="item6" attr="item6"/>
-		</Items>
-	</View>
-
-	<!-- Main  > Download Manager > Homebrew > Development -->
-	<View id="seg_downloadmanager_homebrew_development">
-		<Attributes>
-			<Table key="item1">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>xxxxxxxxxx</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: xxxxxxxxxxx</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/HOMEBREW/xxxxxxxxxx.pkg</String></Pair>
- 			</Table>
-			<Table key="item2">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>xxxxxxxxxxx</String></Pair>
-				<Pair key="info"><String>LANG_INFO_DOWNLOADMANAGER-HOMEBREW-AUTHOR: xxxx</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/HOMEBREW/xxxxxxxxxx.pkg</String></Pair>
- 			</Table>
-		</Attributes>
-		<Items>
-			<Query class="type:x-xmb/module-action" key="item1" attr="item1"/>
-			<Query class="type:x-xmb/module-action" key="item2" attr="item2"/>
+			<Query class="type:x-xmb/folder-pixmap" key="backupmanagers" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_backupmanagers"/>
+			<Query class="type:x-xmb/folder-pixmap" key="multimedia" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_multimedia"/>
+			<Query class="type:x-xmb/folder-pixmap" key="games" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_games"/>
+			<Query class="type:x-xmb/folder-pixmap" key="emulators" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_emulators"/>
+			<Query class="type:x-xmb/folder-pixmap" key="network" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_network"/>
+			<Query class="type:x-xmb/folder-pixmap" key="tools" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_tools"/>
+			<Query class="type:x-xmb/folder-pixmap" key="development" src="xmb://localhost/dev_hdd0/game/XMBMANPLS/USRDIR/FEATURES/Download_Manager-Homebrew.xml#seg_downloadmanager_homebrew_development"/>
 		</Items>
 	</View>
 

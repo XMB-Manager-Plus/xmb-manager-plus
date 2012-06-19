@@ -9,7 +9,6 @@
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_HOMEBREWMANAGER-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_HOMEBREWMANAGER-MAIN</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -19,11 +18,6 @@
 
 	<!-- Main  > Game Manager > Submenu -->
 	<View id="seg_homebrewmanager_items">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="homebrewmanager_subitems" attr="homebrewmanager_subitems" src="#seg_homebrewmanager_subitems"/>
-		</Items>
-	</View>
-	<View id="seg_homebrewmanager_subitems">
 		<Attributes>
 			<Table key="all">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>

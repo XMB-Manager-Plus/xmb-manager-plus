@@ -9,7 +9,6 @@
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-MAIN</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -19,17 +18,11 @@
 	
 	<!-- Main  > Settings > Submenu -->
 	<View id="seg_settings_items">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="settings_subitems" attr="settings_subitems" src="#seg_settings_subitems"/>
-		</Items>
-	</View>
-	<View id="seg_settings_subitems">
 		<Attributes>
 			<Table key="languages">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings_language.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_SETTINGS-LANGUAGES-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-LANGUAGES-MAIN</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="themes">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/settings_theme.png</String></Pair>
@@ -60,11 +53,6 @@
 
 	<!-- Main  > Settings > Languages -->
 	<View id="seg_settings_languages">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="settings_languages_items" attr="settings_languages_items" src="#seg_settings_languages_items"/>
-		</Items>
-	</View>
-	<View id="seg_settings_languages_items">
 		<Attributes>
 			<Table key="currentlanguage">
 				<Pair key="icon"><String>LANG_ICON_SETTINGS-LANGUAGES-CURRENT</String></Pair>
@@ -150,7 +138,7 @@
 	<!-- Main  > Settings > Themes -->
 	<View id="seg_settings_themes">
 		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="currenttheme"  src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/themeinfo.xml#seg_current_theme_LANGUAGE-CODE"/>
+			<Query class="type:x-xmb/folder-pixmap" key="currenttheme" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/themeinfo.xml#seg_current_theme_LANGUAGE-CODE"/>
 			<Query class="type:x-xmb/folder-pixmap" key="themepacks" src="#seg_settings_themes_items"/>
 		</Items>
 	</View>

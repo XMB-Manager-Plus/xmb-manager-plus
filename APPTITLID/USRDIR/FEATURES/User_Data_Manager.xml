@@ -9,7 +9,6 @@
 				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/user.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_USERDATAMANAGER-MAIN</String></Pair>
 			    <Pair key="info"><String>LANG_INFO_USERDATAMANAGER-MAIN</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -19,11 +18,6 @@
 
 	<!-- Main > User Data Manager > Submenu -->
 	<View id="seg_userdatamanager_items">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="userdatamanager_items" attr="userdatamanager_items" src="#seg_userdatamanager_subitems"/>
-		</Items>
-	</View>
-	<View id="seg_userdatamanager_subitems">
 		<Attributes>
             <Table key="all">
                 <Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/IMAGES/users.png</String></Pair>

@@ -9,7 +9,6 @@
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamedata.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-MAIN</String></Pair>
 			    <Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-MAIN</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -19,11 +18,6 @@
 
 	<!-- Main > Game Data Manager > Submenu -->
 	<View id="seg_gamedatamanager_items">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="gamedatamanager_items" attr="gamedatamanager_items" src="#seg_gamedatamanager_subitems"/>
-		</Items>
-	</View>
-	<View id="seg_gamedatamanager_subitems">
 		<Attributes>
 			<Table key="gamedata">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamedata.png</String></Pair>
@@ -35,22 +29,18 @@
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamelist.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-INSTALLEDGAMES-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-INSTALLEDGAMES-MAIN</String></Pair>
-				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="gamesinstalled">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamelist.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-INSTALLEDHDDGAMES</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-INSTALLEDHDDGAMES</String></Pair>
 				<Pair key="str_noitem"><String>msg_no_data</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="backupshdd0">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/hdd.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEDATAMANAGER-BACKUPINTERNAL</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEDATAMANAGER-BACKUPINTERNAL</String></Pair>
 				<Pair key="str_noitem"><String>msg_error_no_gamedata</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="backupsusb">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/usb.png</String></Pair>
@@ -63,19 +53,14 @@
 		<Items>
 			<Query class="type:x-xmb/folder-pixmap" key="gamedata" attr="gamedata" src="xcb://localhost/query?limit=2048&table=MMS_MEDIA_TYPE_HDD&sort=-Game:Common.timeCreated&cond=Ae+Game:Game.category GD+Oe+Game:Game.category 2D" />
 			<Query class="type:x-xmb/folder-pixmap" key="gamesonhdd" attr="gamesonhdd" src="#seg_gamedatamanager_gamesonhdd"/>
-			<!-- <Query class="type:x-xmb/folder-pixmap" key="gamesinstalled" attr="gamesinstalled" src="#seg_gamedatamanager_gamesinstalled"/> -->
-			<Query class="type:x-xmb/folder-pixmap" key="backupshdd0" attr="backupshdd0" src="#seg_gamedatamanager_backupshdd0"/>
+			<!-- <Query class="type:x-xmb/folder-pixmap" key="gamesinstalled" attr="gamesinstalled" src="host://localhost/dev_hdd0/game"/> -->
+			<Query class="type:x-xmb/folder-pixmap" key="backupshdd0" attr="backupshdd0" src="host://localhost/dev_hdd0/GAMES"/>
 			<Query class="type:x-xmb/folder-pixmap" key="backupsusb" attr="backupsusb" src="#seg_gamedatamanager_backupsusb"/>
 		</Items>
 	</View>
 
 	<!-- Main > Game Data Manager > Games on HDD -->
 	<View id="seg_gamedatamanager_gamesonhdd">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="gamedatamanager_gamesonhdd_items" attr="gamedatamanager_gamesonhdd_items" src="#seg_gamedatamanager_gamesonhdd_items"/>
-		</Items>
-	</View>
-	<View id="seg_gamedatamanager_gamesonhdd_items">
 		<Attributes>
 			<Table key="hg">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/gamedata.png</String></Pair>
@@ -107,20 +92,6 @@
 			<Query class="type:x-xmb/folder-pixmap" key="mn" attr="mn" src="xcb://localhost/query?limit=2048&table=MMS_MEDIA_TYPE_HDD&sort=+Game:Common.title&cond=Ae+Game:Game.category MN"/>
 			<Query class="type:x-xmb/folder-pixmap" key="1p" attr="1p" src="xcb://localhost/query?limit=2048&table=MMS_MEDIA_TYPE_HDD&sort=+Game:Common.title&cond=Ae+Game:Game.category 1P"/>
 			<Query class="type:x-xmb/folder-pixmap" key="2p" attr="2p" src="xcb://localhost/query?limit=2048&table=MMS_MEDIA_TYPE_HDD&sort=+Game:Common.title&cond=Ae+Game:Game.category 2P"/>
-		</Items>
-	</View>
-
-	<!-- Main > Game Data Manager > Games Installed on HDD -->
-	<View id="seg_gamedatamanager_gamesinstalled">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="hdd0" attr="hdd0" src="host://localhost/dev_hdd0/game"/>
-		</Items>
-	</View>
-
-	<!-- Main > Game Data Manager > Backup Games (internal) -->
-	<View id="seg_gamedatamanager_backupshdd0">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="hdd0" attr="hdd0" src="host://localhost/dev_hdd0/GAMES"/>
 		</Items>
 	</View>
 

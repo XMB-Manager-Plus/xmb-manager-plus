@@ -9,7 +9,6 @@
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-MAIN</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -19,18 +18,11 @@
 
 	<!-- Main  > Game Manager > Submenu -->
 	<View id="seg_gamemanager_items">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="gamemanager_subitems" attr="gamemanager_subitems" src="#seg_gamemanager_subitems"/>
-		</Items>
-	</View>
-	<View id="seg_gamemanager_subitems">
 		<Attributes>
 			<Table key="bytype">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYTYPE-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYTYPE-MAIN</String></Pair>
-				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
  			</Table>
 			<Table key="byfolder">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
@@ -42,8 +34,6 @@
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_GAMEMANAGER-BYCATEGORY-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_GAMEMANAGER-BYCATEGORY-MAIN</String></Pair>
-				<Pair key="str_noitem"><String>msg_error_no_title</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -56,11 +46,6 @@
 
 	<!-- Main  > Game Manager > By type -->
 	<View id="seg_gamemanager_bytype">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="gamemanager_bytype_items" attr="gamemanager_bytype_items" src="#seg_gamemanager_bytype_items"/>
-		</Items>
-	</View>
-	<View id="seg_gamemanager_bytype_items">
 		<Attributes>
 			<Table key="all">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>
@@ -93,11 +78,6 @@
 
 	<!-- Main  > Game Manager > By category -->
 	<View id="seg_gamemanager_bycategory">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="gamemanager_bycategory_items" attr="gamemanager_bycategory_items" src="#seg_gamemanager_bycategory_items"/>
-		</Items>
-	</View>
-	<View id="seg_gamemanager_bycategory_items">
 		<Attributes>
 			<Table key="all">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/game.png</String></Pair>

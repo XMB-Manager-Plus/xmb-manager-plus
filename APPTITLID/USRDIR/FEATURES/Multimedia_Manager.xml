@@ -9,7 +9,6 @@
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/multimedia.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_MULTIMEDIAMANAGER-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_MULTIMEDIAMANAGER-MAIN</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -19,11 +18,6 @@
 
 	<!-- Main  > Links > Submenu -->
 	<View id="seg_multimediamanager_items">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="multimediamanager_subitems" attr="multimediamanager_subitems" src="#seg_multimediamanager_subitems"/>
-		</Items>
-	</View>
-	<View id="seg_multimediamanager_subitems">
 		<Attributes>
 			<Table key="music_internal">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/music.png</String></Pair>

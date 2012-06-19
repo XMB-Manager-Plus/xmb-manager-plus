@@ -9,7 +9,6 @@
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/pkgmanager.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-MAIN</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -19,30 +18,22 @@
 
 	<!-- Main  > Package Manager Plus > Submenu -->
 	<View id="seg_packagemanager_items">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="packagemanager_subitems" attr="packagemanager_subitems" src="#seg_packagemanager_subitems"/>
-		</Items>
-	</View>
-	<View id="seg_packagemanager_subitems">
 		<Attributes>
 			<Table key="install">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/pkgmanager.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-MAIN</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="delete">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/delete.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-MAIN</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="psn">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/psn.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-PSNCONTENT</String></Pair>
 				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-PSNCONTENT</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_psn_content</String></Pair>
-				<Pair key="ingame"><String>disable</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -54,11 +45,6 @@
 	
 	<!-- Main  > Package Manager Plus > Install Package File -->
 	<View id="seg_packagemanager_install">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="packagemanager_install_items" attr="packagemanager_install_items" src="#seg_packagemanager_install_items"/>
-		</Items>
-	</View>
-	<View id="seg_packagemanager_install_items">
 		<Attributes>
 			<Table key="homebrew">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
@@ -124,8 +110,8 @@
 	<!-- Main  > Package Manager Plus > Install Package File > PS3™ Hard Disk -->
 	<View id="seg_packagemanager_install_hdd0">
 		<Items>
-			<Query class="type:x-xmb/xmlpackagefolder" key="flash" src="host://localhost/q?path=/dev_flash/rebug/packages&suffix=.pkg&subclass=x-host/package"/>		  
-			<Query class="type:x-xmb/xmlpackagefolder" key="hdd0" src="host://localhost/q?path=/dev_hdd0/packages&suffix=.pkg&subclass=x-host/package"/>		  
+			<Query class="type:x-xmb/xmlpackagefolder" key="flash" src="host://localhost/q?path=/dev_flash/rebug/packages&suffix=.pkg&subclass=x-host/package"/>
+			<Query class="type:x-xmb/xmlpackagefolder" key="hdd0" src="host://localhost/q?path=/dev_hdd0/packages&suffix=.pkg&subclass=x-host/package"/>
 		</Items>
 	</View>
 
@@ -169,11 +155,6 @@
 	
 	<!-- Main  > Package Manager Plus > Delete Package Files -->
 	<View id="seg_packagemanager_delete">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="packagemanager_delete_items" attr="packagemanager_delete_items" src="#seg_packagemanager_delete_items"/>
-		</Items>
-	</View>
-	<View id="seg_packagemanager_delete_items">
 		<Attributes>
 			<Table key="homebrew">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/homebrew.png</String></Pair>
@@ -211,7 +192,7 @@
 			</Table>
 		</Attributes>
 		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="hdd0" attr="hdd0" src="#seg_packagemanager_delete_hdd0"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hdd0" attr="hdd0" src="host://localhost/q?path=/dev_hdd0/packages&suffix=.pkg"/>
 			<Query class="type:x-xmb/folder-pixmap" key="usb" attr="usb" src="#seg_packagemanager_delete_usb"/>
 			<Query class="type:x-xmb/folder-pixmap" key="standard" attr="standard" src="#seg_packagemanager_delete_standard"/>
 			<Query class="type:x-xmb/folder-pixmap" key="homebrew" attr="homebrew" src="#seg_packagemanager_delete_delete"/>
@@ -222,62 +203,63 @@
 	<!-- Main  > Package Manager Plus > Delete Package Files > Homebrew Download folder -->
 	<View id="seg_packagemanager_delete_homebrew">
 		<Items>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb0" src="host://localhost/q?path=/dev_usb000/PS3/DOWNLOADS&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb1" src="host://localhost/q?path=/dev_usb001/PS3/DOWNLOADS&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb2" src="host://localhost/q?path=/dev_usb002/PS3/DOWNLOADS&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb3" src="host://localhost/q?path=/dev_usb003/PS3/DOWNLOADS&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb4" src="host://localhost/q?path=/dev_usb004/PS3/DOWNLOADS&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb5" src="host://localhost/q?path=/dev_usb005/PS3/DOWNLOADS&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb6" src="host://localhost/q?path=/dev_usb006/PS3/DOWNLOADS&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb7" src="host://localhost/q?path=/dev_usb007/PS3/DOWNLOADS&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="ms" src="host://localhost/q?path=/dev_ms/PS3/DOWNLOADS&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="sd" src="host://localhost/q?path=/dev_sd/PS3/DOWNLOADS&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="cf" src="host://localhost/q?path=/dev_cf/PS3/DOWNLOADS&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb0" src="host://localhost/q?path=/dev_usb000/PS3/DOWNLOADS&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb1" src="host://localhost/q?path=/dev_usb001/PS3/DOWNLOADS&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb2" src="host://localhost/q?path=/dev_usb002/PS3/DOWNLOADS&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb3" src="host://localhost/q?path=/dev_usb003/PS3/DOWNLOADS&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb4" src="host://localhost/q?path=/dev_usb004/PS3/DOWNLOADS&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb5" src="host://localhost/q?path=/dev_usb005/PS3/DOWNLOADS&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb6" src="host://localhost/q?path=/dev_usb006/PS3/DOWNLOADS&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb7" src="host://localhost/q?path=/dev_usb007/PS3/DOWNLOADS&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ms" src="host://localhost/q?path=/dev_ms/PS3/DOWNLOADS&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="sd" src="host://localhost/q?path=/dev_sd/PS3/DOWNLOADS&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="cf" src="host://localhost/q?path=/dev_cf/PS3/DOWNLOADS&suffix=.pkg"/>
 		</Items>
 	</View>
 
 	<!-- Main  > Package Manager Plus > Delete Package Files > PS3™ Hard Disk -->
 	<View id="seg_packagemanager_delete_hdd0">
 		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="hdd0" attr="hdd0" src="host://localhost/q?path=/dev_hdd0/packages&suffix=.pkg"/>		  
+			<Query class="type:x-xmb/folder-pixmap" key="flash" src="host://localhost/q?path=/dev_flash/rebug/packages&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hdd0" src="host://localhost/q?path=/dev_hdd0/packages&suffix=.pkg"/>		  
 		</Items>
 	</View>
 	
 	<!-- Main  > Package Manager Plus > Delete Package Files > Package Folders -->
 	<View id="seg_packagemanager_delete_usb">
 		<Items>
-			<Query class="type:x-xmb/xmlpackagefolder" key="host" src="host://localhost/q?path=/app_home/packages/&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="bdvd" src="host://localhost/q?path=/dev_bdvd/packages&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb0" src="host://localhost/q?path=/dev_usb000/packages&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb1" src="host://localhost/q?path=/dev_usb001/packages&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb2" src="host://localhost/q?path=/dev_usb002/packages&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb3" src="host://localhost/q?path=/dev_usb003/packages&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb4" src="host://localhost/q?path=/dev_usb004/packages&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb5" src="host://localhost/q?path=/dev_usb005/packages&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb6" src="host://localhost/q?path=/dev_usb006/packages&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb7" src="host://localhost/q?path=/dev_usb007/packages&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="ms" src="host://localhost/q?path=/dev_ms/packages&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="sd" src="host://localhost/q?path=/dev_sd/packages&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="cf" src="host://localhost/q?path=/dev_cf/packages&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="host" src="host://localhost/q?path=/app_home/packages/&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="bdvd" src="host://localhost/q?path=/dev_bdvd/packages&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb0" src="host://localhost/q?path=/dev_usb000/packages&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb1" src="host://localhost/q?path=/dev_usb001/packages&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb2" src="host://localhost/q?path=/dev_usb002/packages&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb3" src="host://localhost/q?path=/dev_usb003/packages&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb4" src="host://localhost/q?path=/dev_usb004/packages&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb5" src="host://localhost/q?path=/dev_usb005/packages&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb6" src="host://localhost/q?path=/dev_usb006/packages&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb7" src="host://localhost/q?path=/dev_usb007/packages&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ms" src="host://localhost/q?path=/dev_ms/packages&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="sd" src="host://localhost/q?path=/dev_sd/packages&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="cf" src="host://localhost/q?path=/dev_cf/packages&suffix=.pkg"/>
 		</Items>
 	</View>
 	
 	<!-- Main  > Package Manager Plus > Delete Package Files > Standard Package Location -->
 	<View id="seg_packagemanager_delete_standard">
 		<Items>
-			<Query class="type:x-xmb/xmlpackagefolder" key="host" src="host://localhost/q?path=/app_home&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="bdvd" src="host://localhost/q?path=/dev_bdvd&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb0" src="host://localhost/q?path=/dev_usb000&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb1" src="host://localhost/q?path=/dev_usb001&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb2" src="host://localhost/q?path=/dev_usb002&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb3" src="host://localhost/q?path=/dev_usb003&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb4" src="host://localhost/q?path=/dev_usb004&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb5" src="host://localhost/q?path=/dev_usb005&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb6" src="host://localhost/q?path=/dev_usb006&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="usb7" src="host://localhost/q?path=/dev_usb007&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="ms" src="host://localhost/q?path=/dev_ms&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="sd" src="host://localhost/q?path=/dev_sd&suffix=.pkg"/>
-			<Query class="type:x-xmb/xmlpackagefolder" key="cf" src="host://localhost/q?path=/dev_cf&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="host" src="host://localhost/q?path=/app_home&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="bdvd" src="host://localhost/q?path=/dev_bdvd&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb0" src="host://localhost/q?path=/dev_usb000&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb1" src="host://localhost/q?path=/dev_usb001&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb2" src="host://localhost/q?path=/dev_usb002&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb3" src="host://localhost/q?path=/dev_usb003&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb4" src="host://localhost/q?path=/dev_usb004&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb5" src="host://localhost/q?path=/dev_usb005&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb6" src="host://localhost/q?path=/dev_usb006&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb7" src="host://localhost/q?path=/dev_usb007&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="ms" src="host://localhost/q?path=/dev_ms&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="sd" src="host://localhost/q?path=/dev_sd&suffix=.pkg"/>
+			<Query class="type:x-xmb/folder-pixmap" key="cf" src="host://localhost/q?path=/dev_cf&suffix=.pkg"/>
 		</Items>
 	</View>
 

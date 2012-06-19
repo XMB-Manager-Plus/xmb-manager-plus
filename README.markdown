@@ -5,7 +5,7 @@ XMB Manager Plus (XMBM+) is a Homebrew XMB item which does many things you could
 
 This will replace the "Install Package Files" option or Rebug's "Package Manager" option.
 
-It officially supports seven languages, five themes and boasts compatibility with most CFW and 4.00 HFW.
+Translated to seven languages (en-US, de-DE, fr-FR, es-ES, pt-PT, pl-PL and ru-RU), supports five themes and has compatibility with most CFW and 4.00 HFW.
 
 ## Main Features
 
@@ -59,12 +59,12 @@ Gives information about the XMBM+, allows users to download language packs, them
 
 ### 0.70 Beta
 
--  Languages dor cre hdd packages now in RCO, so they are autodetected and so no need to install language packs
+-  Languages in core hdd0 packages now in RCO, so they are autodetected and so no need to install language packs
 -  New option for installing packages from mmCM pkg directory
 -  Many minor changes and bug corrections
 
 Know issues:
-- Download Manager: Homebrew is imcomplete
+- Download Manager: Homebrew is incomplete
 - Download Manager: PSN packages is not working
 - User data manager: VMC cause ps3 to freeze
 

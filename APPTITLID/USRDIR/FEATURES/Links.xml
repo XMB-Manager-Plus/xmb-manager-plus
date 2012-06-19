@@ -9,7 +9,6 @@
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/www.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-MAIN</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-MAIN</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 		</Attributes>
 		<Items>
@@ -19,11 +18,6 @@
 
 	<!-- Main  > Links > Submenu -->
 	<View id="seg_links_items">
-		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="links_subitems" attr="links_subitems" src="#seg_links_subitems"/>
-		</Items>
-	</View>
-	<View id="seg_links_subitems">
 		<Attributes>
 			<Table key="ps3scene">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/IMAGES/www.png</String></Pair>
