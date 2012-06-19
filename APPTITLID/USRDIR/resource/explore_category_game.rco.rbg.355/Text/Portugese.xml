@@ -230,4 +230,5 @@ Se jogar um jogo que suporte a funcionalidade de troféus e a recolha de troféu
 	<Text name="msg_psp_exclusive_install_ask">Este conteúdo destina-se a utilização exclusiva com o sistema PSP™.
 Pretende instalá-lo agora no sistema PSP™?</Text>
 	<Text name="msg_version">Versão</Text>
+	<Text name="msg_tool_package_file"><![CDATA[★ Gestor de Packages]]></Text>
 </TextLang>
