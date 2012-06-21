@@ -155,14 +155,15 @@
 	<Text name="msg_level_11"><![CDATA[Уровень 11]]></Text>
 	<Text name="msg_gameetc_pc"><![CDATA[Родительский контроль]]></Text>
 	<Text name="msg_cannot_operate_in_demonstration_mode"><![CDATA[Эту операцию нельзя выполнить в демонстрационном режиме.]]></Text>
-	<Text name="msg_tool_install_file"><![CDATA[★ Установшик пакетов]]></Text>
+	<Text name="msg_tool_install_file"><![CDATA[★ Установка пакетов]]></Text>
 	<Text name="msg_tool_app_home_ps3_game"><![CDATA[★ Запустить игру]]></Text>
 	<Text name="msg_tool_lock"><![CDATA[★ Закрыть]]></Text>
 	<Text name="msg_tool_unlock"><![CDATA[★ Открыть]]></Text>
 	<Text name="msg_tool_check"><![CDATA[★ Проверить]]></Text>
 	<Text name="msg_tool_cancel_purchase"><![CDATA[★ Отменить покупку]]></Text>
 	<Text name="msg_tool_del"><![CDATA[★ Удалить]]></Text>
-	<Text name="msg_no_trophy">There are no trophies.</Text>
+	<Text name="msg_no_trophy">Призы отсутствуют.
+Если вы будете играть в игру, которая поддерживает функцию призов, и получите призы, то они будут показаны здесь.</Text>
 	<Text name="msg_del_trackfolder_ask"><![CDATA[Папка и все дорожки в папке будут удалены.
 Удалить выбранные дорожки?]]></Text>
 	<Text name="msg_del_title_ask"><![CDATA[Название будет удалено.
