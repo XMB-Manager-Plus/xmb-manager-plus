@@ -63,10 +63,7 @@ Gives information about the XMBM+, allows users to download language packs, them
 -  New option for installing packages from mmCM pkg directory
 -  Many minor changes and bug corrections
 
-Know issues:
-- Download Manager: Homebrew is incomplete
-- Download Manager: PSN packages is not working
-- User data manager: VMC cause ps3 to freeze
+Know issues: User data manager: VMC cause ps3 to freeze
 
 ### 0.60
 
