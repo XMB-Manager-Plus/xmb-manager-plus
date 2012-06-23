@@ -77,8 +77,10 @@
  			</Table>
 		</Attributes>
 		<Items>
+			<!--
 			<Query class="type:x-xmb/module-action" key="item1" attr="item1"/>
 			<Query class="type:x-xmb/module-action" key="item2" attr="item2"/>
+			-->
 		</Items>
 	</View>
 
@@ -189,8 +191,10 @@
  			</Table>
 		</Attributes>
 		<Items>
+			<!--
 			<Query class="type:x-xmb/module-action" key="item1" attr="item1"/>
 			<Query class="type:x-xmb/module-action" key="item2" attr="item2"/>
+			-->
 		</Items>
 	</View>
 
