@@ -255,7 +255,7 @@ All packages are compiled with the XMBM+ Builder Toolkit. With the XMBM+ Builder
 -  SFX/SFO editor/converter: aldostools
 -  Graphical design: Berion
 
-## XMBM+ Installer
+### XMBM+ Installer
 
 -  Coding: andreus
 
