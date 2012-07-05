@@ -5,7 +5,7 @@ XMB Manager Plus (XMBM+) is a Homebrew XMB item which does many things you could
 
 This will replace the "Install Package Files" option or Rebug's "Package Manager" option.
 
-Translated to seven languages (en-US, de-DE, fr-FR, es-ES, pt-PT, pl-PL and ru-RU), supports five themes and has compatibility with most CFW and 4.00 HFW.
+Translated to seven languages (en-US, de-DE, fr-FR, es-ES, it-IT, pt-PT, pl-PL and ru-RU), supports five themes and has compatibility with most CFW and 4.00 HFW.
 
 ## Main Features
 
@@ -59,7 +59,8 @@ Gives information about the XMBM+, allows users to download language packs, them
 
 ### 1.00 Beta
 
--  New All-in-one installer to replace Rebug's Package Manager
+-  New All-in-one flexible installer to replace Rebug's Package Manager
+-  New Italian language
 
 Know issues: User data manager: VMC cause ps3 to freeze
 

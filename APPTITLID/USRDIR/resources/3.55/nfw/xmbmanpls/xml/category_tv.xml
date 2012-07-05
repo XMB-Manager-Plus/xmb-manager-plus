@@ -3,7 +3,7 @@
     <View id="root">
         <Items>
             <Query class="type:x-xmb/folder-pixmap" key="seg_xil" src="xil://localhost/list?t=tv"/>
-            <Query class="type:x-xmb/folder-pixmap" key="xmb_app1" attr="xmb_app1" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/game_main.xml#seg_xmb_app"/>
+            <Query class="type:x-xmb/folder-pixmap" key="xmb_app1" attr="xmb_app1" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/game_main.xml#seg_xmb_app"/>
             <!-- <Query class="type:x-xmb/folder-pixmap" key="seg_package_files" src="#seg_package_files"/> -->
             <Query class="type:x-xmb/folder-pixmap" key="seg_gamedebug" src="#seg_gamedebug"/>
             <Query class="type:x-xmb/folder-pixmap" key="seg_gameexit" src="sel://localhost/ingame?path=category_tv.xml#seg_gameexit&type=tv"/>
