@@ -5,7 +5,7 @@ XMB Manager Plus (XMBM+) is a Homebrew XMB item which does many things you could
 
 This will replace the "Install Package Files" option or Rebug's "Package Manager" option.
 
-Translated to seven languages EURO MULTI7 (English, French, German, Italian, Polish, Russian, Spanish) + Portuguese, supports five themes and has compatibility with most CFW and 4.00 HFW.
+Translated to EURO MULTI7 (English, French, German, Italian, Polish, Russian, Spanish) + Portuguese, supports five themes and has compatibility with most CFW and 4.00 HFW.
 
 ## Main Features
 
@@ -149,7 +149,7 @@ Release page: http://www.ps3crunch.net/forum/threads/2708
 
 ### Install Core XMBM+
 
-#### Normal CFW (Kneaw, Rebug, etc) or Cobra CFW or NFW v3 (CobraUSB)
+#### Normal CFW (Kneaw, etc) or Rebug or Cobra CFW or NFW v3 (CobraUSB)
 
 -  Download the [Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html) for 3.55 Normal CFW (Kneaw, etc) or Rebug or the [Full Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw-full.html) for 3.55/3.41 Normal CFW (Kneaw, etc), Rebug; 3.55 Cobra CFW, NFW v3 (cobraUSB)
 -  Copy the pkg file to the root of your USB media
@@ -193,8 +193,8 @@ NOTE: due to the constant requirements to call to the USB for resources, removin
 
 ## Uninstall Instructions
 
--  Run previous installed "XMB Manager Plus" application and revert to your previous "Install Package Files" option
--  Uninstall XMB Manager Plus from the XMB "Game Data" category (if any themes/language packs installed)
+-  Run previous installed "XMB Manager Plus" application and restore your previous backup using restore option
+-  Uninstall XMB Manager Plus from the XMB "Game Data" category (if any themes packs installed)
 -  Uninstall XMB Manager Plus from the XMB "Game" category
 
 NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert back to your "Install Package Files" option or you'll have to reinstall the Firmware
