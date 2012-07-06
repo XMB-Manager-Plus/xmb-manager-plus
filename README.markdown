@@ -5,7 +5,7 @@ XMB Manager Plus (XMBM+) is a Homebrew XMB item which does many things you could
 
 This will replace the "Install Package Files" option or Rebug's "Package Manager" option.
 
-Translated to seven languages (en-US, de-DE, fr-FR, es-ES, it-IT, pt-PT, pl-PL and ru-RU), supports five themes and has compatibility with most CFW and 4.00 HFW.
+Translated to seven languages EURO MULTI7 (English, French, German, Italian, Polish, Russian, Spanish) + Portuguese, supports five themes and has compatibility with most CFW and 4.00 HFW.
 
 ## Main Features
 
@@ -57,10 +57,11 @@ Gives information about the XMBM+, allows users to download language packs, them
 
 ## Release notes
 
-### 1.00 Beta
+### 1.00
 
 -  New All-in-one flexible installer to replace Rebug's Package Manager
 -  New Italian language
+-  Many minor changes, bug corrections and improvments
 
 Know issues: User data manager: VMC cause ps3 to freeze
 
@@ -148,19 +149,18 @@ Release page: http://www.ps3crunch.net/forum/threads/2708
 
 ### Install Core XMBM+
 
-#### Normal CFW (Kneaw, Rebug, etc) and Cobra CFW or NFW v3 (CobraUSB)
+#### Normal CFW (Kneaw, Rebug, etc) or Cobra CFW or NFW v3 (CobraUSB)
 
--  Download the Core Pack (http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html)
+-  Download the [Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html) for 3.55 Normal CFW (Kneaw, etc) or Rebug or the [Full Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw-full.html) for 3.55/3.41 Normal CFW (Kneaw, etc), Rebug; 3.55 Cobra CFW, NFW v3 (cobraUSB)
 -  Copy the pkg file to the root of your USB media
 -  Install the pkg file
 -  Run the XMB Manager Plus application and select your firmware and what you want to install
--  Enjoy!
 
 NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert back to your "Install Package Files" option or you'll have to reinstall the Firmware
 
 #### 4.00 HFW
 
--  Download the Core Pack - [HFW](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hfw.html)
+-  Download the [HFW Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hfw.html)
 -  Extract the contents of the archive to the root of your USB drive you are using to host the XMBM+
 -  Plugin the USB drive in /dev_usb000/(closest to the disc drive) before you turn the PS3 on
 -  Turn PS3 on to see the XMB Manager Plus on the XMB
@@ -203,37 +203,38 @@ NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert
 
 ### Manual
 
-- Go to https://github.com/XMB-Manager-Plus/xmb-manager-plus/tree/master/languages
+- Go to [XMBM+ Git language page](https://github.com/XMB-Manager-Plus/xmb-manager-plus/tree/master/languages)
 - Download the en-US.ini file
-- Find your language code (http://www.i18nguy.com/unicode/language-identifiers.html)
+- Find your [language code](http://www.i18nguy.com/unicode/language-identifiers.html)
 - Translate it
-- Push to git or send it to XMB Manager Plus Development page (http://www.ps3crunch.net/forum/threads/2431)
+- Push to git or send it to [XMB Manager Plus Development page](http://www.ps3crunch.net/forum/threads/2431)
 
 ### With XMB Manager Toolkit
 
 - Use Toolkit "Add language" option
 - Go to \bin\base-source\languages\langcode.ini
 - Translate it
-- Push to git or send it to XMB Manager Plus Development page (http://www.ps3crunch.net/forum/threads/2431)
+- Push to git or send it to [XMB Manager Plus Development page](http://www.ps3crunch.net/forum/threads/2431)
 
 ## Downloads
 
 ### Core Package
 
--  Normal 3.55/3.41 CFW (Kneaw, Rebug, etc) and Cobra CFW or NFW v3 (cobraUSB) http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw-full.html
--  4.00 HFW http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hfw.html
+-  [Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html) - 3.55 Normal CFW (Kneaw, etc) and Rebug
+-  [Full Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw-full.html) - 3.55/3.41 Normal CFW (Kneaw, etc), Rebug; 3.55 Cobra CFW, NFW v3
+-  [HFW Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hfw.html) - 4.00 HFW
 
 ### Theme packs
 
--  Original http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.70-THEMEPACK-ORIGINAL.pkg
--  White http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.70-THEMEPACK-WHITE.pkg
--  Colour http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.70-THEMEPACK-COLOUR.pkg
--  Black http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.70-THEMEPACK-BLACK.pkg
--  Blue http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v0.70-THEMEPACK-BLUE.pkg
+-  [Original](http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v1.00-THEMEPACK-ORIGINAL.pkg)
+-  [White](http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v1.00-THEMEPACK-WHITE.pkg)
+-  [Colour](http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v1.00-THEMEPACK-COLOUR.pkg)
+-  [Black](http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v1.00-THEMEPACK-BLACK.pkg)
+-  [Blue](http://dl.dropbox.com/u/60710927/XMBMANPLS/THEMEPACKS/XMB_Manager_Plus_v1.00-THEMEPACK-BLUE.pkg)
 
 ### XMBM+ Builder Toolkit
 
-All packages are compiled with the XMBM+ Builder Toolkit. With the XMBM+ Builder Toolkit you can create your own XMBM+ themes, language packs and more.
+All packages are compiled with the XMBM+ Builder Toolkit. With the XMBM+ Builder Toolkit you can create your own XMBM+ themes and more.
 
 ## Credits
 
