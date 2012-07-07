@@ -84,6 +84,7 @@
 			- DVDE00000: DVD Enabler
 			- HTSS00003: Showtime
 			- STMC80608: Showtime (other build)
+			- HTSD00001: Showtime (Direct Acces)
 			- CDGP00000: CD-G Player r2 (Excellent Karaoke player)
 			- SACDRIP01: SACD-Ripper
 			- CNDR00001: Solar (Interactive Screen Saver)
@@ -91,7 +92,7 @@
 			- BLES80607: multiPLAY (a POC player made by deank)
 			- LV2000000: lv2patcher bd-region changer (but this TitleID is used also by LV2-9)
 			-->
-			<Query class="type:x-xmb/folder-pixmap" key="multimedia" attr="multimedia" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId DVDE00000+Oe+Game:Game.titleId HTSS00003+Oe+Game:Game.titleId STMC80608+Oe+Game:Game.titleId CDGP00000+Oe+Game:Game.titleId SACDRIP01+Oe+Game:Game.titleId CNDR00001+Oe+Game:Game.titleId SUIT11111+Oe+Game:Game.titleId BLES80607+Oe+Game:Game.titleId LV2000000+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
+			<Query class="type:x-xmb/folder-pixmap" key="multimedia" attr="multimedia" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId DVDE00000+Oe+Game:Game.titleId HTSS00003+Oe+Game:Game.titleId STMC80608+Oe+Game:Game.titleId HTSD00001+Oe+Game:Game.titleId CDGP00000+Oe+Game:Game.titleId SACDRIP01+Oe+Game:Game.titleId CNDR00001+Oe+Game:Game.titleId SUIT11111+Oe+Game:Game.titleId BLES80607+Oe+Game:Game.titleId LV2000000+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
 			<!-- Games
 			- ESKISS_00: ESKISS
 			- SCOG00001: Scooger
@@ -163,10 +164,10 @@
 			- JAICUSBL0: USB FIRM LOADER
 			- LED0DISC0: LED Changer
 			- PSVB00001: PSVibe (Sex tool for wife/gf & others)
-			- PS3LOAD04: Run PS3 SELF programs via wireless (maybe obsolete)
 			- MA00BLACK: MA BD TOOL
+			- FSEN03269: SEN Enabler-Disabler
 			-->
-			<Query class="type:x-xmb/folder-pixmap" key="tools" attr="tools" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId BLND00001+Oe+Game:Game.titleId CHET11111+Oe+Game:Game.titleId DISABLECP+Oe+Game:Game.titleId FREEFLASH+Oe+Game:Game.titleId FIXP12345+Oe+Game:Game.titleId RPSN00001+Oe+Game:Game.titleId RESACTDAT+Oe+Game:Game.titleId TRUEBLUE4+Oe+Game:Game.titleId MONSTER01+Oe+Game:Game.titleId PKGENABLE+Oe+Game:Game.titleId VERSPOOFA+Oe+Game:Game.titleId XREG00001+Oe+Game:Game.titleId VSHU00100+Oe+Game:Game.titleId CLDBTINST+Oe+Game:Game.titleId WIPE01337+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId RQAF00003+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId APPTITLID+Oe+Game:Game.titleId GDSW00001+Oe+Game:Game.titleId PKGMANAGE+Oe+Game:Game.titleId RBGSELECT+Oe+Game:Game.titleId TOGGLEQAF+Oe+Game:Game.titleId JAICUSBL0+Oe+Game:Game.titleId LED0DISC0+Oe+Game:Game.titleId PSVB00001+Oe+Game:Game.titleId PS3LOAD04+Oe+Game:Game.titleId MA00BLACK+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
+			<Query class="type:x-xmb/folder-pixmap" key="tools" attr="tools" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId BLND00001+Oe+Game:Game.titleId CHET11111+Oe+Game:Game.titleId DISABLECP+Oe+Game:Game.titleId FREEFLASH+Oe+Game:Game.titleId FIXP12345+Oe+Game:Game.titleId RPSN00001+Oe+Game:Game.titleId RESACTDAT+Oe+Game:Game.titleId TRUEBLUE4+Oe+Game:Game.titleId MONSTER01+Oe+Game:Game.titleId PKGENABLE+Oe+Game:Game.titleId VERSPOOFA+Oe+Game:Game.titleId XREG00001+Oe+Game:Game.titleId VSHU00100+Oe+Game:Game.titleId CLDBTINST+Oe+Game:Game.titleId WIPE01337+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId RQAF00003+Oe+Game:Game.titleId QAFG00003+Oe+Game:Game.titleId APPTITLID+Oe+Game:Game.titleId GDSW00001+Oe+Game:Game.titleId PKGMANAGE+Oe+Game:Game.titleId RBGSELECT+Oe+Game:Game.titleId TOGGLEQAF+Oe+Game:Game.titleId JAICUSBL0+Oe+Game:Game.titleId LED0DISC0+Oe+Game:Game.titleId PSVB00001+Oe+Game:Game.titleId MA00BLACK+Oe+Game:Game.titleId FSEN03269+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
 			<!-- Development
 			- TEST00000: PS3 Model Detection
 			- FSMT00001: Factory Service Mode by CrashSerious
@@ -174,8 +175,9 @@
 			- LV2LOADER: Rebug's lv2_kernel.self Loader
 			- LUAP0PS3: LUA Player (script interpreter - maybe obsolete)
 			- MEMD00001: MemDump
+			- PS3LOAD04: Run PS3 SELF programs via wireless (maybe obsolete)
 			-->
-			<Query class="type:x-xmb/folder-pixmap" key="development" attr="development" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId TEST00000+Oe+Game:Game.titleId FSMT00001+Oe+Game:Game.titleId HVDEBUG01+Oe+Game:Game.titleId LV2LOADER+Oe+Game:Game.titleId LUAP0PS3+Oe+Game:Game.titleId MEMD00001+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
+			<Query class="type:x-xmb/folder-pixmap" key="development" attr="development" src="xcb://localhost/query?sort=+Game:Common.titleForSort&cond=Oe+Game:Game.titleId TEST00000+Oe+Game:Game.titleId FSMT00001+Oe+Game:Game.titleId HVDEBUG01+Oe+Game:Game.titleId LV2LOADER+Oe+Game:Game.titleId LUAP0PS3+Oe+Game:Game.titleId MEMD00001+Oe+Game:Game.titleId PS3LOAD04+An+Game:Game.category 2D+An+Game:Game.category BV+An+Game:Game.category GD+An+Game:Game.category HM+An+Game:Game.category SD+An+Game:Game.category VF+An+Game:Game.category WT"/>
 
 
 		</Items>
