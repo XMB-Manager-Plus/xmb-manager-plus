@@ -226,4 +226,99 @@
 		</Items>
 	</View>
 
+	<!-- Main > Links > Webtools -->
+	<View id="seg_links_webtools">
+		<Attributes>
+			<Table key="onlineconvert">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/xmbmp/IMAGES/www.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-WEBTOOLS-ONLINECONVERT</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-WEBTOOLS-ONLINECONVERT</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://www.online-convert.com/</String></Pair>
+ 			</Table>
+			<Table key="flashearth">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/xmbmp/IMAGES/www.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-WEBTOOLS-FLASHEARTH</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-WEBTOOLS-FLASHEARTH</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://www.flashearth.com/?lat=0&lon=0&z=2.8&r=0&src=msa</String></Pair>
+ 			</Table>
+			<Table key="flashsettings">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/xmbmp/IMAGES/www.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-WEBTOOLS-FLASHSETTINGS</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-WEBTOOLS-FLASHSETTINGS</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager02.html</String></Pair>
+ 			</Table>
+			<Table key="ps3errorcodes">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/xmbmp/IMAGES/www.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-WEBTOOLS-PS3ERRORCODES</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-WEBTOOLS-PS3ERRORCODES</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://playstation.custhelp.com/euf/assets/flash/800codes.swf</String></Pair>
+ 			</Table>
+			<Table key="ps3firmwares">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/xmbmp/IMAGES/www.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-WEBTOOLS-PS3FIRMWARES</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-WEBTOOLS-PS3FIRMWARES</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://www.ps3devwiki.com/files/firmware/</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="onlineconvert" attr="onlineconvert"/>
+			<Item class="type:x-xmb/module-action" key="flashearth" attr="flashearth"/>
+			<Item class="type:x-xmb/module-action" key="flashsettings" attr="flashsettings"/>
+			<Item class="type:x-xmb/module-action" key="ps3errorcodes" attr="ps3errorcodes"/>
+			<Item class="type:x-xmb/module-action" key="ps3firmwares" attr="ps3firmwares"/>
+		</Items>
+	</View>
+	
+	<!-- Main > Links > Webradio -->
+	<View id="seg_links_webradio">
+		<Attributes>
+			<Table key="theradio">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/xmbmp/IMAGES/www.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-WEBRADIO-THERADIO</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-WEBRADIO-THERADIO</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://www.theradio.com/</String></Pair>
+ 			</Table>
+			<Table key="finetune">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/xmbmp/IMAGES/www.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-WEBRADIO-FINETUNE</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-WEBRADIO-FINETUNE</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://www.finetune.com/wii/player.php</String></Pair>
+			</Table>
+			<Table key="iceburgradio">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/xmbmp/IMAGES/www.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-WEBRADIO-ICEBURGRADIO</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-WEBRADIO-ICEBURGRADIO</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://iceberg.accuradio.com/</String></Pair>
+ 			</Table>
+ 			<Table key="musicovery">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/xmbmp/IMAGES/www.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-WEBRADIO-MUSICOVERY</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-WEBRADIO-MUSICOVERY</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://musicovery.com/</String></Pair>
+ 			</Table>
+			<Table key="shoutcast">
+				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/xmbmp/IMAGES/www.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-WEBRADIO-SHOUTCAST</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-WEBRADIO-SHOUTCAST</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://www.ps3radio.co.uk/</String></Pair>
+ 			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/module-action" key="theradio" attr="theradio"/>
+			<Item class="type:x-xmb/module-action" key="finetune" attr="finetune"/>
+			<Item class="type:x-xmb/module-action" key="iceburgradio" attr="iceburgradio"/>
+			<Item class="type:x-xmb/module-action" key="musicovery" attr="musicovery"/>
+			<Item class="type:x-xmb/module-action" key="shoutcast" attr="shoutcast"/>
+		</Items>
+	</View>
 </XMBML>
