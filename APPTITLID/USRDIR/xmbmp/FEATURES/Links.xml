@@ -269,20 +269,12 @@
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://playstation.custhelp.com/euf/assets/flash/800codes.swf</String></Pair>
  			</Table>
-			<Table key="ps3firmwares">
-				<Pair key="icon"><String>/dev_hdd0/game/XMBMANPLS/USRDIR/xmbmp/IMAGES/www.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_WEBLINKS-WEBTOOLS-PS3FIRMWARES</String></Pair>
-				<Pair key="info"><String>LANG_INFO_WEBLINKS-WEBTOOLS-PS3FIRMWARES</String></Pair>
-				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://www.ps3devwiki.com/files/firmware/</String></Pair>
-			</Table>
 		</Attributes>
 		<Items>
 			<Item class="type:x-xmb/module-action" key="onlineconvert" attr="onlineconvert"/>
 			<Item class="type:x-xmb/module-action" key="flashearth" attr="flashearth"/>
 			<Item class="type:x-xmb/module-action" key="flashsettings" attr="flashsettings"/>
 			<Item class="type:x-xmb/module-action" key="ps3errorcodes" attr="ps3errorcodes"/>
-			<Item class="type:x-xmb/module-action" key="ps3firmwares" attr="ps3firmwares"/>
 		</Items>
 	</View>
 	
