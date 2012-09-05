@@ -2,6 +2,7 @@
 <paramsfo add_hidden="false">
   <param key="CATEGORY" fmt="utf8" max_len="4">GD</param>
   <param key="PARENTAL_LEVEL" fmt="int32" max_len="4">0</param>
+  <param key="PS3_SYSTEM_VER" fmt="utf8" max_len="8">03.4000</param>
   <param key="TITLE" fmt="utf8" max_len="128">XMB Manager Plus (XMBM+) v0.00 DESCRIPTION</param>
   <param key="TITLE_ID" fmt="utf8" max_len="16">APPTITLID</param>
   <param key="VERSION" fmt="utf8" max_len="8">01.00</param>
