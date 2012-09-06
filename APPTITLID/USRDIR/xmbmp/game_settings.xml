@@ -35,7 +35,7 @@
 				<Pair key="title"><String>LANG_TITL_SETTINGS-UPDATE</String></Pair>
 				<Pair key="info"><String>LANG_INFO_SETTINGS-UPDATE</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/UPDATES/Latest_version_XXX.html</String></Pair>
+				<Pair key="module_action"><String>FILEPROVIDER_BASE_URL/APPTITLID/UPDATES/updater.html?v=XMBMP-VERSION&type=XXX</String></Pair>
  			</Table>
 			<Table key="about">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/about.png</String></Pair>
