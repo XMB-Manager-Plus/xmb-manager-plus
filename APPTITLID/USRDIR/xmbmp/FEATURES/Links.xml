@@ -99,12 +99,33 @@
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://tortuga-cove.com/</String></Pair>
  			</Table>
+			<Table key="ps3scenefiles">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/links/ps3scenefiles.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3SCENEFILES</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3SCENEFILES</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://www.ps3scenefiles.com/</String></Pair>
+ 			</Table>
 			<Table key="ps3devwiki">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/links/ps3devwiki.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3DEVWIKI</String></Pair>
 				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3DEVWIKI</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3devwiki.com/</String></Pair>
+ 			</Table>
+			<Table key="ps3devwiki-files">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/links/ps3devwikifiles.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3DEVWIKIFILES</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3DEVWIKIFILES</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://www.ps3devwiki.com/files/</String></Pair>
+ 			</Table>
+			<Table key="psxbrew">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/links/null.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PSXBREW</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PSXBREW</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://www.psxbrew.net/</String></Pair>
  			</Table>
 			<Table key="jailbreakscene">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/links/jailbreakscene.png</String></Pair>
@@ -156,7 +177,10 @@
 			<Item class="type:x-xmb/module-action" key="psxscene" attr="psxscene"/>
 			<Item class="type:x-xmb/module-action" key="rebug" attr="rebug"/>
 			<Item class="type:x-xmb/module-action" key="tortugacove" attr="tortugacove"/>
+			<Item class="type:x-xmb/module-action" key="ps3scenefiles" attr="ps3scenefiles"/>
 			<Item class="type:x-xmb/module-action" key="ps3devwiki" attr="ps3devwiki"/>
+			<Item class="type:x-xmb/module-action" key="ps3devwiki-files" attr="ps3devwiki-files"/>
+			<Item class="type:x-xmb/module-action" key="psxbrew" attr="psxbrew"/>
 			<Item class="type:x-xmb/module-action" key="jailbreakscene" attr="jailbreakscene"/>
 			<Item class="type:x-xmb/module-action" key="logicsunrise" attr="logicsunrise"/>
 			<Item class="type:x-xmb/module-action" key="psaddict" attr="psaddict"/>

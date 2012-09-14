@@ -46,17 +46,10 @@
 	<!-- Main  > Package Manager Plus > Install Package File -->
 	<View id="seg_packagemanager_install">
 		<Attributes>
-			<Table key="homebrew">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-HOMEBREW</String></Pair>
-				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-HOMEBREW</String></Pair>
-				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
-			</Table>
-			<Table key="hdd0">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/hdd.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-PS3DISK</String></Pair>
-				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-PS3DISK</String></Pair>
+			<Table key="standard">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/pkgmanager.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-STANDARD</String></Pair>
+				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-STANDARD</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
@@ -67,10 +60,17 @@
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
-			<Table key="standard">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/pkgmanager.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-STANDARD</String></Pair>
-				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-STANDARD</String></Pair>
+			<Table key="hdd0">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/hdd.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-PS3DISK</String></Pair>
+				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-PS3DISK</String></Pair>
+				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+			<Table key="homebrew">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/homebrew.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-INSTALL-HOMEBREW</String></Pair>
+				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-INSTALL-HOMEBREW</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
@@ -82,9 +82,9 @@
 			</Table>
 		</Attributes>
 		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="hdd0" attr="hdd0" src="#seg_packagemanager_install_hdd0"/>	
-			<Query class="type:x-xmb/folder-pixmap" key="usb" attr="usb" src="#seg_packagemanager_install_usb"/>
 			<Query class="type:x-xmb/folder-pixmap" key="standard" attr="standard" src="#seg_packagemanager_install_standard"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb" attr="usb" src="#seg_packagemanager_install_usb"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hdd0" attr="hdd0" src="#seg_packagemanager_install_hdd0"/>	
 			<Query class="type:x-xmb/folder-pixmap" key="homebrew" attr="homebrew" src="#seg_packagemanager_install_homebrew"/>
 			<Query class="type:x-xmb/xmlpackagefolder" key="mmcm" attr="mmcm" src="host://localhost/q?path=/dev_hdd0/game/BLES80608/USRDIR/PKG&suffix=.pkg&subclass=x-host/package"/>
 		</Items>
@@ -156,17 +156,10 @@
 	<!-- Main  > Package Manager Plus > Delete Package Files -->
 	<View id="seg_packagemanager_delete">
 		<Attributes>
-			<Table key="homebrew">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/homebrew.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-HOMEBREW</String></Pair>
-				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-HOMEBREW</String></Pair>
-				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
-				<Pair key="child"><String>segment</String></Pair>
-			</Table>
-			<Table key="hdd0">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/hdd.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-PS3DISK</String></Pair>
-				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-PS3DISK</String></Pair>
+			<Table key="standard">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/pkgmanager.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-STANDARD</String></Pair>
+				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-STANDARD</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>				
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
@@ -177,11 +170,18 @@
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
-			<Table key="standard">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/pkgmanager.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-STANDARD</String></Pair>
-				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-STANDARD</String></Pair>
+			<Table key="hdd0">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/hdd.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-PS3DISK</String></Pair>
+				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-PS3DISK</String></Pair>
 				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>				
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+			<Table key="homebrew">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/homebrew.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_PACKAGEMANAGER-DELETE-HOMEBREW</String></Pair>
+				<Pair key="info"><String>LANG_INFO_PACKAGEMANAGER-DELETE-HOMEBREW</String></Pair>
+				<Pair key="str_noitem"><String>msg_tool_no_package</String></Pair>
 				<Pair key="child"><String>segment</String></Pair>
 			</Table>
 			<Table key="mmcm">
@@ -192,9 +192,9 @@
 			</Table>
 		</Attributes>
 		<Items>
-			<Query class="type:x-xmb/folder-pixmap" key="hdd0" attr="hdd0" src="host://localhost/q?path=/dev_hdd0/packages&suffix=.pkg"/>
-			<Query class="type:x-xmb/folder-pixmap" key="usb" attr="usb" src="#seg_packagemanager_delete_usb"/>
 			<Query class="type:x-xmb/folder-pixmap" key="standard" attr="standard" src="#seg_packagemanager_delete_standard"/>
+			<Query class="type:x-xmb/folder-pixmap" key="usb" attr="usb" src="#seg_packagemanager_delete_usb"/>
+			<Query class="type:x-xmb/folder-pixmap" key="hdd0" attr="hdd0" src="host://localhost/q?path=/dev_hdd0/packages&suffix=.pkg"/>
 			<Query class="type:x-xmb/folder-pixmap" key="homebrew" attr="homebrew" src="#seg_packagemanager_delete_delete"/>
 			<Query class="type:x-xmb/folder-pixmap" key="mmcm" attr="mmcm" src="host://localhost/q?path=/dev_hdd0/game/BLES80608/USRDIR/PKG&suffix=.pkg"/>
 		</Items>
