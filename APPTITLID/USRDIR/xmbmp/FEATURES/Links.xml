@@ -71,6 +71,13 @@
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3hax.net/</String></Pair>
  			</Table>
+			<Table key="psxscene">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/links/psxscene.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PSXSCENE</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PSXSCENE</String></Pair>
+				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
+				<Pair key="module_action"><String>http://www.psx-scene.com/</String></Pair>
+ 			</Table>
 			<Table key="ps3news">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/links/ps3news.png</String></Pair>
 				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3NEWS</String></Pair>
@@ -78,12 +85,12 @@
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
 				<Pair key="module_action"><String>http://www.ps3news.com/</String></Pair>
  			</Table>
-			<Table key="psxscene">
-				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/links/psxscene.png</String></Pair>
-				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PSXSCENE</String></Pair>
-				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PSXSCENE</String></Pair>
+			<Table key="ps3iso">
+				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/links/ps3iso.png</String></Pair>
+				<Pair key="title"><String>LANG_TITL_WEBLINKS-PS3SCENE-PS3ISO</String></Pair>
+				<Pair key="info"><String>LANG_INFO_WEBLINKS-PS3SCENE-PS3ISO</String></Pair>
 				<Pair key="module_name"><String>webbrowser_plugin</String></Pair>
-				<Pair key="module_action"><String>http://www.psx-scene.com/</String></Pair>
+				<Pair key="module_action"><String>http://www.ps3iso.com/</String></Pair>
  			</Table>
 			<Table key="rebug">
 				<Pair key="icon"><String>/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/IMAGES/links/rebug.png</String></Pair>
@@ -173,8 +180,9 @@
 		<Items>
 			<Item class="type:x-xmb/module-action" key="ps3crunch" attr="ps3crunch"/>
 			<Item class="type:x-xmb/module-action" key="ps3hax" attr="ps3hax"/>
-			<Item class="type:x-xmb/module-action" key="ps3news" attr="ps3news"/>
 			<Item class="type:x-xmb/module-action" key="psxscene" attr="psxscene"/>
+			<Item class="type:x-xmb/module-action" key="ps3news" attr="ps3news"/>
+			<Item class="type:x-xmb/module-action" key="ps3iso" attr="ps3iso"/>
 			<Item class="type:x-xmb/module-action" key="rebug" attr="rebug"/>
 			<Item class="type:x-xmb/module-action" key="tortugacove" attr="tortugacove"/>
 			<Item class="type:x-xmb/module-action" key="ps3scenefiles" attr="ps3scenefiles"/>

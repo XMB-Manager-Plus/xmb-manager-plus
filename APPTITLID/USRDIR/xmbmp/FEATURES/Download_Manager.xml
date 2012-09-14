@@ -32,7 +32,7 @@
 		</Attributes>
 		<Items>
 			<Query class="type:x-xmb/folder-pixmap" key="homebrew" attr="homebrew" src="#seg_downloadmanager_homebrew"/>
-			<Query class="type:x-xmb/folder-pixmap" key="psnpackages" attr="psnpackages" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/FEATURES/Download_Manager-PSN.xml#seg_downloadmanager_psnpackages_submenu"/>
+			<Query class="type:x-xmb/folder-pixmap" key="psnpackages" attr="psnpackages" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/FEATURES/Download_Manager-PSN.xml#seg_downloadmanager_psnpackages"/>
 		</Items>
 	</View>
 	
