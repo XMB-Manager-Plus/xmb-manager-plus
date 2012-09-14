@@ -62,6 +62,7 @@ Gives information about the XMBM+, allows users to download language packs, them
 -  New All-in-one flexible installer to replace Rebug's Package Manager
 -  New Italian language
 -  Many minor changes, bug corrections and improvments
+-  New update system based in aldostools mod
 
 Know issues: User data manager: VMC cause ps3 to freeze
 
@@ -151,7 +152,7 @@ Release page: http://www.ps3crunch.net/forum/threads/2708
 
 #### Normal CFW (Kneaw, etc) or Rebug or Cobra CFW or NFW v3 (CobraUSB)
 
--  Download the [Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html) for 3.55 Normal CFW (Kneaw, etc) or Rebug or the [Full Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw-full.html) for 3.55/3.41 Normal CFW (Kneaw, etc), Rebug; 3.55 Cobra CFW, NFW v3 (cobraUSB)
+-  Download the [Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hdd0_cfw) for 3.55 Normal CFW (Kneaw, etc) or Rebug or the [Full Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hdd0_cfw_full) for 3.55/3.41 Normal CFW (Kneaw, etc), Rebug; 3.55 Cobra CFW, NFW v3 (cobraUSB)
 -  Copy the pkg file to the root of your USB media
 -  Install the pkg file
 -  Run the XMB Manager Plus application and select your firmware and what you want to install
@@ -160,7 +161,7 @@ NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert
 
 #### 4.00 HFW
 
--  Download the [HFW Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hfw.html)
+-  Download the [HFW Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hfw)
 -  Extract the contents of the archive to the root of your USB drive you are using to host the XMBM+
 -  Plugin the USB drive in /dev_usb000/(closest to the disc drive) before you turn the PS3 on
 -  Turn PS3 on to see the XMB Manager Plus on the XMB
@@ -220,9 +221,9 @@ NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert
 
 ### Core Package
 
--  [Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw.html) - 3.55 Normal CFW (Kneaw, etc) and Rebug
--  [Full Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hdd0-cfw-full.html) - 3.55/3.41 Normal CFW (Kneaw, etc), Rebug; 3.55 Cobra CFW, NFW v3
--  [HFW Core Pack](http://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/Latest_version_hfw.html) - 4.00 HFW
+-  [Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hdd0_cfw) - 3.55 Normal CFW (Kneaw, etc) and Rebug
+-  [Full Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hdd0_cfw_full) - 3.55/3.41 Normal CFW (Kneaw, etc), Rebug; 3.55 Cobra CFW, NFW v3
+-  [HFW Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hfw) - 4.00 HFW
 
 ### Theme packs
 
