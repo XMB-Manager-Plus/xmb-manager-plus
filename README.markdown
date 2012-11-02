@@ -59,12 +59,16 @@ Gives information about the XMBM+, allows users to download language packs, them
 
 ### 1.00
 
--  New All-in-one flexible installer to replace Rebug's Package Manager
 -  New Italian language
 -  Many minor changes, bug corrections and improvments
 -  New update system based in aldostools mod
+-  New All-in-one flexible installer to replace Rebug's Package Manager
+-  Installer with backup, restore and multiple file chechs
+-  Installer flexible for all files replaces, and so permiting the use of AppPacks (GameData updates with more apps for the installer)
+-  Installer flexible to use in other projects (ex: PS3Ultimate TV). Replace the title ID in the SFO, the ID in the EBOOT, the USRDI/data/images/logo.png and the apps directory and your app will auto rebuild the installer (ex: USRDIR/apps/My App/4.30-CEX-Rogero)
+-  Full core pack now includes a rco free version
 
-Know issues: User data manager: VMC cause ps3 to freeze
+Know issues: User data manager: VMC cause ps3 to freeze, PSN category does not work in rco version
 
 ### 0.70
 
@@ -146,51 +150,53 @@ Release page: http://www.ps3crunch.net/forum/threads/2708
 
 -  Initial version POC/WIP
 
+## Firmware compability
+
+### Core Pack
+
+- 4.30 Rogero [TESTED]
+- 4.30 E3
+- 3.55 Normal CFW (Kneaw, Rogero, etc) [TESTED]
+- 3.55 Rebug [TESTED]
+
+### Full Core Pack
+
+- 4.30 Rogero [TESTED]
+- 4.30 E3
+- 4.21 Rogero
+- 3.55 Normal CFW (Kneaw, Rogero, etc) [TESTED]
+- 3.55 Rebug [TESTED]
+- 3.55 Cobra [TESTED]
+- 3.55 NFW v3
+- 3.41 Normal CFW (Kneaw, Rogero, etc)
+- 3.41 Rebug
+
+Note: Full core pack also includes an rco free version for all this firmwares
+
 ## Install Instructions
 
 ### Install Core XMBM+
 
-#### Normal CFW (Kneaw, etc) or Rebug or Cobra CFW or NFW v3 (CobraUSB)
-
--  Download the [Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hdd0_cfw) for 3.55 Normal CFW (Kneaw, etc) or Rebug or the [Full Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hdd0_cfw_full) for 3.55/3.41 Normal CFW (Kneaw, etc), Rebug; 3.55 Cobra CFW, NFW v3 (cobraUSB)
+-  Download the [Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hdd0_cfw) or the [Full Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hdd0_cfw_full)
 -  Copy the pkg file to the root of your USB media
 -  Install the pkg file
 -  Run the XMB Manager Plus application and select your firmware and what you want to install
 
 NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert back to your "Install Package Files" option or you'll have to reinstall the Firmware
 
-#### 4.00 HFW
+### Update XMBM+
 
--  Download the [HFW Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hfw)
--  Extract the contents of the archive to the root of your USB drive you are using to host the XMBM+
--  Plugin the USB drive in /dev_usb000/(closest to the disc drive) before you turn the PS3 on
--  Turn PS3 on to see the XMB Manager Plus on the XMB
-
-NOTE: due to the constant requirements to call to the USB for resources, removing the USB drive after the ps3 has booted will break the XMBM+, but pluging it back in should fix it.
-
-### Update Core XMBM+
-
--  Update using the update function ["Settings" -> "Update XMB Manager Plus" -> ]
+-  Update using the update function ["Settings" -> "Update XMB Manager Plus" ->]
 -  Install the downloaded package
 -  Restart PS3
 -  Enjoy!
 
 ### Install Theme Pack
 
-#### Normal CFW (Kneaw, Rebug, etc) and Cobra CFW or NFW v3 (CobraUSB)
-
 -  In the XMBM+ go to ["Settings" -> "XMBM+ Themes" -> "XMBM+ Theme Packs" ->]
 -  Choose a theme pack and download it to the root of the USB Stick
 -  Install it, like you would any other homebrew package
 -  Restart PS3 to see the new theme
-
-#### 4.00 HFW
-
--  In the XMBM+ go to ["Settings" -> "XMBM+ Themes" -> "XMBM+ Theme Packs" ->]
--  Choose a theme pack and download it to the root of the USB Stick
--  Extract the contents of the archive to the root of your USB drive you are using to host the XMBM+, let it overwrite any files it wants
--  Plugin the USB drive in /dev_usb000/(closest to the disc drive) before you turn the PS3 on
--  Turn PS3 on to see the new theme pack
 
 ## Uninstall Instructions
 
@@ -221,9 +227,8 @@ NOTE: Before uninstalling "XMB Manager Plus" run the application again to revert
 
 ### Core Package
 
--  [Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hdd0_cfw) - 3.55 Normal CFW (Kneaw, etc) and Rebug
--  [Full Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hdd0_cfw_full) - 3.55/3.41 Normal CFW (Kneaw, etc), Rebug; 3.55 Cobra CFW, NFW v3
--  [HFW Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hfw) - 4.00 HFW
+-  [Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hdd0_cfw)
+-  [Full Core Pack](https://dl.dropbox.com/u/60710927/XMBMANPLS/UPDATES/updater.html?type=hdd0_cfw_full)
 
 ### Theme packs
 
