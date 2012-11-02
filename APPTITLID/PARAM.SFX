@@ -9,7 +9,7 @@
   <param key="PS3_SYSTEM_VER" fmt="utf8" max_len="8">03.4000</param>
   <param key="RESOLUTION" fmt="int32" max_len="4">63</param>
   <param key="SOUND_FORMAT" fmt="int32" max_len="4">791</param>
-  <param key="TITLE" fmt="utf8" max_len="128">XBM Manager Plus (XMBM+) v0.00 DESCRIPTION</param>
+  <param key="TITLE" fmt="utf8" max_len="128">XMB Manager Plus (XMBM+) v0.00 DESCRIPTION</param>
   <param key="TITLE_ID" fmt="utf8" max_len="16">APPTITLID</param>
   <param key="VERSION" fmt="utf8" max_len="8">01.00</param>
 </paramsfo>
