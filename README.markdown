@@ -156,7 +156,7 @@ Release page: http://www.ps3crunch.net/forum/threads/2708
 
 - 4.30 Rogero [TESTED]
 - 4.30 E3
-- 3.55 Normal CFW (Kneaw, Rogero, etc) [TESTED]
+- 3.55 Normal (Kneaw, Rogero, etc) [TESTED]
 - 3.55 Rebug [TESTED]
 
 ### Full Core Pack
@@ -164,11 +164,11 @@ Release page: http://www.ps3crunch.net/forum/threads/2708
 - 4.30 Rogero [TESTED]
 - 4.30 E3
 - 4.21 Rogero
-- 3.55 Normal CFW (Kneaw, Rogero, etc) [TESTED]
+- 3.55 Normal (Kneaw, Rogero, etc) [TESTED]
 - 3.55 Rebug [TESTED]
 - 3.55 Cobra [TESTED]
 - 3.55 NFW v3
-- 3.41 Normal CFW (Kneaw, Rogero, etc)
+- 3.41 Normal (Kneaw, Rogero, etc)
 - 3.41 Rebug
 
 Note: Full core pack also includes an rco free version for all this firmwares
