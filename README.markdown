@@ -67,6 +67,9 @@ Gives information about the XMBM+, allows users to download language packs, them
 -  Installer flexible for all files replaces, and so permiting the use of AppPacks (GameData updates with more apps for the installer)
 -  Installer flexible to use in other projects (ex: PS3Ultimate TV). Replace the title ID in the SFO, the ID in the EBOOT, the USRDI/data/images/logo.png and the apps directory and your app will auto rebuild the installer (ex: USRDIR/apps/My App/4.30-CEX-Rogero)
 -  Full core pack now includes a rco free version
+-  Removed support for to 4.00 HFW
+-  Added support for 4.21/4.30 CFW
+-  Added support for in-game menu
 
 Know issues: User data manager: VMC cause ps3 to freeze, PSN category does not work in rco version
 
@@ -155,15 +158,18 @@ Release page: http://www.ps3crunch.net/forum/threads/2708
 ### Core Pack
 
 - 4.30 Rogero [TESTED]
-- 4.30 E3
+- 4.30 E3 [TESTED]
+- 4.21 Rogero [TESTED]
+- 4.21 Rebug [TESTED]
 - 3.55 Normal (Kneaw, Rogero, etc) [TESTED]
 - 3.55 Rebug [TESTED]
 
 ### Full Core Pack
 
 - 4.30 Rogero [TESTED]
-- 4.30 E3
-- 4.21 Rogero
+- 4.30 E3 [TESTED]
+- 4.21 Rogero [TESTED]
+- 4.21 Rebug [TESTED]
 - 3.55 Normal (Kneaw, Rogero, etc) [TESTED]
 - 3.55 Rebug [TESTED]
 - 3.55 Cobra [TESTED]

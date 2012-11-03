@@ -5,6 +5,10 @@
 		<Attributes>
 			<Table key="seg_device">
 				<Pair key="focus_detect"><String>enable</String></Pair>
+				<Pair key="focus_priority"><String>-5</String></Pair>
+			</Table>
+			<Table key="seg_add_content_device">
+				<Pair key="focus_detect"><String>enable</String></Pair>
 				<Pair key="focus_priority"><String>-4</String></Pair>
 			</Table>
 			<Table key="gameDir">
@@ -62,8 +66,8 @@
 				key="seg_gamedebug"
 				src="#seg_gamedebug"
 				/>
-			<Query class="type:x-xmb/folder-pixmap" key="xmb_app1" attr="xmb_app1" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/xmbmp-rcofree/game_main.xml#seg_xmb_app"/>
-			<!-- <Query class="type:x-xmb/folder-pixmap" key="seg_package_files" src="#seg_package_files"/> -->
+				<Query class="type:x-xmb/folder-pixmap" key="xmb_app1" attr="xmb_app1" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/game_main.xml#seg_xmb_app"/>
+				<!-- <Query class="type:x-xmb/folder-pixmap" key="seg_package_files" src="#seg_package_files"/> -->
 			<Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_gameexit"
@@ -89,7 +93,7 @@
 				class="type:x-xmb/folder-pixmap"
 				key="seg_add_content_device"
 				attr="seg_add_content_device"
-				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&sort=+StorageMedia:StorageMedia.type&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_PS3_BD %xCB_MEDIA_TYPE_PS3_DVD+AGL+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_PS3CONTENT_BD %xCB_MEDIA_FORMAT_PS3CONTENT_DVD+Ae+StorageMedia:Common.fileName EX_GAME"
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&sort=+StorageMedia:StorageMedia.type&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_PS3_BD %xCB_MEDIA_TYPE_DVDPRW+AGL+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_PS3CONTENT_BD %xCB_MEDIA_FORMAT_PS3CONTENT_DVD+Ae+StorageMedia:Common.fileName EX_GAME"
 				/>
 			<Query
 				class="type:x-xmb/folder-pixmap"
@@ -120,6 +124,10 @@
 	<View id="root_dex">
 		<Attributes>
 			<Table key="seg_device">
+				<Pair key="focus_detect"><String>enable</String></Pair>
+				<Pair key="focus_priority"><String>-5</String></Pair>
+			</Table>
+			<Table key="seg_add_content_device">
 				<Pair key="focus_detect"><String>enable</String></Pair>
 				<Pair key="focus_priority"><String>-4</String></Pair>
 			</Table>
@@ -183,8 +191,8 @@
 				key="seg_gamedebug"
 				src="#seg_gamedebug"
 				/>
-			<Query class="type:x-xmb/folder-pixmap" key="xmb_app1" attr="xmb_app1" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/xmbmp-rcofree/game_main.xml#seg_xmb_app"/>
-			<!-- <Query class="type:x-xmb/folder-pixmap" key="seg_package_files" src="#seg_package_files"/> -->
+				<Query class="type:x-xmb/folder-pixmap" key="xmb_app1" attr="xmb_app1" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/game_main.xml#seg_xmb_app"/>
+				<!-- <Query class="type:x-xmb/folder-pixmap" key="seg_package_files" src="#seg_package_files"/> -->
 			<Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_gameexit"
@@ -210,7 +218,7 @@
 				class="type:x-xmb/folder-pixmap"
 				key="seg_add_content_device"
 				attr="seg_add_content_device"
-				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&sort=+StorageMedia:StorageMedia.type&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_PS3_BD %xCB_MEDIA_TYPE_PS3_DVD+AGL+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_PS3CONTENT_BD %xCB_MEDIA_FORMAT_PS3CONTENT_DVD+Ae+StorageMedia:Common.fileName EX_GAME"
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&sort=+StorageMedia:StorageMedia.type&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_PS3_BD %xCB_MEDIA_TYPE_DVDPRW+AGL+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_PS3CONTENT_BD %xCB_MEDIA_FORMAT_PS3CONTENT_DVD+Ae+StorageMedia:Common.fileName EX_GAME"
 				/>
 			<Query
 				class="type:x-xmb/folder-pixmap"
@@ -264,8 +272,8 @@
 				attr="seg_sdps3"
 				src="xmb://localhost/%flash/xmb/category_game.xml#seg_sdps3"
 				/>
-			<Query class="type:x-xmb/folder-pixmap" key="xmb_app1" attr="xmb_app1" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/xmbmp-rcofree/game_main.xml#seg_xmb_app"/>
-			<!-- <Query class="type:x-xmb/folder-pixmap" key="seg_package_files" src="#seg_package_files"/> -->
+				<Query class="type:x-xmb/folder-pixmap" key="xmb_app1" attr="xmb_app1" src="xmb://localhost/dev_hdd0/game/APPTITLID/USRDIR/xmbmp/game_main.xml#seg_xmb_app"/>
+				<!-- <Query class="type:x-xmb/folder-pixmap" key="seg_package_files" src="#seg_package_files"/> -->
 			<Query
 				class="type:x-xmb/folder-pixmap"
 				key="seg_gameexit"
